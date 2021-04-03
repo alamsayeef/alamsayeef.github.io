@@ -38,7 +38,7 @@
     <loc>/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/nelson-bighetti/</loc>
+    <loc>/author/mohammad-sayeef-alam/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
@@ -132,5 +132,17 @@
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>
+  </url><url>
+    <loc>/courses/simplilearn/</loc>
+  </url><url>
+    <loc>/courses/kpmg/</loc>
+  </url><url>
+    <loc>/courses/coursera1/</loc>
+  </url><url>
+    <loc>/courses/coursera2/</loc>
+  </url><url>
+    <loc>/courses/coursera3/</loc>
+  </url><url>
+    <loc>/courses/coursera4/</loc>
   </url>
 </urlset>

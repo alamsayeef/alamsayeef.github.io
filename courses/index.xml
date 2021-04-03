@@ -12,5 +12,73 @@
       <link>/courses/</link>
     </image>
     
+    <item>
+      <title>Business Analytics with Excel</title>
+      <link>/courses/simplilearn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/simplilearn/</guid>
+      <description>&lt;p&gt;Online course on Simplilearn completed on 25th April 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics Consulting Virtual Internship</title>
+      <link>/courses/kpmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/kpmg/</guid>
+      <description>&lt;p&gt;An virtual intership program from KPMG via Forage&lt;/p&gt;
+&lt;p&gt;Major responsibilities were to analyse client data and provide the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Insights&lt;/li&gt;
+&lt;li&gt;Data Insights and Presentation&lt;/li&gt;
+&lt;li&gt;Data Quality Assessment&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python for Everybody</title>
+      <link>/courses/coursera1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/coursera1/</guid>
+      <description>&lt;p&gt;Capstone:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Retrieving, Processing, and Visualizing Data with Python&lt;/li&gt;
+&lt;li&gt;Using Python to Access Web Data&lt;/li&gt;
+&lt;li&gt;Programming for Everybody (Getting Started with Python)&lt;/li&gt;
+&lt;li&gt;Using Databases with Python&lt;/li&gt;
+&lt;li&gt;Python Data Structures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Completed the specization course on Coursera by University of Michigan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SQL for Data Science</title>
+      <link>/courses/coursera2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/coursera2/</guid>
+      <description>&lt;p&gt;Online course on Coursera by UC Davis completed on 02nd December 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistics with SAS</title>
+      <link>/courses/coursera3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/coursera3/</guid>
+      <description>&lt;p&gt;Online course on Coursera by SAS completed on 31st August 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Summary Statistics in Public Health</title>
+      <link>/courses/coursera4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/coursera4/</guid>
+      <description>&lt;p&gt;Online course on Coursera by Johns Hopkins University completed on 24th August 2019.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
