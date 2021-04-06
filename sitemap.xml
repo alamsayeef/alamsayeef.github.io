@@ -26,9 +26,6 @@
     <loc>/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/post/post3/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,10 +35,13 @@
     <loc>/authors/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>/tag/blog-post/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/category/demo/</loc>
+    <loc>/category/blog-post/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/mohammad-sayeef-alam/</loc>
@@ -62,8 +62,26 @@
     <loc>/post/post2/</loc>
     <lastmod>2020-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/blog-post/</loc>
-    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/akif-mustafa/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/dr-chander-shekhar/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/journal-article/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/journal-article/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/post1/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
@@ -71,19 +89,40 @@
     <loc>/author/kanupriya-kothiwal/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/category/online-post/</loc>
-    <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+    <loc>/project/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/public-health/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/statistical-methodologies/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/statistical-methodologies/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/machine-learning/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/conference-paper/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/dr-balram-paswan/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/dr-md-illias-kanchan-sheikh/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/conference-paper/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/source-themes/</loc>
@@ -94,36 +133,6 @@
   </url><url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/statistical-methodologies/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/machine-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/statistical-methodologies/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/machine-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>
   </url><url>
