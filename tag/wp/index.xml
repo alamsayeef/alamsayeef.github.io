@@ -7,16 +7,32 @@
     <description>wp</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu467f2062652e4d4badbf0141a5e792f6_260735_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>wp</title>
       <link>/tag/wp/</link>
     </image>
     
     <item>
-      <title>Dynamics of fertility resumption behaviours of Indian women: semi-parametric survival analysis using NFHS 2015-16 cross-sectional survey</title>
-      <link>/publication/working-papers/</link>
+      <title>Combined cox regularized regression method for variable selection in high dimensional microarray data</title>
+      <link>/publication/working-papers/3/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/working-papers/</guid>
+      <guid>/publication/working-papers/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamics of fertility resumption behaviours of Indian women: semi-parametric survival analysis using NFHS 2015-16 cross-sectional survey</title>
+      <link>/publication/working-papers/1/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/working-papers/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation of the total fertility rates and its components from parity progression ratios: a multivariate life table approach using NFHS 3 (2005-06) and NFHS 4 (2015-16)</title>
+      <link>/publication/working-papers/2/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/working-papers/2/</guid>
       <description></description>
     </item>
     

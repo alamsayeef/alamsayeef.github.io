@@ -7,32 +7,72 @@
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu467f2062652e4d4badbf0141a5e792f6_260735_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
     
     <item>
-      <title>Dynamics of fertility resumption behaviours of Indian women: semi-parametric survival analysis using NFHS 2015-16 cross-sectional survey</title>
-      <link>/publication/working-papers/</link>
+      <title>Combined cox regularized regression method for variable selection in high dimensional microarray data</title>
+      <link>/publication/working-papers/3/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/working-papers/</guid>
+      <guid>/publication/working-papers/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamics of fertility resumption behaviours of Indian women: semi-parametric survival analysis using NFHS 2015-16 cross-sectional survey</title>
+      <link>/publication/working-papers/1/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/working-papers/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation of the total fertility rates and its components from parity progression ratios: a multivariate life table approach using NFHS 3 (2005-06) and NFHS 4 (2015-16)</title>
+      <link>/publication/working-papers/2/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/working-papers/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding the spatial predictors of malnutrition among 0-2 year children in India using path analysis</title>
+      <link>/publication/working-papers/4/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/working-papers/4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The effects of social media consumption among the internet users during COVID-19 lockdown in India: Results from an online survey</title>
-      <link>/publication/journal-articles/</link>
+      <link>/publication/journal-articles/1/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-articles/</guid>
+      <guid>/publication/journal-articles/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thyroid Function Test in COVID-19 Patients: A Cross-Sectional Study in a Tertiary Care Hospital</title>
+      <link>/publication/journal-articles/2/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-articles/2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prevalance of communicable disease and its epidemiological correlates in major urban states in India: Evidence from a nationally representative sample</title>
-      <link>/publication/conference-proceedings/</link>
+      <link>/publication/conference-proceedings/1/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-proceedings/</guid>
+      <guid>/publication/conference-proceedings/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shifting paradigm in the cause of maternal mortality in West Bengal: A facility and community based mixed methods approach</title>
+      <link>/publication/conference-proceedings/2/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-proceedings/2/</guid>
       <description></description>
     </item>
     

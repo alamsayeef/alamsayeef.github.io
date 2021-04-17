@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr Atanu Bhatatcharjee | Mohammad Sayeef Alam</title>
+    <link>/author/dr-atanu-bhatatcharjee/</link>
+      <atom:link href="/author/dr-atanu-bhatatcharjee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr Atanu Bhatatcharjee</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Dr Atanu Bhatatcharjee</title>
+      <link>/author/dr-atanu-bhatatcharjee/</link>
+    </image>
+    
+    <item>
+      <title>Combined cox regularized regression method for variable selection in high dimensional microarray data</title>
+      <link>/publication/working-papers/3/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/working-papers/3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
