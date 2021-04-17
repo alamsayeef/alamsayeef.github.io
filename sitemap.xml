@@ -20,6 +20,36 @@
     <loc>/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/abhijit-biswas/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/dr-illias-k-sheikh/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/working-papers/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/mohammad-sayeef-alam/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/works-in-progress/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/courses/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,9 +62,6 @@
     <loc>/author/akancha-singh/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/blog-post/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -44,9 +71,6 @@
     <loc>/categories/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/mohammad-sayeef-alam/</loc>
-    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/nand-lal-mishra/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,9 +78,6 @@
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/ritika-banerjee/</loc>
-    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/post2/</loc>
@@ -74,13 +95,7 @@
     <loc>/tag/journal-article/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/journal-article/</loc>
+    <loc>/publication/journal-articles/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/post1/</loc>
@@ -116,17 +131,8 @@
     <loc>/author/dr-md-illias-kanchan-sheikh/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/conference-paper/</loc>
+    <loc>/publication/conference-proceedings/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
