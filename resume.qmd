@@ -1,0 +1,7 @@
+Kindly download for perusal.
+
+<iframe 
+  width="900" 
+  height="1000" 
+  src="images/resume.pdf">
+</iframe>

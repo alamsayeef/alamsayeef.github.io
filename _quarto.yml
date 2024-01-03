@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs/
+
+website:
+  title: "Mohammad Sayeef Alam"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Academic Contributions
+      - href: projects.qmd
+        text: Side Projects
+      - href: resume.qmd
+        text: Resume
+
+    right: 
+      - icon: github
+        href: https://github.com/alamsayeef
+      - icon: twitter
+        href: https://twitter.com/sayeef_alam
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mdsayeefalam/
+      - icon: envelope-at
+        href: mailto:alam.sayeef@gmail.com
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=P0AcviIAAAAJ&hl=en
+        
+  page-footer:
+    background: light # or dark
+    left:
+      - "Copyright 2023, Mohammad Sayeef Alam"
+        
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: false
+
+editor: source
+
