@@ -1,0 +1,41 @@
+---
+title: ""
+---
+
+## Publications
+1.	 Singh M, **Alam MS**, Majumdar P, Tiwary B, Narzari H and Mahendradhata Y (2021) [Understanding the Spatial Predictors of Malnutrition Among 0–2 Years Children in India Using Path Analysis](https://www.frontiersin.org/articles/10.3389/fpubh.2021.667502/full). Front. Public Health 9:667502. DOI: 10.3389/fpubh.2021.667502
+
+2.	Mustafa A, **Alam MS**, Shekhar C. [The Effects of Social Media Consumption Among the Internet Users During COVID-19 Lockdown 
+in India: Results from an Online Survey](https://www.ojhas.org/issue76/2020-4-6.html). Online J Health Allied Scs. 2020;19(4):6
+
+3.	Sen K, Sinha A, Sen S, Chakraborty S, **Alam MS**. [Thyroid Function Test in COVID-19 Patients: A Cross-Sectional Study in a Tertiary Care Hospital](https://pubmed.ncbi.nlm.nih.gov/33643870/). Indian J Endocrinol Metab. 2020;24(6):532-536. DOI:10.4103/ijem.IJEM_779_20
+
+## Grants
+
+| Name  | Awarded in | Amount |
+|---|---|---|
+| Samarbeidsarganet, Helsemidt Norge | December, 2023 | 79,000 NOK |
+| Global Mentee-in-Mentorship Grant, ISSCD | July, 2023 | 6,000 USD |
+| Erasmus+ Mobility Grant, Erasmus+NTNU | April, 2023 | 16,942 NOK |
+
+## Conferences presentations
+
+### Oral
+1.	“Prevalence of communicable disease and its epidemiological correlates in major urban states in India: Evidence from a nationally representative sample.” M. S. Alam, M. I. K. Sheikh & B. Paswan at **16th International Conference on Urban Health**, *Xiamen, China*, 2020.
+
+2.	“Shifting paradigm in the cause of maternal mortality in West Bengal: A facility and community based mixed methods approach”. M. S. Alam, M. I. K. Sheikh & B. Paswan at **5th International Integrative Research Conference on Governance and Modernization in Changing Environment**, *Comilla, Bangladesh*, 2019.
+
+<!--
+
+### Poster
+
+-->
+
+## Workshops
+
+
+| Name  | Awarded in | Amount |
+|---|---|---|
+| [Statistical Machine Learning](images/isi.pdf) | Indian Statitiscal Institute | March, 2021 | 
+| Computational Biostatistics and Survival Analysis | Tata Memorial Center, Mumbai | December, 2019 |
+| Short-term course on statistical techniques using R software | National Institute of Technology, Hamirpur | December, 2019  |

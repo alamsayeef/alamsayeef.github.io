@@ -1,0 +1,52 @@
+---
+title: "Projects"
+---
+
+## Nordic Shortfall Calculator
+
+::: columns
+::: {.column width="55%"}
+The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations. Tuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.
+
+The app is built using the Shiny package for R. It includes several visualizations and filters created using the following packages: DT, shiny, shinyWidgets, shinythemes, shinyjs, bslib, highcharter.... 
+
+Interested in a demo? [Click here.](https://alamsayeef.github.io/app1/){target="_blank"}
+
+<!--[Check out the shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}-->
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+![](images/nsc.jpg)
+:::
+:::
+
+## Basic shiny app
+
+::: columns
+::: {.column width="55%"}
+Basic severless Shiny app 
+
+Interested in a demo? [Click here.](https://alamsayeef.github.io/app2/){target="_blank"}
+
+<!--[Check out the shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}-->
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+![](images/nsc.jpg)
+:::
+:::
+
+<!--
+## Collaborating between Python and R using Reticulate
+
+::: columns
+::: {.column width="40%"}
+![](images/R_python_reticulate.png)
+:::
+-->
