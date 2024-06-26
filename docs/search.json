@@ -72,14 +72,14 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "MSA",
     "section": "",
     "text": "The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden).\nTuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.\nShiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.\nIf you would like to get a demo, kindly reach out."
   },
   {
     "objectID": "projects.html#nordic-shortfall-calculator",
     "href": "projects.html#nordic-shortfall-calculator",
-    "title": "Projects",
+    "title": "MSA",
     "section": "",
     "text": "The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden).\nTuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.\nShiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.\nIf you would like to get a demo, kindly reach out."
   },
