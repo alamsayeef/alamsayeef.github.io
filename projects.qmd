@@ -6,13 +6,14 @@ title: "Projects"
 
 ::: columns
 ::: {.column width="55%"}
-The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations. Tuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.
+The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden). 
 
-The app is built using the Shiny package for R. It includes several visualizations and filters created using the following packages: DT, shiny, shinyWidgets, shinythemes, shinyjs, bslib, highcharter.... 
+Tuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.
 
-Interested in a demo? [Click here.](https://alamsayeef.github.io/nscdemo/){target="_blank"}
+Shiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.
 
-<!--[Check out the shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}-->
+If you would like to get a demo, kindly reach out.
+
 :::
 
 ::: {.column width="5%"}
@@ -23,30 +24,3 @@ Interested in a demo? [Click here.](https://alamsayeef.github.io/nscdemo/){targe
 :::
 :::
 
-## Basic shiny app
-
-::: columns
-::: {.column width="55%"}
-Basic severless Shiny app 
-
-Interested in a demo? [Click here.](https://alamsayeef.github.io/testapp/){target="_blank"}
-
-<!--[Check out the shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}-->
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-![](images/nsc.jpg)
-:::
-:::
-
-<!--
-## Collaborating between Python and R using Reticulate
-
-::: columns
-::: {.column width="40%"}
-![](images/R_python_reticulate.png)
-:::
--->
