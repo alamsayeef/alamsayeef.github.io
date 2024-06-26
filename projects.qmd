@@ -10,7 +10,7 @@ The Nordic Shortfall Calculator is a web application that allows user to explore
 
 The app is built using the Shiny package for R. It includes several visualizations and filters created using the following packages: DT, shiny, shinyWidgets, shinythemes, shinyjs, bslib, highcharter.... 
 
-Interested in a demo? [Click here.](https://alamsayeef.github.io/testapp/){target="_blank"}
+Interested in a demo? [Click here.](https://alamsayeef.github.io/nscdemo/){target="_blank"}
 
 <!--[Check out the shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}-->
 :::
@@ -29,7 +29,7 @@ Interested in a demo? [Click here.](https://alamsayeef.github.io/testapp/){targe
 ::: {.column width="55%"}
 Basic severless Shiny app 
 
-Interested in a demo? [Click here.](https://alamsayeef.github.io/app2/){target="_blank"}
+Interested in a demo? [Click here.](https://alamsayeef.github.io/testapp/){target="_blank"}
 
 <!--[Check out the shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}-->
 :::
