@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mohammad Sayeef Alam",
-    "section": "",
-    "text": "I am currently pursuing innovative research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My academic foundation is built upon dual master’s degrees - a Master of Philosophy and a Master of Science in Biostatistics and Demography - earned from the International Institute for Population Sciences.\nI’ve translated theoretical knowledge of statistical methods into practical applications in the field of Health Economics Outcome Research. As an Associate in the Advanced Analytics team at Parexel, I honed my skills in data-driven decision making and statistical analysis within the pharmaceutical industry.\nMy expertise lies at the intersection of applied statistics, data analytics, and healthcare. I excel in developing and implementing sophisticated statistical models for genomic data analysis, with a particular focus on advancing the field of precision medicine. Additionally, I’ve demonstrated proficiency in conducting economic evaluations of cutting-edge drugs and therapies, providing valuable insights for healthcare policy and resource allocation.\nI am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes.\n\n\n\n\nAdvanced statistical analysis and modeling\nGenomic data interpretation and manipulation\nHealth economic modeling and outcome research\nR/RShiny development for interactive data applications\nMachine learning applications in healthcare\nData-driven decision making in clinical settings\n\n\nThrough my multidisciplinary background and hands-on experience, I bring a unique blend of statistical rigor, programming proficiency, and health economics expertise to tackle complex challenges in the evolving landscape of personalized medicine and healthcare analytics."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,18 +7,53 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mohammad Sayeef Alam",
+    "section": "",
+    "text": "I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My focus has been to analyse complex genetic datasets and determine novel association and work towards precision medicine.\nPreviously I was employed at Parexel as an Associate in the Advanced Analytics team. I was involved mostly in development of RShiny apps for clients which could perform cost-effectiveness analysis. Apart from this I was also involved in several other statistical analysis.\nI am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes.\n\n\n\n\nAdvanced statistical analysis and modeling\nGenomic data interpretation and manipulation\nHealth economic modeling and outcome research\nR/RShiny development for interactive data applications\nMachine learning applications in healthcare\nData-driven decision making in clinical settings"
+  },
+  {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Mohammad Sayeef Alam",
     "section": "",
-    "text": "I am currently pursuing innovative research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My academic foundation is built upon dual master’s degrees - a Master of Philosophy and a Master of Science in Biostatistics and Demography - earned from the International Institute for Population Sciences.\nI’ve translated theoretical knowledge of statistical methods into practical applications in the field of Health Economics Outcome Research. As an Associate in the Advanced Analytics team at Parexel, I honed my skills in data-driven decision making and statistical analysis within the pharmaceutical industry.\nMy expertise lies at the intersection of applied statistics, data analytics, and healthcare. I excel in developing and implementing sophisticated statistical models for genomic data analysis, with a particular focus on advancing the field of precision medicine. Additionally, I’ve demonstrated proficiency in conducting economic evaluations of cutting-edge drugs and therapies, providing valuable insights for healthcare policy and resource allocation.\nI am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes."
+    "text": "I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My focus has been to analyse complex genetic datasets and determine novel association and work towards precision medicine.\nPreviously I was employed at Parexel as an Associate in the Advanced Analytics team. I was involved mostly in development of RShiny apps for clients which could perform cost-effectiveness analysis. Apart from this I was also involved in several other statistical analysis.\nI am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes."
   },
   {
     "objectID": "index.html#core-competencies",
     "href": "index.html#core-competencies",
     "title": "Mohammad Sayeef Alam",
     "section": "",
-    "text": "Advanced statistical analysis and modeling\nGenomic data interpretation and manipulation\nHealth economic modeling and outcome research\nR/RShiny development for interactive data applications\nMachine learning applications in healthcare\nData-driven decision making in clinical settings\n\n\nThrough my multidisciplinary background and hands-on experience, I bring a unique blend of statistical rigor, programming proficiency, and health economics expertise to tackle complex challenges in the evolving landscape of personalized medicine and healthcare analytics."
+    "text": "Advanced statistical analysis and modeling\nGenomic data interpretation and manipulation\nHealth economic modeling and outcome research\nR/RShiny development for interactive data applications\nMachine learning applications in healthcare\nData-driven decision making in clinical settings"
+  },
+  {
+    "objectID": "poster_prs.html",
+    "href": "poster_prs.html",
+    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
+    "section": "",
+    "text": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.\nIntroduction: Despite diagnostic advances in celiac disease (CeD), many patients remain undiagnosed. CeD has well established genetic risk factors in the leukocyte antigen (HLA) loci. The goal of the study was to provide susceptibility estimates for CeD subgroups using polygenic risk score (PRS) beyond the HLA loci.\nMethods: In the population-based HUNT study in Norway, 52,588 adults underwent CeD screening via serology with diagnosis confirmed by histology (revealing 465 incident [Marsh 3] and 230 potential [Marsh 1/2] cases). Additionally, 377 known CeD cases were identified from medical registries. We reproduced a previously published PRS of CeD (228 SNPs) using the PRS-cs tool. All analysis were adjusted for age, sex, genotyping batch and 20 principal components.\nResults: The PRS could effectively distinguish between incident and prevalent cases from controls, with area under receiver operating characteristic curves at 83.8% and 83.5%, respectively, superior to potential cases (68.8%). For every standard deviation increase in the PRS, the odds increased 3.4-times (95% confidence interval [CI] 3.1-3.8) for confirmed (incident and prevalent) and 1.8-times (CI 1.6-2.1) for potential cases. Individuals in the top vs remaining decile of the PRS had 8.4-times (CI 7.3-9.7) higher odds of CeD. The proportion of variation explained by the PRS was 20.9% (CI 17.2%-25.6%) from HLA and 1% (CI 0.2%-2.3%) from non-HLA.\nConclusions: Incorporating non-HLA variants slightly enhanced identification of CeD beyond HLA variants alone, highlighting the potential of genetic risk stratification, integrating both HLA and non-HLA variants to pinpoint high-risk individuals."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "MSA",
+    "section": "",
+    "text": "Kindly download for perusal."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "MSA",
+    "section": "",
+    "text": "The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden).\nTuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.\nShiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.\nIf you would like to get a demo, kindly reach out."
+  },
+  {
+    "objectID": "projects.html#nordic-shortfall-calculator",
+    "href": "projects.html#nordic-shortfall-calculator",
+    "title": "MSA",
+    "section": "",
+    "text": "The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden).\nTuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.\nShiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.\nIf you would like to get a demo, kindly reach out."
   },
   {
     "objectID": "publications.html",
@@ -61,40 +89,5 @@
     "title": "MSA",
     "section": "Workshops",
     "text": "Workshops\n\n\n\nName\nAwarded in\nAmount\n\n\n\n\nStatistical Machine Learning\nIndian Statitiscal Institute\nMarch, 2021\n\n\nComputational Biostatistics and Survival Analysis\nTata Memorial Center, Mumbai\nDecember, 2019\n\n\nShort-term course on statistical techniques using R software\nNational Institute of Technology, Hamirpur\nDecember, 2019"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "MSA",
-    "section": "",
-    "text": "Kindly download for perusal."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "MSA",
-    "section": "",
-    "text": "The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden).\nTuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.\nShiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.\nIf you would like to get a demo, kindly reach out."
-  },
-  {
-    "objectID": "projects.html#nordic-shortfall-calculator",
-    "href": "projects.html#nordic-shortfall-calculator",
-    "title": "MSA",
-    "section": "",
-    "text": "The Nordic Shortfall Calculator is a web application that allows user to explore and analyze the quality adjusted life expectancy for the Nordic populations (Denmark, Finland, Norway and Sweden).\nTuning the parameter produces adjusted estimates for different outcomes like Absolute shortfall, Proportional shortfal HRQoL and Cummulative QALY and survival.\nShiny for R application helps develop app which can deployed at server and then understood by stakeholders easily by interacting with it.\nIf you would like to get a demo, kindly reach out."
-  },
-  {
-    "objectID": "projects.html#basic-shiny-app",
-    "href": "projects.html#basic-shiny-app",
-    "title": "Projects",
-    "section": "Basic shiny app",
-    "text": "Basic shiny app\n\n\nBasic severless Shiny app\nInterested in a demo? Click here."
-  },
-  {
-    "objectID": "poster_prs.html",
-    "href": "poster_prs.html",
-    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
-    "section": "",
-    "text": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.\nIntroduction: Despite diagnostic advances in celiac disease (CeD), many patients remain undiagnosed. CeD has well established genetic risk factors in the leukocyte antigen (HLA) loci. The goal of the study was to provide susceptibility estimates for CeD subgroups using polygenic risk score (PRS) beyond the HLA loci.\nMethods: In the population-based HUNT study in Norway, 52,588 adults underwent CeD screening via serology with diagnosis confirmed by histology (revealing 465 incident [Marsh 3] and 230 potential [Marsh 1/2] cases). Additionally, 377 known CeD cases were identified from medical registries. We reproduced a previously published PRS of CeD (228 SNPs) using the PRS-cs tool. All analysis were adjusted for age, sex, genotyping batch and 20 principal components.\nResults: The PRS could effectively distinguish between incident and prevalent cases from controls, with area under receiver operating characteristic curves at 83.8% and 83.5%, respectively, superior to potential cases (68.8%). For every standard deviation increase in the PRS, the odds increased 3.4-times (95% confidence interval [CI] 3.1-3.8) for confirmed (incident and prevalent) and 1.8-times (CI 1.6-2.1) for potential cases. Individuals in the top vs remaining decile of the PRS had 8.4-times (CI 7.3-9.7) higher odds of CeD. The proportion of variation explained by the PRS was 20.9% (CI 17.2%-25.6%) from HLA and 1% (CI 0.2%-2.3%) from non-HLA.\nConclusions: Incorporating non-HLA variants slightly enhanced identification of CeD beyond HLA variants alone, highlighting the potential of genetic risk stratification, integrating both HLA and non-HLA variants to pinpoint high-risk individuals."
   }
 ]
