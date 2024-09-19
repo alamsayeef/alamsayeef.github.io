@@ -22,9 +22,9 @@ in India: Results from an Online Survey](https://www.ojhas.org/issue76/2020-4-6.
 
 ### Oral
 
-1. [Upcoming] "High potential, weak effect novel variant associated with celiac disease detected in chr5p15.33 locus: results from population-based screening of adults, HUNT4." Mohammad Sayeef Alam, Rebecka Hjort, Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, and Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024
+1. "A genome wide association study reveals novel locus at 5p15.33 to be associated with celiac disease: results from population-based screening of adults, HUNT4." Mohammad Sayeef Alam, Rebecka Hjort, Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, and Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024
 
-2. [Upcoming] "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study." Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at Nordic Conference on Future Health in Trondheim, Norway, 2024
+2. "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study." Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at Nordic Conference on Future Health in Trondheim, Norway, 2024
 
 3.	“Prevalence of communicable disease and its epidemiological correlates in major urban states in India: Evidence from a nationally representative sample.” M. S. Alam, M. I. K. Sheikh & B. Paswan at **16th International Conference on Urban Health**, *Xiamen, China*, 2020.
 
@@ -32,10 +32,9 @@ in India: Results from an Online Survey](https://www.ojhas.org/issue76/2020-4-6.
 
 ### Poster
 
-1. [Upcoming] "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study." Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024. [Read more...](poster_prs.qmd)
+1. "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study." Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024. [Read more...](poster_prs.qmd)
 
 ## Workshops
-
 
 | Name  | Awarded in | Amount |
 |---|---|---|
