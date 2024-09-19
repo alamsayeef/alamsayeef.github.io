@@ -14,11 +14,9 @@ about:
 
 ## About me
 
-I am currently pursuing innovative research on the genetics of celiac disease as a PhD candidate in the [Department of Public Health and Nursing](https://www.ntnu.edu/ism) at the [Norwegian University of Science and Technology](https://www.ntnu.edu/). My academic foundation is built upon dual master's degrees - a Master of Philosophy and a Master of Science in Biostatistics and Demography - earned from the [International Institute for Population Sciences](https://www.iipsindia.ac.in/).
+I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the [Department of Public Health and Nursing](https://www.ntnu.edu/ism) at the [Norwegian University of Science and Technology](https://www.ntnu.edu/). My focus has been to analyse complex genetic datasets and determine novel association and work towards precision medicine. 
 
-I've translated theoretical knowledge of statistical methods into practical applications in the field of Health Economics Outcome Research. As an Associate in the Advanced Analytics team at [Parexel](https://www.parexel.com/), I honed my skills in data-driven decision making and statistical analysis within the pharmaceutical industry.
-
-My expertise lies at the intersection of applied statistics, data analytics, and healthcare. I excel in developing and implementing sophisticated statistical models for genomic data analysis, with a particular focus on advancing the field of precision medicine. Additionally, I've demonstrated proficiency in conducting economic evaluations of cutting-edge drugs and therapies, providing valuable insights for healthcare policy and resource allocation.
+Previously I was employed at [Parexel](https://www.parexel.com/) as an Associate in the Advanced Analytics team. I was involved mostly in development of RShiny apps for clients which could perform cost-effectiveness analysis. Apart from this I was also involved in several other statistical analysis.
 
 I am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes.
 
@@ -41,7 +39,5 @@ I am passionate about leveraging programming and statistical software to solve c
 | M. Sc. | Biostatistics and Demography | 2020 | International Institute for Population Sciences |
 | B. Sc. | Statistics | 2018 | [Your Undergraduate Institution] |
 -->
-
-Through my multidisciplinary background and hands-on experience, I bring a unique blend of statistical rigor, programming proficiency, and health economics expertise to tackle complex challenges in the evolving landscape of personalized medicine and healthcare analytics.
 
 :::
