@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mohammad Sayeef Alam",
     "section": "",
-    "text": "I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My focus has been to analyse large-scale genetic datasets to determine novel association, develop methods enabling precision medicine and modelling environmental and clinical risk factors.\nPreviously I was employed at Parexel as an Associate in the Advanced Analytics team. I was heavily invested in health economics outcome research consultancy involving but not limited to statistical methods, advanced excel dashboard and R-Shiny apps.\nI am passionate about leveraging my statistical programming aqcumen to solve complex challenges in health sector requiring inter-disciplinary knowledge of medicine, computer science and statistics.\n\n\n\n\nAdvanced statistical methods\nGenomic data analysis\nHealth economic modeling and outcome research\nR/RShiny for interactive data applications\nMachine learning applications in healthcare"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Mohammad Sayeef Alam",
-    "section": "",
-    "text": "I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My focus has been to analyse large-scale genetic datasets to determine novel association, develop methods enabling precision medicine and modelling environmental and clinical risk factors.\nPreviously I was employed at Parexel as an Associate in the Advanced Analytics team. I was heavily invested in health economics outcome research consultancy involving but not limited to statistical methods, advanced excel dashboard and R-Shiny apps.\nI am passionate about leveraging my statistical programming aqcumen to solve complex challenges in health sector requiring inter-disciplinary knowledge of medicine, computer science and statistics."
-  },
-  {
-    "objectID": "index.html#core-competencies",
-    "href": "index.html#core-competencies",
-    "title": "Mohammad Sayeef Alam",
-    "section": "",
-    "text": "Advanced statistical methods\nGenomic data analysis\nHealth economic modeling and outcome research\nR/RShiny for interactive data applications\nMachine learning applications in healthcare"
+    "text": "I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the Department of Public Health and Nursing at the Norwegian University of Science and Technology. My primary responsibilites include analysis of large-scale genetic datasets to determine novel association, develop methods enabling precision medicine and modelling environmental and clinical risk factors.\nPreviously I was employed at Parexel as an Associate in the Advanced Analytics team. I was heavily invested in health economics outcome research consultancy involving but not limited to statistical methods, advanced excel dashboard and R-Shiny apps.\nI am passionate about leveraging my statistical programming aqcumen to solve complex challenges in health sector requiring inter-disciplinary knowledge of medicine, computer science and statistics.\nGlad you visited, let’s connect!"
   },
   {
     "objectID": "poster_prs.html",
@@ -33,6 +12,48 @@
     "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
     "section": "",
     "text": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.\nIntroduction: Despite diagnostic advances in celiac disease (CeD), many patients remain undiagnosed. CeD has well established genetic risk factors in the leukocyte antigen (HLA) loci. The goal of the study was to provide susceptibility estimates for CeD subgroups using polygenic risk score (PRS) beyond the HLA loci.\nMethods: In the population-based HUNT study in Norway, 52,588 adults underwent CeD screening via serology with diagnosis confirmed by histology (revealing 465 incident [Marsh 3] and 230 potential [Marsh 1/2] cases). Additionally, 377 known CeD cases were identified from medical registries. We reproduced a previously published PRS of CeD (228 SNPs) using the PRS-cs tool. All analysis were adjusted for age, sex, genotyping batch and 20 principal components.\nResults: The PRS could effectively distinguish between incident and prevalent cases from controls, with area under receiver operating characteristic curves at 83.8% and 83.5%, respectively, superior to potential cases (68.8%). For every standard deviation increase in the PRS, the odds increased 3.4-times (95% confidence interval [CI] 3.1-3.8) for confirmed (incident and prevalent) and 1.8-times (CI 1.6-2.1) for potential cases. Individuals in the top vs remaining decile of the PRS had 8.4-times (CI 7.3-9.7) higher odds of CeD. The proportion of variation explained by the PRS was 20.9% (CI 17.2%-25.6%) from HLA and 1% (CI 0.2%-2.3%) from non-HLA.\nConclusions: Incorporating non-HLA variants slightly enhanced identification of CeD beyond HLA variants alone, highlighting the potential of genetic risk stratification, integrating both HLA and non-HLA variants to pinpoint high-risk individuals."
+  },
+  {
+    "objectID": "grants.html",
+    "href": "grants.html",
+    "title": "MSA",
+    "section": "",
+    "text": "Name\nAwarded in\nAmount\n\n\n\n\nSamarbeidsarganet, Helsemidt Norge\nDecember, 2023\n79,000 NOK\n\n\nGlobal Mentee-in-Mentorship Grant, ISSCD\nJuly, 2023\n6,000 USD\n\n\nErasmus+ Mobility Grant, Erasmus+NTNU\nApril, 2023\n16,942 NOK\n\n\nGoI Fellowship, Govt. of India\nJune 2018 - 2021\n1,80,000 INR"
+  },
+  {
+    "objectID": "grants.html#grants",
+    "href": "grants.html#grants",
+    "title": "MSA",
+    "section": "",
+    "text": "Name\nAwarded in\nAmount\n\n\n\n\nSamarbeidsarganet, Helsemidt Norge\nDecember, 2023\n79,000 NOK\n\n\nGlobal Mentee-in-Mentorship Grant, ISSCD\nJuly, 2023\n6,000 USD\n\n\nErasmus+ Mobility Grant, Erasmus+NTNU\nApril, 2023\n16,942 NOK\n\n\nGoI Fellowship, Govt. of India\nJune 2018 - 2021\n1,80,000 INR"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "MSA",
+    "section": "",
+    "text": "Name\nAwarded in\nAmount\nCertificate\n\n\n\n\nStatistical Machine Learning\nIndian Statitiscal Institute\nMarch, 2021\nLink\n\n\nComputational Biostatistics and Survival Analysis\nTata Memorial Center, Mumbai\nDecember, 2019\n\n\n\nShort-term course on statistical techniques using R software\nNational Institute of Technology, Hamirpur\nDecember, 2019"
+  },
+  {
+    "objectID": "courses.html#workshops",
+    "href": "courses.html#workshops",
+    "title": "MSA",
+    "section": "",
+    "text": "Name\nAwarded in\nAmount\nCertificate\n\n\n\n\nStatistical Machine Learning\nIndian Statitiscal Institute\nMarch, 2021\nLink\n\n\nComputational Biostatistics and Survival Analysis\nTata Memorial Center, Mumbai\nDecember, 2019\n\n\n\nShort-term course on statistical techniques using R software\nNational Institute of Technology, Hamirpur\nDecember, 2019"
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "MSA",
+    "section": "",
+    "text": "“A genome wide association study reveals novel locus at 5p15.33 to be associated with celiac disease: results from population-based screening of adults, HUNT4.” Mohammad Sayeef Alam, Rebecka Hjort, Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, and Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024\n“Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.” Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at Nordic Conference on Future Health in Trondheim, Norway, 2024\n“Prevalence of communicable disease and its epidemiological correlates in major urban states in India: Evidence from a nationally representative sample.” M. S. Alam, M. I. K. Sheikh & B. Paswan at 16th International Conference on Urban Health, Xiamen, China, 2020.\n“Shifting paradigm in the cause of maternal mortality in West Bengal: A facility and community based mixed methods approach”. M. S. Alam, M. I. K. Sheikh & B. Paswan at 5th International Integrative Research Conference on Governance and Modernization in Changing Environment, Comilla, Bangladesh, 2019.\n\n\n\n\n\n“Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.” Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024. Read more…"
+  },
+  {
+    "objectID": "presentation.html#conferences-presentations",
+    "href": "presentation.html#conferences-presentations",
+    "title": "MSA",
+    "section": "",
+    "text": "“A genome wide association study reveals novel locus at 5p15.33 to be associated with celiac disease: results from population-based screening of adults, HUNT4.” Mohammad Sayeef Alam, Rebecka Hjort, Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, and Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024\n“Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.” Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at Nordic Conference on Future Health in Trondheim, Norway, 2024\n“Prevalence of communicable disease and its epidemiological correlates in major urban states in India: Evidence from a nationally representative sample.” M. S. Alam, M. I. K. Sheikh & B. Paswan at 16th International Conference on Urban Health, Xiamen, China, 2020.\n“Shifting paradigm in the cause of maternal mortality in West Bengal: A facility and community based mixed methods approach”. M. S. Alam, M. I. K. Sheikh & B. Paswan at 5th International Integrative Research Conference on Governance and Modernization in Changing Environment, Comilla, Bangladesh, 2019.\n\n\n\n\n\n“Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.” Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024. Read more…"
   },
   {
     "objectID": "resume.html",
@@ -60,34 +81,13 @@
     "href": "publications.html",
     "title": "MSA",
     "section": "",
-    "text": "Singh M, Alam MS, Majumdar P, Tiwary B, Narzari H and Mahendradhata Y (2021) Understanding the Spatial Predictors of Malnutrition Among 0–2 Years Children in India Using Path Analysis. Front. Public Health 9:667502. DOI: 10.3389/fpubh.2021.667502\nMustafa A, Alam MS, Shekhar C. The Effects of Social Media Consumption Among the Internet Users During COVID-19 Lockdown in India: Results from an Online Survey. Online J Health Allied Scs. 2020;19(4):6\nSen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid Function Test in COVID-19 Patients: A Cross-Sectional Study in a Tertiary Care Hospital. Indian J Endocrinol Metab. 2020;24(6):532-536. DOI:10.4103/ijem.IJEM_779_20"
+    "text": "Alam MS, Thomas LF, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genome-wide association study identifies novel risk variants for celiac disease in the 5p15. 33 locus: insights from a population-based screening of adults, the HUNT study. medRxiv. 2024 Dec 10:2024-12. DOI: 10.1101/2024.12.09.24318711\nSingh M, Alam MS, Majumdar P, Tiwary B, Narzari H, Mahendradhata Y. Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis. Frontiers in Public Health. 2021 Jul 30;9:667502. DOI: 10.3389/fpubh.2021.667502\nMustafa A, Alam MS, Shekhar C. The effects of social media consumption among the internet users during COVID-19 lockdown in India: Results from an online survey. Online Journal of Health and Allied Sciences. 2020 Mar 25;19(4). URL\nSen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid Function Test in COVID-19 Patients: A Cross-Sectional Study in a Tertiary Care Hospital. Indian J Endocrinol Metab. 2020;24(6):532-536. DOI:10.4103/ijem.IJEM_779_20"
   },
   {
     "objectID": "publications.html#publications",
     "href": "publications.html#publications",
     "title": "MSA",
     "section": "",
-    "text": "Singh M, Alam MS, Majumdar P, Tiwary B, Narzari H and Mahendradhata Y (2021) Understanding the Spatial Predictors of Malnutrition Among 0–2 Years Children in India Using Path Analysis. Front. Public Health 9:667502. DOI: 10.3389/fpubh.2021.667502\nMustafa A, Alam MS, Shekhar C. The Effects of Social Media Consumption Among the Internet Users During COVID-19 Lockdown in India: Results from an Online Survey. Online J Health Allied Scs. 2020;19(4):6\nSen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid Function Test in COVID-19 Patients: A Cross-Sectional Study in a Tertiary Care Hospital. Indian J Endocrinol Metab. 2020;24(6):532-536. DOI:10.4103/ijem.IJEM_779_20"
-  },
-  {
-    "objectID": "publications.html#grants",
-    "href": "publications.html#grants",
-    "title": "MSA",
-    "section": "Grants",
-    "text": "Grants\n\n\n\nName\nAwarded in\nAmount\n\n\n\n\nSamarbeidsarganet, Helsemidt Norge\nDecember, 2023\n79,000 NOK\n\n\nGlobal Mentee-in-Mentorship Grant, ISSCD\nJuly, 2023\n6,000 USD\n\n\nErasmus+ Mobility Grant, Erasmus+NTNU\nApril, 2023\n16,942 NOK"
-  },
-  {
-    "objectID": "publications.html#conferences-presentations",
-    "href": "publications.html#conferences-presentations",
-    "title": "MSA",
-    "section": "Conferences presentations",
-    "text": "Conferences presentations\n\nOral\n\n“A genome wide association study reveals novel locus at 5p15.33 to be associated with celiac disease: results from population-based screening of adults, HUNT4.” Mohammad Sayeef Alam, Rebecka Hjort, Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, and Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024\n“Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.” Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at Nordic Conference on Future Health in Trondheim, Norway, 2024\n“Prevalence of communicable disease and its epidemiological correlates in major urban states in India: Evidence from a nationally representative sample.” M. S. Alam, M. I. K. Sheikh & B. Paswan at 16th International Conference on Urban Health, Xiamen, China, 2020.\n“Shifting paradigm in the cause of maternal mortality in West Bengal: A facility and community based mixed methods approach”. M. S. Alam, M. I. K. Sheikh & B. Paswan at 5th International Integrative Research Conference on Governance and Modernization in Changing Environment, Comilla, Bangladesh, 2019.\n\n\n\nPoster\n\n“Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.” Mohammad Sayeef Alam, Rebecka Hjort, Kristian Hveem, Knut E. A. Lundin, Iris H. Jonkers, Ludvig M. Sollid, Eivind Ness Jensen at 20th International Celiac Disease Symposium in Sheffield, UK, 2024. Read more…"
-  },
-  {
-    "objectID": "publications.html#workshops",
-    "href": "publications.html#workshops",
-    "title": "MSA",
-    "section": "Workshops",
-    "text": "Workshops\n\n\n\nName\nAwarded in\nAmount\n\n\n\n\nStatistical Machine Learning\nIndian Statitiscal Institute\nMarch, 2021\n\n\nComputational Biostatistics and Survival Analysis\nTata Memorial Center, Mumbai\nDecember, 2019\n\n\nShort-term course on statistical techniques using R software\nNational Institute of Technology, Hamirpur\nDecember, 2019"
+    "text": "Alam MS, Thomas LF, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genome-wide association study identifies novel risk variants for celiac disease in the 5p15. 33 locus: insights from a population-based screening of adults, the HUNT study. medRxiv. 2024 Dec 10:2024-12. DOI: 10.1101/2024.12.09.24318711\nSingh M, Alam MS, Majumdar P, Tiwary B, Narzari H, Mahendradhata Y. Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis. Frontiers in Public Health. 2021 Jul 30;9:667502. DOI: 10.3389/fpubh.2021.667502\nMustafa A, Alam MS, Shekhar C. The effects of social media consumption among the internet users during COVID-19 lockdown in India: Results from an online survey. Online Journal of Health and Allied Sciences. 2020 Mar 25;19(4). URL\nSen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid Function Test in COVID-19 Patients: A Cross-Sectional Study in a Tertiary Care Hospital. Indian J Endocrinol Metab. 2020;24(6):532-536. DOI:10.4103/ijem.IJEM_779_20"
   }
 ]

@@ -8,9 +8,17 @@ website:
     pinned: true
     left:
       - href: index.qmd
-        text: Home
-      - href: publications.qmd
-        text: Research
+        text: " "
+      - text: Research
+        menu:
+        - href: publications.qmd
+          text: Publications
+        - href: grants.qmd
+          text: Grants
+        - href: presentation.qmd
+          text: Talks
+        - href: courses.qmd
+          text: Workshops
       - href: resume.qmd
         text: CV
       - href: projects.qmd

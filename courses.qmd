@@ -1,0 +1,11 @@
+---
+title: ""
+---
+
+## Workshops
+
+| Name  | Awarded in | Amount | Certificate |
+|---|---|---|---|
+| Statistical Machine Learning | Indian Statitiscal Institute | March, 2021 | [Link](images/isi.pdf)
+| Computational Biostatistics and Survival Analysis | Tata Memorial Center, Mumbai | December, 2019 |
+| Short-term course on statistical techniques using R software | National Institute of Technology, Hamirpur | December, 2019  |

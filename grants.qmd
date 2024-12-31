@@ -1,0 +1,13 @@
+---
+title: ""
+---
+
+## Grants
+
+| Name  | Awarded in | Amount |
+|---|---|---|
+| Samarbeidsarganet, Helsemidt Norge | December, 2023 | 79,000 NOK |
+| Global Mentee-in-Mentorship Grant, ISSCD | July, 2023 | 6,000 USD |
+| Erasmus+ Mobility Grant, Erasmus+NTNU | April, 2023 | 16,942 NOK |
+| GoI Fellowship, Govt. of India | June 2018 - 2021 | 1,80,000 INR |
+
