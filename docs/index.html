@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,10 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-faa6cc9fbbc196e0e7b22bbd5b929daa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -164,19 +164,18 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><div id="ppc">
 <section id="about-me" class="level2">
 <h2 data-anchor-id="about-me">About me</h2>
-<p>I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the <a href="https://www.ntnu.edu/ism">Department of Public Health and Nursing</a> at the <a href="https://www.ntnu.edu/">Norwegian University of Science and Technology</a>. My focus has been to analyse complex genetic datasets and determine novel association and work towards precision medicine.</p>
-<p>Previously I was employed at <a href="https://www.parexel.com/">Parexel</a> as an Associate in the Advanced Analytics team. I was involved mostly in development of RShiny apps for clients which could perform cost-effectiveness analysis. Apart from this I was also involved in several other statistical analysis.</p>
-<p>I am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes.</p>
+<p>I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the <a href="https://www.ntnu.edu/ism">Department of Public Health and Nursing</a> at the <a href="https://www.ntnu.edu/">Norwegian University of Science and Technology</a>. My focus has been to analyse large-scale genetic datasets to determine novel association, develop methods enabling precision medicine and modelling environmental and clinical risk factors.</p>
+<p>Previously I was employed at <a href="https://www.parexel.com/">Parexel</a> as an Associate in the Advanced Analytics team. I was heavily invested in health economics outcome research consultancy involving but not limited to statistical methods, advanced excel dashboard and R-Shiny apps.</p>
+<p>I am passionate about leveraging my statistical programming aqcumen to solve complex challenges in health sector requiring inter-disciplinary knowledge of medicine, computer science and statistics.</p>
 </section>
 <section id="core-competencies" class="level2">
 <h2 data-anchor-id="core-competencies">Core Competencies</h2>
 <ul>
-<li>Advanced statistical analysis and modeling</li>
-<li>Genomic data interpretation and manipulation</li>
+<li>Advanced statistical methods</li>
+<li>Genomic data analysis</li>
 <li>Health economic modeling and outcome research</li>
-<li>R/RShiny development for interactive data applications</li>
+<li>R/RShiny for interactive data applications</li>
 <li>Machine learning applications in healthcare</li>
-<li>Data-driven decision making in clinical settings</li>
 </ul>
 <!--
 ## Education
@@ -271,8 +270,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -383,7 +380,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
