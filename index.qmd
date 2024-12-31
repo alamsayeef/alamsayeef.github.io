@@ -14,20 +14,20 @@ about:
 
 ## About me
 
-I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the [Department of Public Health and Nursing](https://www.ntnu.edu/ism) at the [Norwegian University of Science and Technology](https://www.ntnu.edu/). My focus has been to analyse complex genetic datasets and determine novel association and work towards precision medicine. 
+I am currently pursuing research on the genetics of celiac disease as a PhD candidate in the [Department of Public Health and Nursing](https://www.ntnu.edu/ism) at the [Norwegian University of Science and Technology](https://www.ntnu.edu/). My focus has been to analyse large-scale genetic datasets to determine novel association, develop methods enabling precision medicine and modelling environmental and clinical risk factors. 
 
-Previously I was employed at [Parexel](https://www.parexel.com/) as an Associate in the Advanced Analytics team. I was involved mostly in development of RShiny apps for clients which could perform cost-effectiveness analysis. Apart from this I was also involved in several other statistical analysis.
+Previously I was employed at [Parexel](https://www.parexel.com/) as an Associate in the Advanced Analytics team. I was heavily invested in health economics outcome research consultancy involving but not limited to statistical methods, advanced excel dashboard and R-Shiny apps.
 
-I am passionate about leveraging programming and statistical software to solve complex healthcare challenges. My proficiency in R and RShiny allows me to create interactive data visualizations and develop robust statistical pipelines, enhancing both the efficiency and interpretability of research outcomes.
+I am passionate about leveraging my statistical programming aqcumen to solve complex challenges in health sector requiring inter-disciplinary knowledge of medicine, computer science and statistics.
 
 ## Core Competencies
 
-* Advanced statistical analysis and modeling
-* Genomic data interpretation and manipulation
+* Advanced statistical methods
+* Genomic data analysis
 * Health economic modeling and outcome research
-* R/RShiny development for interactive data applications
+* R/RShiny for interactive data applications
 * Machine learning applications in healthcare
-* Data-driven decision making in clinical settings
+
 
 <!--
 ## Education
