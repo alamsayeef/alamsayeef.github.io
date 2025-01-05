@@ -13,10 +13,10 @@ website:
         menu:
         - href: publications.qmd
           text: Publications
+        - href: presentation.qmd
+          text: Conferences
         - href: grants.qmd
           text: Grants
-        - href: presentation.qmd
-          text: Talks
         - href: courses.qmd
           text: Workshops
       - href: resume.qmd
