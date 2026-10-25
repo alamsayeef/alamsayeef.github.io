@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: ""
+        text: " "
       - about.qmd
       - research.qmd
       - industry.qmd
