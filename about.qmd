@@ -2,12 +2,16 @@
 title: "Hi there! welcome to my digital space 👋"
 ---
 
-## Background & Expertise
-I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.
+![](misc/stlukes.jpg)
 
-My core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making.
+I am currently working as an health economist at [PenTAG](https://medicine.exeter.ac.uk/phss/research/pentag/), University of Exeter, UK. 
 
-## Passion & Hobbies
-- **Open Source R & Tooling:** Building modular R packages, interactive R Shiny dashboards, and transparent health-analytics pipelines.
-- **Methodological Research:** Exploring genetic epidemiology, polygenic risk scores (PRS), and causal inference methodologies in large biobank cohorts (HUNT, Norwegian Patient Registry).
-- **Global Health & Science Communication:** Translating complex statistical evidence and registry analyses into accessible insights for clinicians, patients, and policy-makers.
+I appraise health economic models submitted as single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisal, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.
+
+Prior to joining PenTAG, I completed my PhD in Genetic Epidemiology from [Norwegian University of Science and Technology](https://www.ntnu.edu/)(NTNU), at the beautiful city of Trondheim in Norway 🥹. 
+
+![Picture taken on way to Norwegian course to Dragvoll campus.](misc/trondheim.jpg)
+
+My PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease.
+
+And prior to my PhD, I worked as an Associate in the Advanced Analytics team at [Parexel](https://www.parexel.com/), a global contract research organization (CRO) providing biopharmaceutical services. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis..

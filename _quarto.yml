@@ -7,10 +7,12 @@ website:
     left:
       - href: index.qmd
         text: " "
-      - about.qmd
+      - href: about.qmd
+        text: "About Me"
       - research.qmd
       - industry.qmd
-      - cv.qmd
+      - text: "CV"
+        href: cv.qmd
     right:
       - icon: github
         href: https://github.com/alamsayeef

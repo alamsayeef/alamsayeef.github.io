@@ -1,54 +1,5 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research & Publications",
-    "section": "",
-    "text": "Note\n\n\n\nResearch spans genetic epidemiology, polygenic risk scoring, clinical prediction models, and health economic evaluations."
-  },
-  {
-    "objectID": "research.html#peer-reviewed-publications-preprints",
-    "href": "research.html#peer-reviewed-publications-preprints",
-    "title": "Research & Publications",
-    "section": "Peer-Reviewed Publications & Preprints",
-    "text": "Peer-Reviewed Publications & Preprints\n\nA model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study\nAuthors: Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. Journal: BMC Gastroenterology (2026) Tags: Prediction Modelling Gastroenterology HUNT4 First Author Read Publication\n\n\nGenetic differences between diagnosed and undiagnosed Celiac disease: a population-based study\nAuthors: Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Human Genetics (2025) Tags: Genetics GWAS Celiac Disease First Author Read Publication\n\n\nImpact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway\nAuthors: Alam MS. Journal: medRxiv (2025) [Preprint] Tags: Health Economics QALY Nordic HTA Sole Author Read Preprint\n\n\nPopulation screening of adults identifies novel genetic variants associated with celiac disease\nAuthors: Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Scientific Reports (2025) Tags: GWAS Polygenic Risk Scores First Author Read Publication"
-  },
-  {
-    "objectID": "research.html#conference-presentations-talks",
-    "href": "research.html#conference-presentations-talks",
-    "title": "Research & Publications",
-    "section": "Conference Presentations & Talks",
-    "text": "Conference Presentations & Talks\n\nNordic Joint HTA Meeting — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). Tags: HTA R Shiny Nordic\nNTNU / International Genetics Conferences — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. Tags: Genetics Epidemiology"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mohammad Sayeef Alam, PhD",
-    "section": "",
-    "text": "Health Economist, Biostatistician & HTA Modeller bridging advanced epidemiological research with NICE health technology assessment and decision-making. Exposures spanning PenTAG University of Exeter, NTNU, and Parexel, specializing in cost-effectiveness modelling, evidence synthesis, and R/R Shiny applications. Based in Exeter, UK."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.\nMy core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making."
-  },
-  {
-    "objectID": "about.html#background-expertise",
-    "href": "about.html#background-expertise",
-    "title": "About Me",
-    "section": "",
-    "text": "I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.\nMy core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making."
-  },
-  {
-    "objectID": "about.html#passion-hobbies",
-    "href": "about.html#passion-hobbies",
-    "title": "About Me",
-    "section": "Passion & Hobbies",
-    "text": "Passion & Hobbies\n\nOpen Source R & Tooling: Building modular R packages, interactive R Shiny dashboards, and transparent health-analytics pipelines.\nMethodological Research: Exploring genetic epidemiology, polygenic risk scores (PRS), and causal inference methodologies in large biobank cohorts (HUNT, Norwegian Patient Registry).\nGlobal Health & Science Communication: Translating complex statistical evidence and registry analyses into accessible insights for clinicians, patients, and policy-makers."
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
@@ -75,6 +26,55 @@
     "title": "Curriculum Vitae",
     "section": "Download Tailored CVs",
     "text": "Download Tailored CVs\n\nHEOR CV\nR Developer CV\nStatistiker / Biostatistician CV\nBioinformatician CV"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Hi there! welcome to my digital space 👋",
+    "section": "",
+    "text": "I am currently working as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic models submitted as single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisal, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim in Norway 🥹.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease.\nAnd prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, a global contract research organization (CRO) providing biopharmaceutical services. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis.."
+  },
+  {
+    "objectID": "about.html#background-expertise",
+    "href": "about.html#background-expertise",
+    "title": "Hi there! welcome to my digital space 👋",
+    "section": "",
+    "text": "I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.\nMy core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making."
+  },
+  {
+    "objectID": "about.html#passion-hobbies",
+    "href": "about.html#passion-hobbies",
+    "title": "Hi there! welcome to my digital space 👋",
+    "section": "Passion & Hobbies",
+    "text": "Passion & Hobbies\n\nOpen Source R & Tooling: Building modular R packages, interactive R Shiny dashboards, and transparent health-analytics pipelines.\nMethodological Research: Exploring genetic epidemiology, polygenic risk scores (PRS), and causal inference methodologies in large biobank cohorts (HUNT, Norwegian Patient Registry).\nGlobal Health & Science Communication: Translating complex statistical evidence and registry analyses into accessible insights for clinicians, patients, and policy-makers."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Publications",
+    "section": "",
+    "text": "Note\n\n\n\nResearch spans genetic epidemiology, polygenic risk scoring, clinical prediction models, and health economic evaluations."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-publications-preprints",
+    "href": "research.html#peer-reviewed-publications-preprints",
+    "title": "Research & Publications",
+    "section": "Peer-Reviewed Publications & Preprints",
+    "text": "Peer-Reviewed Publications & Preprints\n\nA model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study\nAuthors: Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. Journal: BMC Gastroenterology (2026) Tags: Prediction Modelling Gastroenterology HUNT4 First Author Read Publication\n\n\nGenetic differences between diagnosed and undiagnosed Celiac disease: a population-based study\nAuthors: Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Human Genetics (2025) Tags: Genetics GWAS Celiac Disease First Author Read Publication\n\n\nImpact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway\nAuthors: Alam MS. Journal: medRxiv (2025) [Preprint] Tags: Health Economics QALY Nordic HTA Sole Author Read Preprint\n\n\nPopulation screening of adults identifies novel genetic variants associated with celiac disease\nAuthors: Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Scientific Reports (2025) Tags: GWAS Polygenic Risk Scores First Author Read Publication"
+  },
+  {
+    "objectID": "research.html#conference-presentations-talks",
+    "href": "research.html#conference-presentations-talks",
+    "title": "Research & Publications",
+    "section": "Conference Presentations & Talks",
+    "text": "Conference Presentations & Talks\n\nNordic Joint HTA Meeting — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). Tags: HTA R Shiny Nordic\nNTNU / International Genetics Conferences — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. Tags: Genetics Epidemiology"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MSA",
+    "section": "",
+    "text": "I work as a Research Assistant at PenTAG.\nI appraise health economic models submitted as part of health technology assessment (HTA) submissions to the National Institute for Health and Care Excellence (NICE) in the UK. I also conduct research on health economic modelling methods and applications.\nFor collaboration or to simply chat 👇"
   },
   {
     "objectID": "industry.html",
