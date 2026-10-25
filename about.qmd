@@ -1,9 +1,13 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+## Background & Expertise
+I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.
 
-```{r}
-1 + 1
-```
+My core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making.
+
+## Passion & Hobbies
+- **Open Source R & Tooling:** Building modular R packages, interactive R Shiny dashboards, and transparent health-analytics pipelines.
+- **Methodological Research:** Exploring genetic epidemiology, polygenic risk scores (PRS), and causal inference methodologies in large biobank cohorts (HUNT, Norwegian Patient Registry).
+- **Global Health & Science Communication:** Translating complex statistical evidence and registry analyses into accessible insights for clinicians, patients, and policy-makers.

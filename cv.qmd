@@ -1,0 +1,30 @@
+---
+title: "Curriculum Vitae"
+---
+
+::: {.callout-tip}
+You can view or download tailored CV versions below.
+:::
+
+## Education
+
+- **PhD in Genetic Epidemiology** | Norwegian University of Science and Technology (NTNU), Norway (2022 – 2026)
+- **MPhil in Biostatistics and Demography** | International Institute for Population Sciences (IIPS), Mumbai (2020 – 2021)
+- **MSc in Biostatistics and Demography** | IIPS, Mumbai (2018 – 2020)
+- **BSc in Statistics** | University of Calcutta, Kolkata (2014 – 2018)
+
+---
+
+## Courses & Certifications
+
+- **Decision Modelling for Health Economic Evaluation - Advanced Course** | LSHTM & University of York (August 2026)
+- **Economic Evaluation Modelling using R** | University of Bristol (July 2025)
+- **Statistical Machine Learning** | Indian Statistical Institute (ISI), Kolkata (March 2021)
+
+---
+
+## Download Tailored CVs
+- [HEOR CV](misc/CV_MSA_HEOR.pdf)
+- [R Developer CV](misc/CV_MSA_RDeveloper.pdf)
+- [Statistiker / Biostatistician CV](misc/CV_MSA_Statistiker.pdf)
+- [Bioinformatician CV](misc/CV_MSA_Bioinformatician.pdf)

@@ -1,11 +1,20 @@
 ---
-title: "alamsayeef.github.io"
+title: "Mohammad Sayeef Alam, PhD"
+image: misc/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mohasal
+    - icon: github
+      text: GitHub
+      href: https://github.com/alamsayeef
+    - icon: envelope
+      text: Email
+      href: mailto:alam.sayeef@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Health Economist, Biostatistician & HTA Modeller bridging advanced epidemiological research with NICE health technology assessment and decision-making.
+Exposures spanning PenTAG University of Exeter, NTNU, and Parexel, specializing in cost-effectiveness modelling, evidence synthesis, and R/R Shiny applications.
+Based in Exeter, UK.
