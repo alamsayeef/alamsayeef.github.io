@@ -4,21 +4,7 @@
     "href": "about.html",
     "title": "Hi there! welcome to my digital space 👋",
     "section": "",
-    "text": "I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.\nMy core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making."
-  },
-  {
-    "objectID": "about.html#background-expertise",
-    "href": "about.html#background-expertise",
-    "title": "Hi there! welcome to my digital space 👋",
-    "section": "",
-    "text": "I am a health economist and biostatistician with a PhD in Genetic Epidemiology from the Norwegian University of Science and Technology (NTNU) and hands-on health technology assessment (HTA) appraisal experience at PenTAG, University of Exeter.\nMy core focus is on economic evaluation, health economic modelling, evidence synthesis (NMA, MAIC, STC), and real-world data (RWD) registry analyses to inform healthcare reimbursement and clinical decision-making."
-  },
-  {
-    "objectID": "about.html#passion-hobbies",
-    "href": "about.html#passion-hobbies",
-    "title": "Hi there! welcome to my digital space 👋",
-    "section": "Passion & Hobbies",
-    "text": "Passion & Hobbies\n\nOpen Source R & Tooling: Building modular R packages, interactive R Shiny dashboards, and transparent health-analytics pipelines.\nMethodological Research: Exploring genetic epidemiology, polygenic risk scores (PRS), and causal inference methodologies in large biobank cohorts (HUNT, Norwegian Patient Registry).\nGlobal Health & Science Communication: Translating complex statistical evidence and registry analyses into accessible insights for clinicians, patients, and policy-makers."
+    "text": "I am currently working as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic models submitted as single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisal, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim in Norway 🥹.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease.\nAnd prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, a global contract research organization (CRO) providing biopharmaceutical services. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis.."
   },
   {
     "objectID": "industry.html",
@@ -40,34 +26,6 @@
     "title": "Industry & HTA Experience",
     "section": "Parexel (July 2021 – February 2022)",
     "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Tip\n\n\n\nYou can view or download tailored CV versions below."
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\n\nPhD in Genetic Epidemiology | Norwegian University of Science and Technology (NTNU), Norway (2022 – 2026)\nMPhil in Biostatistics and Demography | International Institute for Population Sciences (IIPS), Mumbai (2020 – 2021)\nMSc in Biostatistics and Demography | IIPS, Mumbai (2018 – 2020)\nBSc in Statistics | University of Calcutta, Kolkata (2014 – 2018)"
-  },
-  {
-    "objectID": "cv.html#courses-certifications",
-    "href": "cv.html#courses-certifications",
-    "title": "Curriculum Vitae",
-    "section": "Courses & Certifications",
-    "text": "Courses & Certifications\n\nDecision Modelling for Health Economic Evaluation - Advanced Course | LSHTM & University of York (August 2026)\nEconomic Evaluation Modelling using R | University of Bristol (July 2025)\nStatistical Machine Learning | Indian Statistical Institute (ISI), Kolkata (March 2021)"
-  },
-  {
-    "objectID": "cv.html#download-tailored-cvs",
-    "href": "cv.html#download-tailored-cvs",
-    "title": "Curriculum Vitae",
-    "section": "Download Tailored CVs",
-    "text": "Download Tailored CVs\n\nHEOR CV\nR Developer CV\nStatistiker / Biostatistician CV\nBioinformatician CV"
   },
   {
     "objectID": "index.html",
