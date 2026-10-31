@@ -1,7 +1,7 @@
 ---
 title: "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway"
-date: 2026-10-31 # TODO: placeholder date, update when submitted/published
-categories: [Manuscript in preparation, Mental health, Registry data]
+date: "WIP" # TODO: placeholder date, update when submitted/published
+categories: [Mental health, Registry data]
 description: "In preparation. Ongoing analysis and manuscript preparation."
 ---
 
@@ -15,8 +15,8 @@ Assisting in the statistical analysis plan draft, co-conducting the analysis, co
 
 ## Abstract
 
-TODO: add abstract when available.
+TBW
 
 ## Links
 
-TODO: add preprint or journal link when available.
+TBW
