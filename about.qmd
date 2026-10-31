@@ -4,7 +4,7 @@ title: "Hi there!"
 
 ## Welcome to my digital space 👋
 
-![](misc/stlukes.jpg)
+![](/misc/stlukes.jpg)
 
 I currently work as an health economist at [PenTAG](https://medicine.exeter.ac.uk/phss/research/pentag/), University of Exeter, UK. 
 

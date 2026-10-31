@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Hi there!",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Mohammad Sayeef Alam",
     "section": "",
-    "text": "I currently work as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹.\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease. And prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, providing consulting services to pharmaceutical companies 💊. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research & Publications",
-    "section": "",
-    "text": "Note\n\n\n\nResearch spans genetic epidemiology, polygenic risk scoring, clinical prediction models, and health economic evaluations."
-  },
-  {
-    "objectID": "research.html#peer-reviewed-publications-preprints",
-    "href": "research.html#peer-reviewed-publications-preprints",
-    "title": "Research & Publications",
-    "section": "Peer-Reviewed Publications & Preprints",
-    "text": "Peer-Reviewed Publications & Preprints\n\nA model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study\nAuthors: Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. Journal: BMC Gastroenterology (2026) Tags: Prediction Modelling Gastroenterology HUNT4 First Author Read Publication\n\n\nGenetic differences between diagnosed and undiagnosed Celiac disease: a population-based study\nAuthors: Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Human Genetics (2025) Tags: Genetics GWAS Celiac Disease First Author Read Publication\n\n\nImpact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway\nAuthors: Alam MS. Journal: medRxiv (2025) [Preprint] Tags: Health Economics QALY Nordic HTA Sole Author Read Preprint\n\n\nPopulation screening of adults identifies novel genetic variants associated with celiac disease\nAuthors: Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Scientific Reports (2025) Tags: GWAS Polygenic Risk Scores First Author Read Publication"
-  },
-  {
-    "objectID": "research.html#conference-presentations-talks",
-    "href": "research.html#conference-presentations-talks",
-    "title": "Research & Publications",
-    "section": "Conference Presentations & Talks",
-    "text": "Conference Presentations & Talks\n\nNordic Joint HTA Meeting — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). Tags: HTA R Shiny Nordic\nNTNU / International Genetics Conferences — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. Tags: Genetics Epidemiology"
+    "text": "Professional Experience\nResearch Assistant in HTA,March 2026 – Present  PenTAG, University of Exeter Exeter, United Kingdom\n\nAppraise industry-submitted Single Technology Appraisal (STA) decision models to inform NICE reimbursement decisions, evaluating the full continuum from economic literature reviews and evidence synthesis to structural modeling, scenario testing, and sensitivity analyses.\nDevelop de novo HTA decision models and adapt existing NICE models using R and Excel VBA to support Multiple Technology Appraisal (MTA) projects.\nCollaborate within multidisciplinary teams including clinicians, epidemiologists, and statisticians to co-author comprehensive evidence assessment reports that directly advise NICE recommendation committees.\nSupport appraising and conducting Indirect Treatment Comparisons (ITC), conducting ad-hoc analyses, writing manuscripts, and drafting reports used in policy decision-making.\nExecute advanced statistical analyses spanning survival analysis, evidence generation, uncertainty quantification, and Delphi studies to deliver tailored solutions for external consultancy clients.\n\nAssociate (Advanced Analytics),July 2021 – February 2022  Parexel Remote, India\n\nDeveloped dynamic R Shiny applications and interactive dashboards for economic evaluations to support HTA submissions and strategic payer decision-making.\nConducted feasibility assessments, indirect treatment comparisons (ITCs), and complete economic analyses for direct integration into HTA dossiers and regulatory/payer submissions.\nDesigned dashboards to visualize key clinical endpoints, including survival outcomes, treatment sequences, and demographic summaries tailored for regional stakeholder reporting.\nDelivered actionable insights to internal and external stakeholders, iteratively incorporating cross-functional feedback to refine deliverables.\n\n\n\n\nResearch Experience\nPhD Researcher, April 2022 – March 2026  Norwegian University of Science and Technology (NTNU) Trondheim, Norway\n\nIdentified 11 celiac disease risk loci by running SAIGE mixed-model GWAS on 17 million variants in ~55,000 participants (~1,100 cases) from the HUNT biobank, correcting for case-control imbalance and relatedness.\nStrengthened data quality by applying sample and variant QC to 25 million imputed variants (22 million retained), using KING relatedness estimates and principal components to control population stratification.\nPrioritised candidate causal signals by fine-mapping and colocalising the 11 loci, highlighting a non-coding RNA locus near IRX1 suggesting shared immune-mediated genetics with rheumatoid arthritis.\nStratified celiac disease risk by building a Bayesian PRS-CS polygenic risk score (benchmarked against PRSice and LDpred), achieving an AUC of 0.83 in a held-out test set.\nCharacterised genetic heterogeneity within celiac disease by comparing diagnosed and undiagnosed cases, utilizing LDSC to assess genetic heterogeneity between groups.\nDeveloped and validated predictive machine learning models for undiagnosed celiac disease in HUNT4, comparing elastic net logistic regression, random forest, SVM, neural networks, and Super Learner ensembles (elastic net selected).\nIntegrated and harmonised real-world data across unique IDs from HUNT surveys, HUNT Biobank, the Norwegian Patient Registry, and clinical journal records to derive ICD-based celiac phenotypes, clinical histories, and causal estimates.\nAutomated end-to-end GWAS workflows with Snakemake on HUNT Cloud for reproducible analysis, and built an open-source R package migrating legacy health-analytics models into version-controlled, Dockerised pipelines.\nPiloted HLA-region imputation with CookHLA and a containerised Michigan Imputation Server to extend HLA coverage in the cohort.\nPrototyped a modular R/Shiny tool for Nordic HTA QALY-shortfall analysis across five Nordic countries, reducing ad-hoc requests from external partners.\nMentored two master’s students informally, collaborated with molecular biologists and clinical researchers, and secured competitive funding.\n\n\n\n\nEducation\nPh.D. ResearcherApril 2022 – March 2026  Norwegian University of Science and Technology (NTNU) Trondheim, Norway\nM.Phil. in Biostatistics and DemographyJuly 2020 – May 2021  International Institute for Population Sciences (IIPS), Mumbai, IndiaMumbai, India\nM.Sc. in Biostatistics and DemographyJuly 2018 – June 2020  International Institute for Population Sciences (IIPS), Mumbai, IndiaMumbai, India\nB.Sc. in StatisticsApril 2014 – May 2018  University of CalcuttaKolkata, India\n\n\n\nCourses & Certifications\n\n\n\n\n\n\n\n\nCourse Name\nOrganization\nCertificate Link\n\n\n\n\nDecision Modelling for Health Economic Evaluations\nLondon School of Hygiene & Tropical Medicine (LSHTM) & University of York\nLink\n\n\nEconomic Evaluation Modelling using R\nUniversity of Bristol\nLink\n\n\n\n\n\nGrants & Awards\n\n\n\n\n\n\n\n\nGrant / Award Name\nFunding Agency\nAmount\n\n\n\n\nErasmus Mobility Grant\nErasmus+ Program\n16,000 NOK\n\n\nISSCD M-in-M Grant\nInternational Study Group for Celiac Disease\n6000 USD\n\n\nSamarbeidsorganet International Research Stay Grant\nHelse Midt-Norge / NTNU\n150,000 NOK\n\n\n\n\n\n\nTechnical Skills\n\n\n\n\n\n\n\nSkill Domain\nCore Competencies & Tools\n\n\n\n\nHealth Economics & HTA\nDe Novo Cost-Effectiveness & Decision Modelling, Deterministic & Probabilistic Sensitivity Analyses (DSA/PSA), Scenario Analyses, NICE STA/MTA Appraisals, QALY Shortfall Analysis\n\n\nEvidence Synthesis & NMA\nFeasibility Assessment, Network Meta-Analysis (NMA), Matching-Adjusted Treatment Comparisons (MAIC), Simulated Treatment Comparisons (STC), Multilevel Network Meta-Regression (MLNMR)\n\n\nRWE & Causal Inference\nComparative Effectiveness, Synthetic Control Arms, Causal Inference, Target Trial Emulation, Surrogate Outcomes, Confounding Control, Longitudinal & Survival Analysis\n\n\nGenomics & Statistics\nMixed-Model GWAS (SAIGE, PLINK, REGENIE), Fine-Mapping, Colocalisation, Polygenic Risk Scores (PRS-CS, LDpred, PRSice), Genetic Heterogeneity (LDSC), Genotype/HLA Imputation, Variant & Sample QC\n\n\nMachine Learning\nElastic Net Logistic Regression, Random Forest, Support Vector Machines (SVM), Neural Networks, Super Learner (Ensemble), Supervised Classification, High-Dimensional Variable Selection\n\n\nData Sources\nNorwegian Population & Patient Registers (NPR), HUNT Biobank & Surveys, Clinical Journal Records, UK Biobank, Longitudinal and Cross-Sectional Demographic/Health Datasets\n\n\nProgramming & Software\nR, Python, Bash, SQL, R/Shiny, R Package Development, Stata, SAS, Excel (VBA), WinBUGs, Git, GitLab, Docker, Snakemake, HPC, Cloud Computing (HUNT Cloud)\n\n\nLanguages\nEnglish (Professional Fluency), Norwegian (B1–B2 / Intermediate)"
   },
   {
     "objectID": "index.html",
@@ -35,32 +14,333 @@
     "text": "I am a Research Assistant at PenTAG.\nI appraise health economic evidence and model submitted by clients as part of health technology assessment (HTA) submissions to the National Institute for Health and Care Excellence (NICE) in the UK. Additionally, I am also involved in research on health economic modelling methods and applications.\nTo chat or for collaboration 👇"
   },
   {
-    "objectID": "industry.html",
-    "href": "industry.html",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Nordic QALY Shortfall Calculator\n\n\n\nHealth Economics\n\nOpen Source\n\nQALY Shortfall\n\nR/Shiny\n\nNordic Countries\n\n\n\nAn open-source QALYmodeling tool for health economics.\n\n\n\nMay 1, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
     "title": "Industry & HTA Experience",
     "section": "",
     "text": "Tip\n\n\n\nOffering an “insider” view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective."
   },
   {
-    "objectID": "industry.html#pentag-university-of-exeter-march-2026-present",
-    "href": "industry.html#pentag-university-of-exeter-march-2026-present",
+    "objectID": "blogs/index.html#pentag-university-of-exeter-march-2026-present",
+    "href": "blogs/index.html#pentag-university-of-exeter-march-2026-present",
     "title": "Industry & HTA Experience",
     "section": "PenTAG, University of Exeter (March 2026 – Present)",
     "text": "PenTAG, University of Exeter (March 2026 – Present)\nRole: Research Assistant in HTA Tags: NICE HTA Appraisals Cost-Effectiveness Modelling R Excel VBA\n\nSTAs & MTAs: Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.\nDecision Models: Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.\nClient Consultancy: Appraised R as an alternative for cost-effectiveness modelling for a client."
   },
   {
-    "objectID": "industry.html#parexel-july-2021-february-2022",
-    "href": "industry.html#parexel-july-2021-february-2022",
+    "objectID": "blogs/index.html#parexel-july-2021-february-2022",
+    "href": "blogs/index.html#parexel-july-2021-february-2022",
     "title": "Industry & HTA Experience",
     "section": "Parexel (July 2021 – February 2022)",
     "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
   },
   {
-    "objectID": "about.html#hobbies-interests",
-    "href": "about.html#hobbies-interests",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Manuscript in preparation\n\nMental health\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nHUNT Study\n\n\n\nBMC Gastroenterology, 2026\n\n\n\n\n\nApr 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nHuman Genetics, 2025;144(11):1071-8\n\n\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprint\n\nHealth economics\n\nQuality-adjusted life expectancy\n\n\n\nmedRxiv preprint, 2025\n\n\n\n\n\nSep 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nScientific Reports, 2025;15(1):19764\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nNutrition\n\nIndia\n\nPath analysis\n\n\n\nFrontiers in Public Health, 2021;9:667502\n\n\n\n\n\nJul 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCOVID-19\n\nEndocrinology\n\n\n\nIndian Journal of Endocrinology and Metabolism, 2020;24(6):532-6\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Manuscript in preparation\n\nMental health\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nHUNT Study\n\n\n\nBMC Gastroenterology, 2026\n\n\n\n\n\nApr 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nHuman Genetics, 2025;144(11):1071-8\n\n\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprint\n\nHealth economics\n\nQuality-adjusted life expectancy\n\n\n\nmedRxiv preprint, 2025\n\n\n\n\n\nSep 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nScientific Reports, 2025;15(1):19764\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nNutrition\n\nIndia\n\nPath analysis\n\n\n\nFrontiers in Public Health, 2021;9:667502\n\n\n\n\n\nJul 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCOVID-19\n\nEndocrinology\n\n\n\nIndian Journal of Endocrinology and Metabolism, 2020;24(6):532-6\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#conference-presentations",
+    "href": "research/index.html#conference-presentations",
+    "title": "Research",
+    "section": "Conference presentations",
+    "text": "Conference presentations\n\nOral presentations\n\n\n\n\nNo matching items\n\n\n\nPosters\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/publications/pub6.html",
+    "href": "research/publications/pub6.html",
+    "title": "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis",
+    "section": "",
+    "text": "Singh M, Alam MS, Majumdar P, Tiwary B, Narzari H, Mahendradhata Y. Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis. Frontiers in Public Health. 2021 Jul 30;9:667502."
+  },
+  {
+    "objectID": "research/publications/pub6.html#citation",
+    "href": "research/publications/pub6.html#citation",
+    "title": "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis",
+    "section": "",
+    "text": "Singh M, Alam MS, Majumdar P, Tiwary B, Narzari H, Mahendradhata Y. Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis. Frontiers in Public Health. 2021 Jul 30;9:667502."
+  },
+  {
+    "objectID": "research/publications/pub6.html#my-contribution",
+    "href": "research/publications/pub6.html#my-contribution",
+    "title": "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, and editing the methods and results sections of the manuscript draft."
+  },
+  {
+    "objectID": "research/publications/pub6.html#abstract",
+    "href": "research/publications/pub6.html#abstract",
+    "title": "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract."
+  },
+  {
+    "objectID": "research/publications/pub6.html#links",
+    "href": "research/publications/pub6.html#links",
+    "title": "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis",
+    "section": "Links",
+    "text": "Links\n\nJournal: TODO add DOI link"
+  },
+  {
+    "objectID": "research/publications/pub5.html",
+    "href": "research/publications/pub5.html",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "",
+    "text": "Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. Scientific Reports. 2025 Jun 5;15(1):19764."
+  },
+  {
+    "objectID": "research/publications/pub5.html#citation",
+    "href": "research/publications/pub5.html#citation",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "",
+    "text": "Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. Scientific Reports. 2025 Jun 5;15(1):19764."
+  },
+  {
+    "objectID": "research/publications/pub5.html#my-contribution",
+    "href": "research/publications/pub5.html#my-contribution",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub5.html#abstract",
+    "href": "research/publications/pub5.html#abstract",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract."
+  },
+  {
+    "objectID": "research/publications/pub5.html#links",
+    "href": "research/publications/pub5.html#links",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "Links",
+    "text": "Links\n\nJournal: TODO add DOI link"
+  },
+  {
+    "objectID": "research/publications/pub2.html",
+    "href": "research/publications/pub2.html",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "",
+    "text": "Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. BMC Gastroenterology. 2026 Apr 16."
+  },
+  {
+    "objectID": "research/publications/pub2.html#citation",
+    "href": "research/publications/pub2.html#citation",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "",
+    "text": "Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. BMC Gastroenterology. 2026 Apr 16."
+  },
+  {
+    "objectID": "research/publications/pub2.html#my-contribution",
+    "href": "research/publications/pub2.html#my-contribution",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub2.html#abstract",
+    "href": "research/publications/pub2.html#abstract",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract."
+  },
+  {
+    "objectID": "research/publications/pub2.html#links",
+    "href": "research/publications/pub2.html#links",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "Links",
+    "text": "Links\n\nJournal: TODO add DOI link"
+  },
+  {
+    "objectID": "research/publications/pub3.html",
+    "href": "research/publications/pub3.html",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "",
+    "text": "Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. Human Genetics. 2025 Dec;144(11):1071-8."
+  },
+  {
+    "objectID": "research/publications/pub3.html#citation",
+    "href": "research/publications/pub3.html#citation",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "",
+    "text": "Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. Human Genetics. 2025 Dec;144(11):1071-8."
+  },
+  {
+    "objectID": "research/publications/pub3.html#my-contribution",
+    "href": "research/publications/pub3.html#my-contribution",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub3.html#abstract",
+    "href": "research/publications/pub3.html#abstract",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract."
+  },
+  {
+    "objectID": "research/publications/pub3.html#links",
+    "href": "research/publications/pub3.html#links",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "Links",
+    "text": "Links\n\nJournal: TODO add DOI link"
+  },
+  {
+    "objectID": "research/publications/pub1.html",
+    "href": "research/publications/pub1.html",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "",
+    "text": "Alam MS, Schepers R, Edwards CH, Bjorngaard JH, Holman PA, Asheim A, (additional authors to be included). Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway. Ongoing analysis and manuscript preparation."
+  },
+  {
+    "objectID": "research/publications/pub1.html#citation",
+    "href": "research/publications/pub1.html#citation",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "",
+    "text": "Alam MS, Schepers R, Edwards CH, Bjorngaard JH, Holman PA, Asheim A, (additional authors to be included). Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway. Ongoing analysis and manuscript preparation."
+  },
+  {
+    "objectID": "research/publications/pub1.html#my-contribution",
+    "href": "research/publications/pub1.html#my-contribution",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "My contribution",
+    "text": "My contribution\nAssisting in the statistical analysis plan draft, co-conducting the analysis, co-writing and editing the manuscript draft."
+  },
+  {
+    "objectID": "research/publications/pub1.html#abstract",
+    "href": "research/publications/pub1.html#abstract",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract when available."
+  },
+  {
+    "objectID": "research/publications/pub1.html#links",
+    "href": "research/publications/pub1.html#links",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "Links",
+    "text": "Links\nTODO: add preprint or journal link when available."
+  },
+  {
+    "objectID": "research/publications/pub4.html",
+    "href": "research/publications/pub4.html",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "",
+    "text": "Alam MS. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. medRxiv. 2025 Sep 15:2025-09."
+  },
+  {
+    "objectID": "research/publications/pub4.html#citation",
+    "href": "research/publications/pub4.html#citation",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "",
+    "text": "Alam MS. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. medRxiv. 2025 Sep 15:2025-09."
+  },
+  {
+    "objectID": "research/publications/pub4.html#my-contribution",
+    "href": "research/publications/pub4.html#my-contribution",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub4.html#abstract",
+    "href": "research/publications/pub4.html#abstract",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract."
+  },
+  {
+    "objectID": "research/publications/pub4.html#links",
+    "href": "research/publications/pub4.html#links",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "Links",
+    "text": "Links\n\nPreprint: TODO add medRxiv link"
+  },
+  {
+    "objectID": "research/publications/pub7.html",
+    "href": "research/publications/pub7.html",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "",
+    "text": "Sen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. Indian Journal of Endocrinology and Metabolism. 2020 Nov 1;24(6):532-6."
+  },
+  {
+    "objectID": "research/publications/pub7.html#citation",
+    "href": "research/publications/pub7.html#citation",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "",
+    "text": "Sen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. Indian Journal of Endocrinology and Metabolism. 2020 Nov 1;24(6):532-6."
+  },
+  {
+    "objectID": "research/publications/pub7.html#my-contribution",
+    "href": "research/publications/pub7.html#my-contribution",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, and editing the methods and results sections of the manuscript draft."
+  },
+  {
+    "objectID": "research/publications/pub7.html#abstract",
+    "href": "research/publications/pub7.html#abstract",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "Abstract",
+    "text": "Abstract\nTODO: add abstract."
+  },
+  {
+    "objectID": "research/publications/pub7.html#links",
+    "href": "research/publications/pub7.html#links",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "Links",
+    "text": "Links\n\nJournal: TODO add DOI link"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research area spans epidemiology, statistical genetics, and health economics."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-publications-preprints",
+    "href": "research.html#peer-reviewed-publications-preprints",
+    "title": "Research",
+    "section": "Peer-Reviewed Publications & Preprints",
+    "text": "Peer-Reviewed Publications & Preprints\n\nA model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study\nAuthors: Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. Journal: BMC Gastroenterology (2026) Tags: Prediction Modelling Gastroenterology HUNT4 First Author Read Publication\n\n\nGenetic differences between diagnosed and undiagnosed Celiac disease: a population-based study\nAuthors: Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Human Genetics (2025) Tags: Genetics GWAS Celiac Disease First Author Read Publication\n\n\nImpact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway\nAuthors: Alam MS. Journal: medRxiv (2025) [Preprint] Tags: Health Economics QALY Nordic HTA Sole Author Read Preprint\n\n\nPopulation screening of adults identifies novel genetic variants associated with celiac disease\nAuthors: Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Scientific Reports (2025) Tags: GWAS Polygenic Risk Scores First Author Read Publication"
+  },
+  {
+    "objectID": "research.html#conference-presentations-talks",
+    "href": "research.html#conference-presentations-talks",
+    "title": "Research",
+    "section": "Conference Presentations & Talks",
+    "text": "Conference Presentations & Talks\n\nNordic Joint HTA Meeting — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). Tags: HTA R Shiny Nordic\nNTNU / International Genetics Conferences — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. Tags: Genetics Epidemiology"
+  },
+  {
+    "objectID": "projects/nqsc/index.html",
+    "href": "projects/nqsc/index.html",
+    "title": "Nordic QALY Shortfall Calculator",
+    "section": "",
+    "text": "Detailed explanation of the project goes here…\nLink to app"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "Hi there!",
-    "section": "Hobbies & Interests",
-    "text": "Hobbies & Interests\nI enjoy hiking 🏕, downhill skiing ⛷, reading scientific articles 📖 and I wish to train more and pick up cycling 🚵‍♂️ as hobby."
+    "section": "",
+    "text": "I currently work as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹.\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease. And prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, providing consulting services to pharmaceutical companies 💊. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis."
   },
   {
     "objectID": "about.html#welcome-to-my-digital-space",
@@ -70,45 +350,10 @@
     "text": "I currently work as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹.\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease. And prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, providing consulting services to pharmaceutical companies 💊. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Industry & HTA Experience",
-    "section": "",
-    "text": "Tip\n\n\n\nOffering an “insider” view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective."
-  },
-  {
-    "objectID": "projects.html#pentag-university-of-exeter-march-2026-present",
-    "href": "projects.html#pentag-university-of-exeter-march-2026-present",
-    "title": "Industry & HTA Experience",
-    "section": "PenTAG, University of Exeter (March 2026 – Present)",
-    "text": "PenTAG, University of Exeter (March 2026 – Present)\nRole: Research Assistant in HTA Tags: NICE HTA Appraisals Cost-Effectiveness Modelling R Excel VBA\n\nSTAs & MTAs: Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.\nDecision Models: Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.\nClient Consultancy: Appraised R as an alternative for cost-effectiveness modelling for a client."
-  },
-  {
-    "objectID": "projects.html#parexel-july-2021-february-2022",
-    "href": "projects.html#parexel-july-2021-february-2022",
-    "title": "Industry & HTA Experience",
-    "section": "Parexel (July 2021 – February 2022)",
-    "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
-  },
-  {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "Industry & HTA Experience",
-    "section": "",
-    "text": "Tip\n\n\n\nOffering an “insider” view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective."
-  },
-  {
-    "objectID": "blogs.html#pentag-university-of-exeter-march-2026-present",
-    "href": "blogs.html#pentag-university-of-exeter-march-2026-present",
-    "title": "Industry & HTA Experience",
-    "section": "PenTAG, University of Exeter (March 2026 – Present)",
-    "text": "PenTAG, University of Exeter (March 2026 – Present)\nRole: Research Assistant in HTA Tags: NICE HTA Appraisals Cost-Effectiveness Modelling R Excel VBA\n\nSTAs & MTAs: Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.\nDecision Models: Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.\nClient Consultancy: Appraised R as an alternative for cost-effectiveness modelling for a client."
-  },
-  {
-    "objectID": "blogs.html#parexel-july-2021-february-2022",
-    "href": "blogs.html#parexel-july-2021-february-2022",
-    "title": "Industry & HTA Experience",
-    "section": "Parexel (July 2021 – February 2022)",
-    "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
+    "objectID": "about.html#hobbies-interests",
+    "href": "about.html#hobbies-interests",
+    "title": "Hi there!",
+    "section": "Hobbies & Interests",
+    "text": "Hobbies & Interests\nI enjoy hiking 🏕, downhill skiing ⛷, reading scientific articles 📖 and I wish to train more and pick up cycling 🚵‍♂️ as hobby."
   }
 ]

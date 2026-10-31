@@ -1,0 +1,22 @@
+---
+title: "Population screening of adults identifies novel genetic variants associated with celiac disease"
+date: 2025-06-05
+categories: [Publication, Celiac disease, Genetics, HUNT Study]
+description: "Scientific Reports, 2025;15(1):19764"
+---
+
+## Citation
+
+**Alam MS**, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. *Scientific Reports*. 2025 Jun 5;15(1):19764.
+
+## My contribution
+
+Responsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence.
+
+## Abstract
+
+TODO: add abstract.
+
+## Links
+
+- Journal: TODO add DOI link

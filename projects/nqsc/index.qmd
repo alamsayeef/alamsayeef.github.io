@@ -1,0 +1,11 @@
+---
+title: "Nordic QALY Shortfall Calculator"
+description: "An open-source QALYmodeling tool for health economics."
+date: "2026-05-01"
+categories: ["Health Economics", "Open Source", "QALY Shortfall", "R/Shiny", "Nordic Countries"]
+image: "/misc/nqsc.jpg"     # Optional: Link to an image in your misc folder
+---
+
+Detailed explanation of the project goes here...
+
+[Link to app](https://mohasal.shinyapps.io/nordic-shortfall-calculator/)

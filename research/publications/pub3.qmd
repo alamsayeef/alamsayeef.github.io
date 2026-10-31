@@ -1,0 +1,22 @@
+---
+title: "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study"
+date: 2025-12-01 # TODO: only month known (December 2025); adjust the day if you like
+categories: [Publication, Celiac disease, Genetics, HUNT Study]
+description: "Human Genetics, 2025;144(11):1071-8"
+---
+
+## Citation
+
+**Alam MS**, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. *Human Genetics*. 2025 Dec;144(11):1071-8.
+
+## My contribution
+
+Responsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence.
+
+## Abstract
+
+TODO: add abstract.
+
+## Links
+
+- Journal: TODO add DOI link

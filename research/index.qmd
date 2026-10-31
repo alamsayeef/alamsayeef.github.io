@@ -1,48 +1,43 @@
 ---
-title: "Research & Publications"
+title: "Research"
+page-layout: full
+listing:
+  - id: publications
+    contents: "publications/*.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: oral
+    contents: "conferences/oral/*.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: poster
+    contents: "conferences/poster/*.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
 ---
 
-::: {.callout-note}
-Research spans genetic epidemiology, polygenic risk scoring, clinical prediction models, and health economic evaluations.
+## Publications
+
+::: {#publications}
 :::
 
-## Peer-Reviewed Publications & Preprints
+## Conference presentations
 
-::: {.card}
-### A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study
-**Authors:** Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E.
-**Journal:** *BMC Gastroenterology* (2026)
-**Tags:** `Prediction Modelling` `Gastroenterology` `HUNT4` `First Author`
-[Read Publication](https://doi.org/)
+### Oral presentations
+
+::: {#oral}
 :::
 
-::: {.card}
-### Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study
-**Authors:** Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E.
-**Journal:** *Human Genetics* (2025)
-**Tags:** `Genetics` `GWAS` `Celiac Disease` `First Author`
-[Read Publication](https://doi.org/)
+### Posters
+
+::: {#poster}
 :::
-
-::: {.card}
-### Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway
-**Authors:** Alam MS.
-**Journal:** *medRxiv* (2025) [Preprint]
-**Tags:** `Health Economics` `QALY` `Nordic HTA` `Sole Author`
-[Read Preprint](https://medrxiv.org/)
-:::
-
-::: {.card}
-### Population screening of adults identifies novel genetic variants associated with celiac disease
-**Authors:** Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E.
-**Journal:** *Scientific Reports* (2025)
-**Tags:** `GWAS` `Polygenic Risk Scores` `First Author`
-[Read Publication](https://doi.org/)
-:::
-
----
-
-## Conference Presentations & Talks
-
-- **Nordic Joint HTA Meeting** — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). *Tags:* `HTA` `R Shiny` `Nordic`
-- **NTNU / International Genetics Conferences** — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. *Tags:* `Genetics` `Epidemiology`

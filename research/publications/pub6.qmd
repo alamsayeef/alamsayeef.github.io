@@ -1,0 +1,22 @@
+---
+title: "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis"
+date: 2021-07-30
+categories: [Publication, Nutrition, India, Path analysis]
+description: "Frontiers in Public Health, 2021;9:667502"
+---
+
+## Citation
+
+Singh M, **Alam MS**, Majumdar P, Tiwary B, Narzari H, Mahendradhata Y. Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis. *Frontiers in Public Health*. 2021 Jul 30;9:667502.
+
+## My contribution
+
+Responsible for drafting the statistical analysis plan, conducting the analysis, and editing the methods and results sections of the manuscript draft.
+
+## Abstract
+
+TODO: add abstract.
+
+## Links
+
+- Journal: TODO add DOI link

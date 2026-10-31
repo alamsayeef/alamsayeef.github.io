@@ -1,0 +1,22 @@
+---
+title: "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway"
+date: 2025-09-15
+categories: [Preprint, Health economics, Quality-adjusted life expectancy]
+description: "medRxiv preprint, 2025"
+---
+
+## Citation
+
+**Alam MS**. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. *medRxiv*. 2025 Sep 15:2025-09.
+
+## My contribution
+
+Responsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence.
+
+## Abstract
+
+TODO: add abstract.
+
+## Links
+
+- Preprint: TODO add medRxiv link

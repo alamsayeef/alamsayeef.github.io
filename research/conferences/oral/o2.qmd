@@ -1,0 +1,23 @@
+---
+title: "TODO: Oral presentation 2 title"
+date: 2026-10-31 # TODO: set to the presentation date
+categories: [Oral presentation, Conference]
+description: "TODO: Conference name, city, country"
+draft: true # hidden from the published site until you delete this line
+---
+
+## Details
+
+- **Conference:** TODO
+- **Date:** TODO
+- **Location:** TODO
+- **Co-authors:** TODO
+- **My role:** TODO (e.g. presenting author)
+
+## Abstract
+
+TODO: add abstract.
+
+## Materials
+
+- Slides: TODO (e.g. `[Slides](../../../misc/o2_slides.pdf)`)

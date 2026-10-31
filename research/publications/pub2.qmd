@@ -1,0 +1,22 @@
+---
+title: "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study"
+date: 2026-04-16
+categories: [Publication, Celiac disease, HUNT Study]
+description: "BMC Gastroenterology, 2026"
+---
+
+## Citation
+
+**Alam MS**, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. *BMC Gastroenterology*. 2026 Apr 16.
+
+## My contribution
+
+Responsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence.
+
+## Abstract
+
+TODO: add abstract.
+
+## Links
+
+- Journal: TODO add DOI link

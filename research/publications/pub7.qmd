@@ -1,0 +1,22 @@
+---
+title: "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital"
+date: 2020-11-01
+categories: [Publication, COVID-19, Endocrinology]
+description: "Indian Journal of Endocrinology and Metabolism, 2020;24(6):532-6"
+---
+
+## Citation
+
+Sen K, Sinha A, Sen S, Chakraborty S, **Alam MS**. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. *Indian Journal of Endocrinology and Metabolism*. 2020 Nov 1;24(6):532-6.
+
+## My contribution
+
+Responsible for drafting the statistical analysis plan, conducting the analysis, and editing the methods and results sections of the manuscript draft.
+
+## Abstract
+
+TODO: add abstract.
+
+## Links
+
+- Journal: TODO add DOI link

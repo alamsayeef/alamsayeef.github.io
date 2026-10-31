@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Curriculum Vitae – MSA</title>
+<title>Mohammad Sayeef Alam – MSA</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -104,15 +104,15 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="./projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blogs.html"> 
+    <a class="nav-link" href="./blogs/index.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
@@ -142,15 +142,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#professional-experience" id="toc-professional-experience" class="nav-link active" data-scroll-target="#professional-experience">Professional Experience</a></li>
+  <li><a href="#research-experience" id="toc-research-experience" class="nav-link" data-scroll-target="#research-experience">Research Experience</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#courses-certifications" id="toc-courses-certifications" class="nav-link" data-scroll-target="#courses-certifications">Courses &amp; Certifications</a></li>
+  <li><a href="#grants-awards" id="toc-grants-awards" class="nav-link" data-scroll-target="#grants-awards">Grants &amp; Awards</a></li>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Curriculum Vitae</h1>
+<h1 class="title">Mohammad Sayeef Alam</h1>
+<p class="subtitle lead">Health Data Scientist</p>
 </div>
 
 
@@ -167,9 +179,193 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><embed src="misc/CV_MSA_HEOR.pdf" style="width:100.0%" height="800"></p>
+<!--
+# Professional Summary
+
+Quantitative health researcher and genetic epidemiologist (PhD in Genetic Epidemiology, NTNU, awarded March 2026) with over 6 years of experience spanning population-health, registry, clinical, bioinformatics, and health technology assessment (HTA) research. Currently serving as an appraiser for NICE reimbursement decisions at PenTAG, evaluating industry HTA decision models and economic evidence synthesis. 
+
+Extensive expertise in analysing genotyped and imputed data from 55,000 HUNT biobank participants (a population biobank similar to UK Biobank), executing GWAS, fine-mapping, colocalisation, and polygenic risk score (PRS) analyses. Skilled in linking biobank, health survey, and national patient registry data, building machine learning risk prediction models, developing reproducible Snakemake and Docker pipelines on HPC/cloud environments, and constructing interactive R/Shiny tools for economic evaluation and HTA decision-making.
+
+---
+-->
+<section id="professional-experience" class="level1">
+<h1>Professional Experience</h1>
+<p><strong>Research Assistant in HTA</strong>,<span style="float:right;">March 2026 – Present</span> <br> PenTAG, University of Exeter <span style="float:right;">Exeter, United Kingdom</span></p>
+<ul>
+<li>Appraise industry-submitted Single Technology Appraisal (STA) decision models to inform NICE reimbursement decisions, evaluating the full continuum from economic literature reviews and evidence synthesis to structural modeling, scenario testing, and sensitivity analyses.</li>
+<li>Develop <em>de novo</em> HTA decision models and adapt existing NICE models using R and Excel VBA to support Multiple Technology Appraisal (MTA) projects.</li>
+<li>Collaborate within multidisciplinary teams including clinicians, epidemiologists, and statisticians to co-author comprehensive evidence assessment reports that directly advise NICE recommendation committees.</li>
+<li>Support appraising and conducting Indirect Treatment Comparisons (ITC), conducting ad-hoc analyses, writing manuscripts, and drafting reports used in policy decision-making.</li>
+<li>Execute advanced statistical analyses spanning survival analysis, evidence generation, uncertainty quantification, and Delphi studies to deliver tailored solutions for external consultancy clients.</li>
+</ul>
+<p><strong>Associate (Advanced Analytics)</strong>,<span style="float:right;">July 2021 – February 2022</span> <br> Parexel <span style="float:right;">Remote, India</span></p>
+<ul>
+<li>Developed dynamic R Shiny applications and interactive dashboards for economic evaluations to support HTA submissions and strategic payer decision-making.</li>
+<li>Conducted feasibility assessments, indirect treatment comparisons (ITCs), and complete economic analyses for direct integration into HTA dossiers and regulatory/payer submissions.</li>
+<li>Designed dashboards to visualize key clinical endpoints, including survival outcomes, treatment sequences, and demographic summaries tailored for regional stakeholder reporting.</li>
+<li>Delivered actionable insights to internal and external stakeholders, iteratively incorporating cross-functional feedback to refine deliverables.</li>
+</ul>
+<hr>
+</section>
+<section id="research-experience" class="level1">
+<h1>Research Experience</h1>
+<p><strong>PhD Researcher</strong>, <span style="float:right;">April 2022 – March 2026</span> <br> Norwegian University of Science and Technology (NTNU) <span style="float:right;">Trondheim, Norway</span></p>
+<ul>
+<li>Identified 11 celiac disease risk loci by running SAIGE mixed-model GWAS on 17 million variants in ~55,000 participants (~1,100 cases) from the HUNT biobank, correcting for case-control imbalance and relatedness.</li>
+<li>Strengthened data quality by applying sample and variant QC to 25 million imputed variants (22 million retained), using KING relatedness estimates and principal components to control population stratification.</li>
+<li>Prioritised candidate causal signals by fine-mapping and colocalising the 11 loci, highlighting a non-coding RNA locus near <em>IRX1</em> suggesting shared immune-mediated genetics with rheumatoid arthritis.</li>
+<li>Stratified celiac disease risk by building a Bayesian PRS-CS polygenic risk score (benchmarked against PRSice and LDpred), achieving an AUC of 0.83 in a held-out test set.</li>
+<li>Characterised genetic heterogeneity within celiac disease by comparing diagnosed and undiagnosed cases, utilizing LDSC to assess genetic heterogeneity between groups.</li>
+<li>Developed and validated predictive machine learning models for undiagnosed celiac disease in HUNT4, comparing elastic net logistic regression, random forest, SVM, neural networks, and Super Learner ensembles (elastic net selected).</li>
+<li>Integrated and harmonised real-world data across unique IDs from HUNT surveys, HUNT Biobank, the Norwegian Patient Registry, and clinical journal records to derive ICD-based celiac phenotypes, clinical histories, and causal estimates.</li>
+<li>Automated end-to-end GWAS workflows with Snakemake on HUNT Cloud for reproducible analysis, and built an open-source R package migrating legacy health-analytics models into version-controlled, Dockerised pipelines.</li>
+<li>Piloted HLA-region imputation with CookHLA and a containerised Michigan Imputation Server to extend HLA coverage in the cohort.</li>
+<li>Prototyped a modular R/Shiny tool for Nordic HTA QALY-shortfall analysis across five Nordic countries, reducing ad-hoc requests from external partners.</li>
+<li>Mentored two master’s students informally, collaborated with molecular biologists and clinical researchers, and secured competitive funding.</li>
+</ul>
+<hr>
+</section>
+<section id="education" class="level1">
+<h1>Education</h1>
+<p><strong>Ph.D.&nbsp;Researcher</strong><span style="float:right;">April 2022 – March 2026</span> <br> Norwegian University of Science and Technology (NTNU) <span style="float:right;">Trondheim, Norway</span></p>
+<p><strong>M.Phil. in Biostatistics and Demography</strong><span style="float:right;">July 2020 – May 2021</span> <br> International Institute for Population Sciences (IIPS), Mumbai, India<span style="float:right;">Mumbai, India</span></p>
+<p><strong>M.Sc. in Biostatistics and Demography</strong><span style="float:right;">July 2018 – June 2020</span> <br> International Institute for Population Sciences (IIPS), Mumbai, India<span style="float:right;">Mumbai, India</span></p>
+<p><strong>B.Sc. in Statistics</strong><span style="float:right;">April 2014 – May 2018</span> <br> University of Calcutta<span style="float:right;">Kolkata, India</span></p>
+<hr>
+</section>
+<section id="courses-certifications" class="level1">
+<h1>Courses &amp; Certifications</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 55%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Course Name</th>
+<th style="text-align: left;">Organization</th>
+<th style="text-align: right;">Certificate Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Decision Modelling for Health Economic Evaluations</td>
+<td style="text-align: left;">London School of Hygiene &amp; Tropical Medicine (LSHTM) &amp; University of York</td>
+<td style="text-align: right;"><a href="#">Link</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Economic Evaluation Modelling using R</td>
+<td style="text-align: left;">University of Bristol</td>
+<td style="text-align: right;"><a href="#">Link</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="grants-awards" class="level1">
+<h1>Grants &amp; Awards</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 50%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Grant / Award Name</th>
+<th style="text-align: left;">Funding Agency</th>
+<th style="text-align: right;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Erasmus Mobility Grant</td>
+<td style="text-align: left;">Erasmus+ Program</td>
+<td style="text-align: right;">16,000 NOK</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ISSCD M-in-M Grant</td>
+<td style="text-align: left;">International Study Group for Celiac Disease</td>
+<td style="text-align: right;">6000 USD</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Samarbeidsorganet International Research Stay Grant</td>
+<td style="text-align: left;">Helse Midt-Norge / NTNU</td>
+<td style="text-align: right;">150,000 NOK</td>
+</tr>
+</tbody>
+</table>
+<!--
+# Presentations
+
+* Presented research in 2 oral and 2 poster sessions at international and national conferences.
+
+---
+-->
+</section>
+<section id="technical-skills" class="level1">
+<h1>Technical Skills</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Skill Domain</th>
+<th style="text-align: left;">Core Competencies &amp; Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Health Economics &amp; HTA</strong></td>
+<td style="text-align: left;"><em>De Novo</em> Cost-Effectiveness &amp; Decision Modelling, Deterministic &amp; Probabilistic Sensitivity Analyses (DSA/PSA), Scenario Analyses, NICE STA/MTA Appraisals, QALY Shortfall Analysis</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Evidence Synthesis &amp; NMA</strong></td>
+<td style="text-align: left;">Feasibility Assessment, Network Meta-Analysis (NMA), Matching-Adjusted Treatment Comparisons (MAIC), Simulated Treatment Comparisons (STC), Multilevel Network Meta-Regression (MLNMR)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>RWE &amp; Causal Inference</strong></td>
+<td style="text-align: left;">Comparative Effectiveness, Synthetic Control Arms, Causal Inference, Target Trial Emulation, Surrogate Outcomes, Confounding Control, Longitudinal &amp; Survival Analysis</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Genomics &amp; Statistics</strong></td>
+<td style="text-align: left;">Mixed-Model GWAS (SAIGE, PLINK, REGENIE), Fine-Mapping, Colocalisation, Polygenic Risk Scores (PRS-CS, LDpred, PRSice), Genetic Heterogeneity (LDSC), Genotype/HLA Imputation, Variant &amp; Sample QC</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Machine Learning</strong></td>
+<td style="text-align: left;">Elastic Net Logistic Regression, Random Forest, Support Vector Machines (SVM), Neural Networks, Super Learner (Ensemble), Supervised Classification, High-Dimensional Variable Selection</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Data Sources</strong></td>
+<td style="text-align: left;">Norwegian Population &amp; Patient Registers (NPR), HUNT Biobank &amp; Surveys, Clinical Journal Records, UK Biobank, Longitudinal and Cross-Sectional Demographic/Health Datasets</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Programming &amp; Software</strong></td>
+<td style="text-align: left;">R, Python, Bash, SQL, R/Shiny, R Package Development, Stata, SAS, Excel (VBA), WinBUGs, Git, GitLab, Docker, Snakemake, HPC, Cloud Computing (HUNT Cloud)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Languages</strong></td>
+<td style="text-align: left;">English (Professional Fluency), Norwegian (B1–B2 / Intermediate)</td>
+</tr>
+</tbody>
+</table>
+<!--
+---
+
+# Contact Information & References
+
+* **Location:** Exeter, United Kingdom
+* **Email:** [alam.sayeef@gmail.com](mailto:alam.sayeef@gmail.com)
+* **ORCID:** [0000-0002-1478-5975](https://orcid.org/0000-0002-1478-5975)
+* **LinkedIn:** [linkedin.com/in/mohasal/](https://www.linkedin.com/in/mohasal/)
+
+*References available on request.*
+-->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
