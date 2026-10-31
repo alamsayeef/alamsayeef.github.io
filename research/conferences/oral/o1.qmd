@@ -1,23 +1,23 @@
 ---
-title: "TODO: Oral presentation 1 title"
-date: 2026-10-31 # TODO: set to the presentation date
-categories: [Oral presentation, Conference]
-description: "TODO: Conference name, city, country"
-draft: true # hidden from the published site until you delete this line
+title: "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study."
+date: 2024-09-06 # TODO: set to the presentation date
+categories: [Oral presentation, Conference, Celiac disease, GWAS]
+description: "Genome-wide association study of celiac disease in a screened population-based cohort (HUNT4) in Norway identifies the IRX1 locus as a novel association."
+draft: false # hidden from the published site until you delete this line
 ---
 
 ## Details
 
-- **Conference:** TODO
-- **Date:** TODO
-- **Location:** TODO
-- **Co-authors:** TODO
-- **My role:** TODO (e.g. presenting author)
+- **Conference:** International Coeliac Disease Symposium
+- **Date:** 05-07 September 2024
+- **Location:** Sheffield, UK
+- **Co-authors:** Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen
+- **My role:** Presenting author
 
 ## Abstract
 
-TODO: add abstract.
+Previous studies have uncovered genetic loci associated with celiac disease (CeD) within both the human leukocyte antigen (HLA) and non-HLA regions. However, half of the heritability remains unexplained. This study aimed to identify novel loci associated with CeD in a general adult population screened for the disease, mitigating the likely selection bias observed in previous case-control studies. The study utilized data from the fourth Trøndelag Health Study (HUNT4) in Norway, where 52,358 adults were screened for CeD using serology, identifying 465 previously undiagnosed biopsy- confirmed cases. Additionally, 377 previously diagnosed cases were identified through hospital journal searches and registry data. Genotyping of 373,185 single nucleotide polymorphisms was performed on all participant using four Illumina HumanCoreExome arrays. Imputation, using the Haplotype Reference Consortium panel, resulted in approximately 24.9 million variants, post quality control. A genome-wide association study was performed using SAIGE, and functional mapping and pathway enrichment analysis was conducted using FUMA. All except one of the 42 known autosomal loci were present in the data, of which seven reached the suggestive significance threshold (P≤ 5 x 10-6). Thirteen independent novel associations were observed (P ≤ 5x 10-8), with the 5p15.33 locus showing the highest potential for a true association with CeD, warranting further studies to validate the findings. Notably, the IRX1 gene, located close to the 5p15.33 locus has also been associated with rheumatoid arthritis, suggesting a new shared autoimmune locus.
 
-## Materials
+## Certification
 
-- Slides: TODO (e.g. `[Slides](../../../misc/o1_slides.pdf)`)
+![](/misc/o1.pdf)
