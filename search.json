@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Hi there!",
+    "section": "",
+    "text": "I currently work as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹.\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease. And prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, providing consulting services to pharmaceutical companies 💊. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis."
+  },
+  {
+    "objectID": "about.html#welcome-to-my-digital-space",
+    "href": "about.html#welcome-to-my-digital-space",
+    "title": "Hi there!",
+    "section": "",
+    "text": "I currently work as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹.\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease. And prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, providing consulting services to pharmaceutical companies 💊. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis."
+  },
+  {
+    "objectID": "about.html#hobbies-interests",
+    "href": "about.html#hobbies-interests",
+    "title": "Hi there!",
+    "section": "Hobbies & Interests",
+    "text": "Hobbies & Interests\nI enjoy hiking 🏕, downhill skiing ⛷, reading scientific articles 📖 and I wish to train more and pick up cycling 🚵‍♂️ as hobby."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Industry & HTA Experience",
+    "section": "",
+    "text": "Tip\n\n\n\nOffering an “insider” view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective."
+  },
+  {
+    "objectID": "projects.html#pentag-university-of-exeter-march-2026-present",
+    "href": "projects.html#pentag-university-of-exeter-march-2026-present",
+    "title": "Industry & HTA Experience",
+    "section": "PenTAG, University of Exeter (March 2026 – Present)",
+    "text": "PenTAG, University of Exeter (March 2026 – Present)\nRole: Research Assistant in HTA Tags: NICE HTA Appraisals Cost-Effectiveness Modelling R Excel VBA\n\nSTAs & MTAs: Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.\nDecision Models: Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.\nClient Consultancy: Appraised R as an alternative for cost-effectiveness modelling for a client."
+  },
+  {
+    "objectID": "projects.html#parexel-july-2021-february-2022",
+    "href": "projects.html#parexel-july-2021-february-2022",
+    "title": "Industry & HTA Experience",
+    "section": "Parexel (July 2021 – February 2022)",
+    "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MSA",
+    "section": "",
+    "text": "I am a Research Assistant at PenTAG.\nI appraise health economic evidence and model submitted by clients as part of health technology assessment (HTA) submissions to the National Institute for Health and Care Excellence (NICE) in the UK. Additionally, I am also involved in research on health economic modelling methods and applications.\nTo chat or for collaboration 👇"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research & Publications",
@@ -21,38 +70,24 @@
     "text": "Conference Presentations & Talks\n\nNordic Joint HTA Meeting — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). Tags: HTA R Shiny Nordic\nNTNU / International Genetics Conferences — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. Tags: Genetics Epidemiology"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MSA",
-    "section": "",
-    "text": "I am a Research Assistant at PenTAG.\nI appraise health economic evidence and model submitted by clients as part of health technology assessment (HTA) submissions to the National Institute for Health and Care Excellence (NICE) in the UK. Additionally, I am also involved in research on health economic modelling methods and applications.\nTo chat or for collaboration 👇"
-  },
-  {
-    "objectID": "industry.html",
-    "href": "industry.html",
+    "objectID": "blogs.html",
+    "href": "blogs.html",
     "title": "Industry & HTA Experience",
     "section": "",
     "text": "Tip\n\n\n\nOffering an “insider” view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective."
   },
   {
-    "objectID": "industry.html#pentag-university-of-exeter-march-2026-present",
-    "href": "industry.html#pentag-university-of-exeter-march-2026-present",
+    "objectID": "blogs.html#pentag-university-of-exeter-march-2026-present",
+    "href": "blogs.html#pentag-university-of-exeter-march-2026-present",
     "title": "Industry & HTA Experience",
     "section": "PenTAG, University of Exeter (March 2026 – Present)",
     "text": "PenTAG, University of Exeter (March 2026 – Present)\nRole: Research Assistant in HTA Tags: NICE HTA Appraisals Cost-Effectiveness Modelling R Excel VBA\n\nSTAs & MTAs: Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.\nDecision Models: Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.\nClient Consultancy: Appraised R as an alternative for cost-effectiveness modelling for a client."
   },
   {
-    "objectID": "industry.html#parexel-july-2021-february-2022",
-    "href": "industry.html#parexel-july-2021-february-2022",
+    "objectID": "blogs.html#parexel-july-2021-february-2022",
+    "href": "blogs.html#parexel-july-2021-february-2022",
     "title": "Industry & HTA Experience",
     "section": "Parexel (July 2021 – February 2022)",
     "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Hi there! welcome to my digital space 👋",
-    "section": "",
-    "text": "I am currently working as an health economist at PenTAG, University of Exeter, UK.\nI appraise health economic models submitted as single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisal, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.\nPrior to joining PenTAG, I completed my PhD in Genetic Epidemiology from Norwegian University of Science and Technology(NTNU), at the beautiful city of Trondheim in Norway 🥹.\n\n\n\nPicture taken on way to Norwegian course to Dragvoll campus.\n\n\nMy PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease.\nAnd prior to my PhD, I worked as an Associate in the Advanced Analytics team at Parexel, a global contract research organization (CRO) providing biopharmaceutical services. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis.."
   }
 ]
