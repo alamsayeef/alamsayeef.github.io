@@ -10,7 +10,7 @@ I currently work as an health economist at [PenTAG](https://medicine.exeter.ac.u
 
 I appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.
 
-![Picture taken on way to Norwegian course to Dragvoll campus.](misc/trondheim.jpg)
+![Picture taken on way to Norwegian course to Dragvoll campus.](/misc/trondheim.jpg)
 
 Prior to joining PenTAG, I completed my PhD in Genetic Epidemiology from [Norwegian University of Science and Technology](https://www.ntnu.edu/)(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹. 
 
