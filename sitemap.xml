@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://alamsayeef.github.io/about.html</loc>
-    <lastmod>2026-10-25T18:36:51.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alamsayeef.github.io/industry.html</loc>
-    <lastmod>2026-10-25T18:36:51.049Z</lastmod>
-  </url>
-  <url>
     <loc>https://alamsayeef.github.io/cv.html</loc>
-    <lastmod>2026-10-25T18:36:51.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alamsayeef.github.io/index.html</loc>
-    <lastmod>2026-10-25T18:36:51.049Z</lastmod>
+    <lastmod>2026-10-31T07:23:25.494Z</lastmod>
   </url>
   <url>
     <loc>https://alamsayeef.github.io/research.html</loc>
-    <lastmod>2026-10-25T18:36:51.051Z</lastmod>
+    <lastmod>2026-10-31T07:23:25.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alamsayeef.github.io/index.html</loc>
+    <lastmod>2026-10-31T07:23:25.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alamsayeef.github.io/industry.html</loc>
+    <lastmod>2026-10-31T07:23:25.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alamsayeef.github.io/about.html</loc>
+    <lastmod>2026-10-31T07:23:25.494Z</lastmod>
   </url>
 </urlset>
