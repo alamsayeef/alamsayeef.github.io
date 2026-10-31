@@ -1,23 +1,23 @@
 ---
-title: "TODO: Poster 1 title"
-date: 2026-10-31 # TODO: set to the presentation date
-categories: [Poster, Conference]
-description: "TODO: Conference name, city, country"
-draft: true # hidden from the published site until you delete this line
+title: "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study."
+date: 2024-09-06 # TODO: set to the presentation date
+categories: [Poster presentation, Conference, Celiac disease, GWAS]
+description: "Risk based stratification of celiac disease in a screened population-based cohort (HUNT4) in Norway using polygenic risk scores."
+draft: false # hidden from the published site until you delete this line
 ---
 
 ## Details
 
-- **Conference:** TODO
-- **Date:** TODO
-- **Location:** TODO
-- **Co-authors:** TODO
-- **My role:** TODO (e.g. presenting author)
+- **Conference:** International Coeliac Disease Symposium
+- **Date:** 05-07 September 2024
+- **Location:** Sheffield, UK
+- **Co-authors:** Brook Wolford, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen
+- **My role:** Presenting author
 
 ## Abstract
 
-TODO: add abstract.
+TBW 
 
-## Materials
+## Certification
 
-- Poster: TODO (e.g. `[Poster PDF](../../../misc/poster1.pdf)`)
+![](/misc/p1.pdf)
