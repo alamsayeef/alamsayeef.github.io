@@ -8,13 +8,8 @@
       "/research/publications/pub4.html",
       "/research/publications/pub5.html",
       "/research/publications/pub6.html",
-      "/research/publications/pub7.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/nqsc/index.html"
+      "/research/publications/pub7.html",
+      "/research/conferences/oral/o1.html"
     ]
   },
   {
@@ -23,6 +18,12 @@
       "/blogs/evisyn/itc.html",
       "/blogs/he/ee.html",
       "/blogs/rwe/tte.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/nqsc/index.html"
     ]
   }
 ]
