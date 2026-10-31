@@ -1,0 +1,8 @@
+---
+title: "Indirect treatment comparisons"
+date: 2026-10-31 # TODO: placeholder date, update when submitted/published
+categories: [Evidence Synthesis, Comparative effectiveness]
+description: "In preparation. Ongoing analysis and manuscript preparation."
+---
+
+Write here.

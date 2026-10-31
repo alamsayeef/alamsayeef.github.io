@@ -6,6 +6,14 @@
     ]
   },
   {
+    "listing": "/blogs/index.html",
+    "items": [
+      "/blogs/evisyn/itc.html",
+      "/blogs/he/ee.html",
+      "/blogs/rwe/tte.html"
+    ]
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/publications/pub1.html",

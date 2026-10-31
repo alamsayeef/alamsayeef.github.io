@@ -1,0 +1,8 @@
+---
+title: "Target Trial Emulation"
+date: 2026-10-31 # TODO: placeholder date, update when submitted/published
+categories: [Epidemiology, Causal inference, Registry data]
+description: "In preparation. Ongoing analysis and manuscript preparation."
+---
+
+Write here.

@@ -1,0 +1,8 @@
+---
+title: "Economic evaluation"
+date: 2026-10-31 # TODO: placeholder date, update when submitted/published
+categories: [Health economics, Modelling]
+description: "In preparation. Ongoing analysis and manuscript preparation."
+---
+
+Write here.

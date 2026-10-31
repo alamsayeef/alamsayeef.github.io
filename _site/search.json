@@ -21,25 +21,39 @@
     "text": "Nordic QALY Shortfall Calculator\n\n\n\nHealth Economics\n\nOpen Source\n\nQALY Shortfall\n\nR/Shiny\n\nNordic Countries\n\n\n\nAn open-source QALYmodeling tool for health economics.\n\n\n\nMay 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "blogs/evisyn/itc.html",
+    "href": "blogs/evisyn/itc.html",
+    "title": "Indirect treatment comparisons",
+    "section": "",
+    "text": "Write here."
+  },
+  {
     "objectID": "blogs/index.html",
     "href": "blogs/index.html",
-    "title": "Industry & HTA Experience",
+    "title": "MSA",
     "section": "",
-    "text": "Tip\n\n\n\nOffering an “insider” view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective."
+    "text": "Health economics\n\nModelling\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blogs/index.html#pentag-university-of-exeter-march-2026-present",
-    "href": "blogs/index.html#pentag-university-of-exeter-march-2026-present",
-    "title": "Industry & HTA Experience",
-    "section": "PenTAG, University of Exeter (March 2026 – Present)",
-    "text": "PenTAG, University of Exeter (March 2026 – Present)\nRole: Research Assistant in HTA Tags: NICE HTA Appraisals Cost-Effectiveness Modelling R Excel VBA\n\nSTAs & MTAs: Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.\nDecision Models: Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.\nClient Consultancy: Appraised R as an alternative for cost-effectiveness modelling for a client."
+    "objectID": "blogs/index.html#health-economics",
+    "href": "blogs/index.html#health-economics",
+    "title": "MSA",
+    "section": "",
+    "text": "Health economics\n\nModelling\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blogs/index.html#parexel-july-2021-february-2022",
-    "href": "blogs/index.html#parexel-july-2021-february-2022",
-    "title": "Industry & HTA Experience",
-    "section": "Parexel (July 2021 – February 2022)",
-    "text": "Parexel (July 2021 – February 2022)\nRole: Associate, Advanced Analytics (Remote) Tags: Evidence Synthesis NMA MAIC STC WinBUGS R Shiny\n\nEvidence Synthesis: Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.\nSensitivity Analyses: Conducted probabilistic sensitivity analyses in WinBUGS.\nDashboards & Platforms: Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes."
+    "objectID": "blogs/index.html#real-world-evidence",
+    "href": "blogs/index.html#real-world-evidence",
+    "title": "MSA",
+    "section": "Real-World Evidence",
+    "text": "Real-World Evidence\n\n\n\n\n\n\n\n\n\n\nTarget Trial Emulation\n\n\n\nEpidemiology\n\nCausal inference\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/index.html#evidence-synthesis",
+    "href": "blogs/index.html#evidence-synthesis",
+    "title": "MSA",
+    "section": "Evidence Synthesis",
+    "text": "Evidence Synthesis\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/index.html",
@@ -308,25 +322,18 @@
     "text": "Links\n\nJournal: TODO add DOI link"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "blogs/he/ee.html",
+    "href": "blogs/he/ee.html",
+    "title": "Economic evaluation",
     "section": "",
-    "text": "My research area spans epidemiology, statistical genetics, and health economics."
+    "text": "Write here."
   },
   {
-    "objectID": "research.html#peer-reviewed-publications-preprints",
-    "href": "research.html#peer-reviewed-publications-preprints",
-    "title": "Research",
-    "section": "Peer-Reviewed Publications & Preprints",
-    "text": "Peer-Reviewed Publications & Preprints\n\nA model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study\nAuthors: Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. Journal: BMC Gastroenterology (2026) Tags: Prediction Modelling Gastroenterology HUNT4 First Author Read Publication\n\n\nGenetic differences between diagnosed and undiagnosed Celiac disease: a population-based study\nAuthors: Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Human Genetics (2025) Tags: Genetics GWAS Celiac Disease First Author Read Publication\n\n\nImpact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway\nAuthors: Alam MS. Journal: medRxiv (2025) [Preprint] Tags: Health Economics QALY Nordic HTA Sole Author Read Preprint\n\n\nPopulation screening of adults identifies novel genetic variants associated with celiac disease\nAuthors: Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Journal: Scientific Reports (2025) Tags: GWAS Polygenic Risk Scores First Author Read Publication"
-  },
-  {
-    "objectID": "research.html#conference-presentations-talks",
-    "href": "research.html#conference-presentations-talks",
-    "title": "Research",
-    "section": "Conference Presentations & Talks",
-    "text": "Conference Presentations & Talks\n\nNordic Joint HTA Meeting — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). Tags: HTA R Shiny Nordic\nNTNU / International Genetics Conferences — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. Tags: Genetics Epidemiology"
+    "objectID": "blogs/rwe/tte.html",
+    "href": "blogs/rwe/tte.html",
+    "title": "Target Trial Emulation",
+    "section": "",
+    "text": "Write here."
   },
   {
     "objectID": "projects/nqsc/index.html",

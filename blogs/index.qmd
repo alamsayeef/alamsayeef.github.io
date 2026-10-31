@@ -1,25 +1,41 @@
 ---
-title: "Industry & HTA Experience"
+title: ""
+page-layout: full
+listing:
+  - id: evisyn
+    contents: "evisyn/*.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: he
+    contents: "he/*.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: rwe
+    contents: "rwe/*.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
 ---
 
-::: {.callout-tip}
-Offering an "insider" view of NICE Single Technology Appraisals (STAs) and Multiple Technology Appraisals (MTAs) from an External Assessment Group (EAG) appraiser perspective.
+## Health Economics
+
+::: {#he}
 :::
 
-## PenTAG, University of Exeter (March 2026 – Present)
-**Role:** Research Assistant in HTA
-**Tags:** `NICE` `HTA Appraisals` `Cost-Effectiveness Modelling` `R` `Excel VBA`
+## Real-World Evidence
 
-- **STAs & MTAs:** Critically appraised industry-submitted cost-effectiveness models across 4 Single Technology Appraisals (STAs) and 1 Multiple Technology Appraisal (MTA) spanning 4 therapy areas for NICE committees.
-- **Decision Models:** Developed and adapted de novo decision models and existing NICE models in R and Excel VBA.
-- **Client Consultancy:** Appraised R as an alternative for cost-effectiveness modelling for a client.
+::: {#rwe}
+:::
 
----
+## Evidence Synthesis
 
-## Parexel (July 2021 – February 2022)
-**Role:** Associate, Advanced Analytics (Remote)
-**Tags:** `Evidence Synthesis` `NMA` `MAIC` `STC` `WinBUGS` `R Shiny`
-
-- **Evidence Synthesis:** Contributed to network meta-analyses (NMA), matching-adjusted indirect comparisons (MAIC), and simulated treatment comparisons (STC) in R.
-- **Sensitivity Analyses:** Conducted probabilistic sensitivity analyses in WinBUGS.
-- **Dashboards & Platforms:** Contributed to a Shiny-based cost-effectiveness platform and built interactive dashboards in R Shiny and Excel VBA for survival, treatment, and demographic outcomes.
+::: {#evisyn}
+:::
