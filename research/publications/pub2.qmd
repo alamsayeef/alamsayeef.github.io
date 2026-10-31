@@ -2,7 +2,7 @@
 title: "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study"
 date: 2026-04-16
 categories: [Publication, Celiac disease, HUNT Study]
-description: "BMC Gastroenterology, 2026"
+description: "A model for predicting celiac disease among undiagnosed subjects established with demographic, clinical, symptomatic, and genetic data from the HUNT4 study"
 ---
 
 ## Citation
@@ -15,8 +15,14 @@ Responsible for drafting the statistical analysis plan, conducting the analysis,
 
 ## Abstract
 
-TODO: add abstract.
+Celiac disease (CeD) is an immune mediated disorder with substantial underdiagnosis, particularly in adults with non-specific symptoms. Universal population screening remains under debate due to cost-effectiveness and potential quality-of-life implications. Clinical prediction tools aid clinicians in identifying individuals who might benefit from targeted screening.
+
+Using data from 52,000 adults in the fourth population-based Trøndelag Health Study (HUNT4) in Norway, we developed and internally validated a non-diagnostic prediction model for previously undiagnosed CeD. The model incorporated predictors spanning genetics, lifestyle, symptoms, comorbidity, and biomarkers. Elastic-net logistic regression with nested cross-validation was chosen due to the low disease prevalence and imbalanced case-control distribution. Model performance was assessed by the area under the receiver operating characteristic curve, area under precision-recall curve, and calibration plots. Clinical utility was evaluated at different risk thresholds. 
+
+Among 465 newly diagnosed cases and 51,515 controls, polygenic risk score emerged as the strongest predictor for CeD, alongside diabetic history, kidney function, chronic discomfort, and perceived health status. The model achieved high discrimination (84%) and good calibration (0.009). The model outperformed universal population screening by detecting more cases, especially when the predicted risk was less than 2%. Increasing sample prevalence for sensitivity analysis, revealed that the model was better in population scenarios compared to high-risk/high-prevalence scenarios. 
+
+The multifactorial model demonstrated strong potential for guiding targeted screening for CeD, especially in low-prevalence, true population-based settings. While not a diagnostic tool, it may support clinical decision-making by identifying individuals at elevated risk. External validation and cost-effectiveness studies are needed before it can be implemented in primary care.
 
 ## Links
 
-- Journal: TODO add DOI link
+- Journal: [BMC Gastroenterology](https://doi.org/10.1186/s12876-026-04837-y)
