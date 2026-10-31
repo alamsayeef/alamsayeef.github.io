@@ -2,7 +2,7 @@
 title: "Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis"
 date: 2021-07-30
 categories: [Publication, Nutrition, India, Path analysis]
-description: "Frontiers in Public Health, 2021;9:667502"
+description: "Structural equation modeling to find the direct, indirect, and total effect of various determinants on stunting, wasting, and underweight among children aged 0-2 years in India."
 ---
 
 ## Citation
@@ -15,8 +15,14 @@ Responsible for drafting the statistical analysis plan, conducting the analysis,
 
 ## Abstract
 
-TODO: add abstract.
+Despite several programs and policies to turn down the burden of malnutrition in the country, the rank of India in the Global Hunger Index (GHI) is 102 among 117 countries, which indicates a serious hunger situation. It is essential to design more specific interventions by focusing on the key determinants that may directly or indirectly influence malnutrition in India. 
+
+Utilizing data from the National Family and Health Survey-4 (NFHS) (2015-16), we developed a structural equation model to find the direct, indirect, and total effect of various determinants on stunting, wasting, and underweight. We used spatial analysis to identify local occurrences of factors that are critical in controlling malnutrition. A p-value of 0.05 was considered to be significant throughout the study. Analysis was performed using STATA (version 15.1MP) and GeoDa software (version 1.14).
+
+A final sample of 90, 842 children of 0-24 months of age was selected for the analysis. The CFI and TLI values of 0.98 and 0.93, respectively, are indicative of a good fit model. Moran's I value of global spatial autocorrelation for the widespread presence of diarrhea, poor drinking water source, exclusive breastfeeding, low birth weight, no prenatal visits, poor toilet facility was observed to be 0.446, 0.638, 0.345, 0.439, 0.620, and 0.727, respectively.
+
+A robust direct relation was observed for diarrhea, exclusive breastfeeding, and children born with stunting, underweight, and wasting. The variables associated indirectly with the outcome variables were the education of the mother, residence, and desired pregnancy. The identification of hotspots through spatial analysis would help revive control strategies in the affected area according to geographical needs. It is extensively addressed that interventions related to health and nutrition during the first 1, 000 days of life is crucial to seize the upshoot of growth floundering among children.
 
 ## Links
 
-- Journal: TODO add DOI link
+- Journal: [Frontiers in Public Health](https://doi.org/10.3389/fpubh.2021.667502)

@@ -2,7 +2,7 @@
 title: "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital"
 date: 2020-11-01
 categories: [Publication, COVID-19, Endocrinology]
-description: "Indian Journal of Endocrinology and Metabolism, 2020;24(6):532-6"
+description: "Study of thyroid function tests in hospitalized COVID-19 patients in a tertiary care hospital in Kolkata, India."
 ---
 
 ## Citation
@@ -15,8 +15,24 @@ Responsible for drafting the statistical analysis plan, conducting the analysis,
 
 ## Abstract
 
-TODO: add abstract.
+Context:
+There is scarcity of data on thyroid function abnormality in COVID-19 patients in world literature.
+
+Aims:
+The objective of this study was to assess thyroid function tests in hospitalized patients of COVID-19.
+
+Settings and Design:
+Sixty (60) patients with COVID-19 detected by RT-PCR admitted in General Medicine isolation ward and COVID block of a tertiary care teaching hospital were selected by semi-purposive sampling.
+
+Materials and Methods:
+These patients were assessed for thyroid function tests, including total T3, free T3, total T4, free T4, TSH and anti-TPO antibody along with other baseline investigations. Patients with pre-existing thyroid–related ailments, those on levothyroxine or anti-thyroid drugs or other drugs known to interfere with the results were excluded.
+
+Results:
+There were 43.3% patients in mild, 26.7% in moderate, and 30% in severe category, according to local COVID-19 severity classification protocol. 35% patients had one or more abnormality in the thyroid function, low TSH being the most common (18.33%). 9.1% patients had characteristic pattern of thyroiditis. In most of the others thyroid function did not match any typical pattern. There was no significant difference in any of the parameters of the thyroid function test between mild, moderate, and severe groups.
+
+Conclusion:
+Thyroid function may be abnormal in all categories of patients during COVID-19 infection, even in absence of pre-existing thyroid ailments. Although low TSH is the commonest abnormality and typical pattern of thyroiditis can be seen in a subsection of patients, in majority of the patients, thyroid function abnormality does not follow any characteristic pattern and likely represents a combination of thyroiditis and sick euthyroid syndrome in different points of its spectrum.
 
 ## Links
 
-- Journal: TODO add DOI link
+- Journal: [Indian Journal of Endocrinology and Metabolism](https://doi.org/10.4103/ijem.IJEM_779_20)

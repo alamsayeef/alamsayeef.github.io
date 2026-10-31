@@ -2,7 +2,7 @@
 title: "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway"
 date: 2025-09-15
 categories: [Preprint, Health economics, Quality-adjusted life expectancy]
-description: "medRxiv preprint, 2025"
+description: "Assessing the impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway."
 ---
 
 ## Citation
@@ -15,8 +15,16 @@ Responsible for drafting the statistical analysis plan, conducting the analysis,
 
 ## Abstract
 
-TODO: add abstract.
+Norway has mandated the adoption of the new Norwegian EQ-5D-5L value set from September 1, 2025. This transition change was long overdue, as the former value set was based on decades old assessment of health-related quality of life.
+
+Current study disseminates the updated quality-adjusted life expectancies (QALE) for the Norwegian population based on age and sex, and quantify how the new norm alters the absolute and proportional shortfall in QALY.
+
+The population norm derived from the general population survey by Garratt et al., 2021 has been linked to the most recent Norwegian Lifetable (2023-2024) to estimate the QALE using the Sullivan method. It is compared to the van Hout et al.’s crosswalk QALE norms on the same lifetable. Variable discount rates were applied at 4%, 3% and 2% as per guidelines.
+
+Based on the newer population norms the QALE of average population has decreased by 4%. The QALE at birth was previous 69.62 years for men and 69.67 years for women which came down to 64.93 years and 68.77 years respectively.
+
+The current study quantifies the diminishing QALEs based on the updated QALE estimates at the same time allowing the estimation of absolute and proportional shortfall.
 
 ## Links
 
-- Preprint: TODO add medRxiv link
+- Preprint: [medRxiv](https://doi.org/10.1101/2025.09.13.25335693)

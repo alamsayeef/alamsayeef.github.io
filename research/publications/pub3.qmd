@@ -1,8 +1,8 @@
 ---
 title: "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study"
-date: 2025-12-01 # TODO: only month known (December 2025); adjust the day if you like
+date: 2025-09-29 # TODO: only month known (December 2025); adjust the day if you like
 categories: [Publication, Celiac disease, Genetics, HUNT Study]
-description: "Human Genetics, 2025;144(11):1071-8"
+description: "Assessing the differences among diagnosed and undiagnosed celiac disease cases at genetic level using a population-based cohort in Norway."
 ---
 
 ## Citation
@@ -15,8 +15,8 @@ Responsible for drafting the statistical analysis plan, conducting the analysis,
 
 ## Abstract
 
-TODO: add abstract.
+A large proportion of individuals with celiac disease (CeD) remain undiagnosed, often presenting at an older age of onset or with non-classical symptoms compared to diagnosed cases. Such heterogeneity might be related to genetic factors. The aim was to utilize a CeD-screened adult population to compare the genetic variants in known and newly diagnosed cases. In the fourth wave of the population-based Trøndelag Health Study (HUNT4) 826 CeD and 51,516 non-CeD individuals were included. Medical registries identified 361 previously diagnosed cases, while screening identified 465 new cases. A validated polygenic risk score (PRS) was used to assess the genetic risk of CeD among the two case groups versus non-CeD individuals. Additional genetic variants not included in the PRS were also analyzed. The PRS distinguished cases from non-cases with high accuracy (AUROC: 85% for known cases, 83% for new cases). The genetic variation explained by the PRS was similar for known and new cases (17.1% versus 14.5%). The odds ratio for being in the highest genetic risk group (top 10%) was 22.7 (95% CI 14.1–36.4) for known cases and 18.6 (95% CI 12.4–27.9) for new cases versus the median group (40%-60%). Differences in effect size among specific genome-wide variants were observed but were not significantly associated with CeD. A validated PRS showed significant genetic difference between CeD cases and the general population, with similar association in both known and newly diagnosed cases. This suggests that genetic architectures of the two groups are comparable, implying that other non-genetic factors may drive CeD in adults.
 
 ## Links
 
-- Journal: TODO add DOI link
+- Journal: [Human Genetics](https://doi.org/10.1007/s00439-025-02778-2)
