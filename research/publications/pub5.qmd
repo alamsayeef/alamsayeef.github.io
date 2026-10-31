@@ -2,7 +2,7 @@
 title: "Population screening of adults identifies novel genetic variants associated with celiac disease"
 date: 2025-06-05
 categories: [Publication, Celiac disease, Genetics, HUNT Study]
-description: "Scientific Reports, 2025;15(1):19764"
+description: "GWAS of screened adult population in Nord Trondelag county, Norway identifies novel genetic variants associated with celiac disease."
 ---
 
 ## Citation
@@ -15,8 +15,8 @@ Responsible for drafting the statistical analysis plan, conducting the analysis,
 
 ## Abstract
 
-TODO: add abstract.
+Celiac disease (CeD) is an autoimmune disease driven by a complex genetic interplay within and beyond the human leukocyte antigen (HLA) region. Despite this, half of its heritability remains unexplained, with most of the unidentified variants located in non-protein coding regions. Here we performed a genome-wide association study among 52,342 adults screened for CeD, including 465 previously undiagnosed and 361 already diagnosed cases, which mitigated the likely disease misclassification present in previous studies. Genotyping and imputation yielded approximately 24.9 million variants for analysis. The study identified 15 novel associations (P < 5E-08) in 12 loci in addition to all the previously associated loci at lower significance thresholds (P < 5E-03). The 5p15.33 locus in the long non-coding RNA gene (LINC01019) showed the highest potential for a true association with CeD. Notably, variants in 5p15.33 has also been associated with rheumatoid arthritis, suggesting a new shared autoimmune locus.
 
 ## Links
 
-- Journal: TODO add DOI link
+- Journal: [Scientific Reports](https://doi.org/10.1038/s41598-025-04421-6)
