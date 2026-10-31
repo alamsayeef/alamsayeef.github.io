@@ -9,8 +9,12 @@ website:
         text: " "
       - href: about.qmd
         text: "About Me"
-      - research.qmd
-      - industry.qmd
+      - href: research.qmd
+        text: "Research"
+      - href: projects.qmd
+        text: "Projects"
+      - href: blogs.qmd
+        text: "Blogs"
       - text: "CV"
         href: cv.qmd
     right:

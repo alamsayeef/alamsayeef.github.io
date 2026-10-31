@@ -1,17 +1,21 @@
 ---
-title: "Hi there! welcome to my digital space 👋"
+title: "Hi there!"
 ---
+
+## Welcome to my digital space 👋
 
 ![](misc/stlukes.jpg)
 
-I am currently working as an health economist at [PenTAG](https://medicine.exeter.ac.uk/phss/research/pentag/), University of Exeter, UK. 
+I currently work as an health economist at [PenTAG](https://medicine.exeter.ac.uk/phss/research/pentag/), University of Exeter, UK. 
 
-I appraise health economic models submitted as single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisal, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.
-
-Prior to joining PenTAG, I completed my PhD in Genetic Epidemiology from [Norwegian University of Science and Technology](https://www.ntnu.edu/)(NTNU), at the beautiful city of Trondheim in Norway 🥹. 
+I appraise health economic evidence and models submitted as part of single technology assessment (STA) to the National Institute for Health and Care Excellence (NICE) in the UK. Alongside appraisals, I also build de novo / adapt guidance health economic models as part of multiple techonology assessment or consultancy projects.
 
 ![Picture taken on way to Norwegian course to Dragvoll campus.](misc/trondheim.jpg)
 
-My PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease.
+Prior to joining PenTAG, I completed my PhD in Genetic Epidemiology from [Norwegian University of Science and Technology](https://www.ntnu.edu/)(NTNU), at the beautiful city of Trondheim 🏔🫎🫐 in Norway 🇳🇴 🥹. 
 
-And prior to my PhD, I worked as an Associate in the Advanced Analytics team at [Parexel](https://www.parexel.com/), a global contract research organization (CRO) providing biopharmaceutical services. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis..
+My PhD research focused on developing and applying statistical methods for genetic association studies, poslygenic risk scores with a particular emphasis on autoimmune disease. And prior to my PhD, I worked as an Associate in the Advanced Analytics team at [Parexel](https://www.parexel.com/), providing consulting services to pharmaceutical companies 💊. I worked on various health economic and outcomes research (HEOR) projects, including cost-effectiveness analysis, indirect treatment comparisons, and regressional and survival analysis.
+
+## Hobbies & Interests
+
+I enjoy hiking 🏕, downhill skiing ⛷, reading scientific articles 📖 and I wish to train more and pick up cycling 🚵‍♂️ as hobby.
