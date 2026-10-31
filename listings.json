@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/nqsc/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/publications/pub1.html",
+      "/research/publications/pub2.html",
+      "/research/publications/pub3.html",
+      "/research/publications/pub4.html",
+      "/research/publications/pub5.html",
+      "/research/publications/pub6.html",
+      "/research/publications/pub7.html"
+    ]
+  }
+]

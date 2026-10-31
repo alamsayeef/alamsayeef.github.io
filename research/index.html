@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research &amp; Publications – MSA</title>
+<title>Research – MSA</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -73,7 +75,121 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-oral .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-oral'] = new List('listing-oral', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-poster .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-poster'] = new List('listing-poster', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -104,15 +220,15 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.qmd"> 
+    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.qmd"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blogs.qmd"> 
+    <a class="nav-link" href="../blogs/index.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
@@ -139,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -147,28 +263,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#peer-reviewed-publications-preprints" id="toc-peer-reviewed-publications-preprints" class="nav-link active" data-scroll-target="#peer-reviewed-publications-preprints">Peer-Reviewed Publications &amp; Preprints</a>
+  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#conference-presentations" id="toc-conference-presentations" class="nav-link" data-scroll-target="#conference-presentations">Conference presentations</a>
   <ul class="collapse">
-  <li><a href="#a-model-for-predicting-celiac-disease-among-undiagnosed-subjects-established-with-data-from-the-hunt4-study" id="toc-a-model-for-predicting-celiac-disease-among-undiagnosed-subjects-established-with-data-from-the-hunt4-study" class="nav-link" data-scroll-target="#a-model-for-predicting-celiac-disease-among-undiagnosed-subjects-established-with-data-from-the-hunt4-study">A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study</a></li>
-  <li><a href="#genetic-differences-between-diagnosed-and-undiagnosed-celiac-disease-a-population-based-study" id="toc-genetic-differences-between-diagnosed-and-undiagnosed-celiac-disease-a-population-based-study" class="nav-link" data-scroll-target="#genetic-differences-between-diagnosed-and-undiagnosed-celiac-disease-a-population-based-study">Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study</a></li>
-  <li><a href="#impact-of-transitioning-to-newer-utility-on-sex-specific-quality-adjusted-life-expectancy-in-norway" id="toc-impact-of-transitioning-to-newer-utility-on-sex-specific-quality-adjusted-life-expectancy-in-norway" class="nav-link" data-scroll-target="#impact-of-transitioning-to-newer-utility-on-sex-specific-quality-adjusted-life-expectancy-in-norway">Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway</a></li>
-  <li><a href="#population-screening-of-adults-identifies-novel-genetic-variants-associated-with-celiac-disease" id="toc-population-screening-of-adults-identifies-novel-genetic-variants-associated-with-celiac-disease" class="nav-link" data-scroll-target="#population-screening-of-adults-identifies-novel-genetic-variants-associated-with-celiac-disease">Population screening of adults identifies novel genetic variants associated with celiac disease</a></li>
+  <li><a href="#oral-presentations" id="toc-oral-presentations" class="nav-link" data-scroll-target="#oral-presentations">Oral presentations</a></li>
+  <li><a href="#posters" id="toc-posters" class="nav-link" data-scroll-target="#posters">Posters</a></li>
   </ul></li>
-  <li><a href="#conference-presentations-talks" id="toc-conference-presentations-talks" class="nav-link" data-scroll-target="#conference-presentations-talks">Conference Presentations &amp; Talks</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Q2VsaWFjJTIwZGlzZWFzZQ==">Celiac disease <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW5kb2NyaW5vbG9neQ==">Endocrinology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXRpY3M=">Genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SGVhbHRoJTIwZWNvbm9taWNz">Health economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SFVOVCUyMFN0dWR5">HUNT Study <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SW5kaWE=">India <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFudXNjcmlwdCUyMGluJTIwcHJlcGFyYXRpb24=">Manuscript in preparation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsJTIwaGVhbHRo">Mental health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TnV0cml0aW9u">Nutrition <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aCUyMGFuYWx5c2lz">Path analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlcHJpbnQ=">Preprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljYXRpb24=">Publication <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UXVhbGl0eS1hZGp1c3RlZCUyMGxpZmUlMjBleHBlY3RhbmN5">Quality-adjusted life expectancy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVnaXN0cnklMjBkYXRh">Registry data <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research &amp; Publications</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -180,47 +294,260 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div id="listing-publications" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="TWFudXNjcmlwdCUyMGluJTIwcHJlcGFyYXRpb24lMkNNZW50YWwlMjBoZWFsdGglMkNSZWdpc3RyeSUyMGRhdGE=" data-listing-date-sort="1793404800000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="thumbnail"><a href="../research/publications/pub1.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub1.html" class="no-external">Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFudXNjcmlwdCUyMGluJTIwcHJlcGFyYXRpb24='); return false;">Manuscript in preparation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVudGFsJTIwaGVhbHRo'); return false;">Mental health</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVnaXN0cnklMjBkYXRh'); return false;">Registry data</div>
+
 </div>
-<div class="callout-title-container flex-fill">
-Note
+<div class="delink listing-description"><a href="../research/publications/pub1.html" class="no-external">
+<p>In preparation. Ongoing analysis and manuscript preparation.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub1.html" class="no-external">
+<div class="listing-date">
+Oct 31, 2026
+</div>
+</a>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Research spans genetic epidemiology, polygenic risk scoring, clinical prediction models, and health economic evaluations.</p>
+<div class="quarto-post image-right" data-index="1" data-categories="UHVibGljYXRpb24lMkNDZWxpYWMlMjBkaXNlYXNlJTJDSFVOVCUyMFN0dWR5" data-listing-date-sort="1776297600000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<div class="thumbnail"><a href="../research/publications/pub2.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub2.html" class="no-external">A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljYXRpb24='); return false;">Publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2VsaWFjJTIwZGlzZWFzZQ=='); return false;">Celiac disease</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFVOVCUyMFN0dWR5'); return false;">HUNT Study</div>
+
+</div>
+<div class="delink listing-description"><a href="../research/publications/pub2.html" class="no-external">
+<p>BMC Gastroenterology, 2026</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub2.html" class="no-external">
+<div class="listing-date">
+Apr 16, 2026
+</div>
+</a>
 </div>
 </div>
-<section id="peer-reviewed-publications-preprints" class="level2">
-<h2 class="anchored" data-anchor-id="peer-reviewed-publications-preprints">Peer-Reviewed Publications &amp; Preprints</h2>
-<section id="a-model-for-predicting-celiac-disease-among-undiagnosed-subjects-established-with-data-from-the-hunt4-study" class="level3 card">
-<h3 class="anchored" data-anchor-id="a-model-for-predicting-celiac-disease-among-undiagnosed-subjects-established-with-data-from-the-hunt4-study">A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study</h3>
-<p><strong>Authors:</strong> Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. <strong>Journal:</strong> <em>BMC Gastroenterology</em> (2026) <strong>Tags:</strong> <code>Prediction Modelling</code> <code>Gastroenterology</code> <code>HUNT4</code> <code>First Author</code> <a href="https://doi.org/">Read Publication</a></p>
+<div class="quarto-post image-right" data-index="2" data-categories="UHVibGljYXRpb24lMkNDZWxpYWMlMjBkaXNlYXNlJTJDR2VuZXRpY3MlMkNIVU5UJTIwU3R1ZHk=" data-listing-date-sort="1764547200000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="thumbnail"><a href="../research/publications/pub3.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub3.html" class="no-external">Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljYXRpb24='); return false;">Publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2VsaWFjJTIwZGlzZWFzZQ=='); return false;">Celiac disease</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXRpY3M='); return false;">Genetics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFVOVCUyMFN0dWR5'); return false;">HUNT Study</div>
+
+</div>
+<div class="delink listing-description"><a href="../research/publications/pub3.html" class="no-external">
+<p>Human Genetics, 2025;144(11):1071-8</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub3.html" class="no-external">
+<div class="listing-date">
+Dec 1, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="UHJlcHJpbnQlMkNIZWFsdGglMjBlY29ub21pY3MlMkNRdWFsaXR5LWFkanVzdGVkJTIwbGlmZSUyMGV4cGVjdGFuY3k=" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<div class="thumbnail"><a href="../research/publications/pub4.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub4.html" class="no-external">Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlcHJpbnQ='); return false;">Preprint</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGVhbHRoJTIwZWNvbm9taWNz'); return false;">Health economics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhbGl0eS1hZGp1c3RlZCUyMGxpZmUlMjBleHBlY3RhbmN5'); return false;">Quality-adjusted life expectancy</div>
+
+</div>
+<div class="delink listing-description"><a href="../research/publications/pub4.html" class="no-external">
+<p>medRxiv preprint, 2025</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub4.html" class="no-external">
+<div class="listing-date">
+Sep 15, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="UHVibGljYXRpb24lMkNDZWxpYWMlMjBkaXNlYXNlJTJDR2VuZXRpY3MlMkNIVU5UJTIwU3R1ZHk=" data-listing-date-sort="1749081600000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<div class="thumbnail"><a href="../research/publications/pub5.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub5.html" class="no-external">Population screening of adults identifies novel genetic variants associated with celiac disease</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljYXRpb24='); return false;">Publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2VsaWFjJTIwZGlzZWFzZQ=='); return false;">Celiac disease</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXRpY3M='); return false;">Genetics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFVOVCUyMFN0dWR5'); return false;">HUNT Study</div>
+
+</div>
+<div class="delink listing-description"><a href="../research/publications/pub5.html" class="no-external">
+<p>Scientific Reports, 2025;15(1):19764</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub5.html" class="no-external">
+<div class="listing-date">
+Jun 5, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="UHVibGljYXRpb24lMkNOdXRyaXRpb24lMkNJbmRpYSUyQ1BhdGglMjBhbmFseXNpcw==" data-listing-date-sort="1627603200000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<div class="thumbnail"><a href="../research/publications/pub6.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub6.html" class="no-external">Understanding the spatial predictors of malnutrition among 0–2 years children in India using path analysis</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljYXRpb24='); return false;">Publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TnV0cml0aW9u'); return false;">Nutrition</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5kaWE='); return false;">India</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGF0aCUyMGFuYWx5c2lz'); return false;">Path analysis</div>
+
+</div>
+<div class="delink listing-description"><a href="../research/publications/pub6.html" class="no-external">
+<p>Frontiers in Public Health, 2021;9:667502</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub6.html" class="no-external">
+<div class="listing-date">
+Jul 30, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="UHVibGljYXRpb24lMkNDT1ZJRC0xOSUyQ0VuZG9jcmlub2xvZ3k=" data-listing-date-sort="1604188800000" data-listing-file-modified-sort="1793445727595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="thumbnail"><a href="../research/publications/pub7.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../research/publications/pub7.html" class="no-external">Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljYXRpb24='); return false;">Publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q09WSUQtMTk='); return false;">COVID-19</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5kb2NyaW5vbG9neQ=='); return false;">Endocrinology</div>
+
+</div>
+<div class="delink listing-description"><a href="../research/publications/pub7.html" class="no-external">
+<p>Indian Journal of Endocrinology and Metabolism, 2020;24(6):532-6</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../research/publications/pub7.html" class="no-external">
+<div class="listing-date">
+Nov 1, 2020
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
-<section id="genetic-differences-between-diagnosed-and-undiagnosed-celiac-disease-a-population-based-study" class="level3 card">
-<h3 class="anchored" data-anchor-id="genetic-differences-between-diagnosed-and-undiagnosed-celiac-disease-a-population-based-study">Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study</h3>
-<p><strong>Authors:</strong> Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. <strong>Journal:</strong> <em>Human Genetics</em> (2025) <strong>Tags:</strong> <code>Genetics</code> <code>GWAS</code> <code>Celiac Disease</code> <code>First Author</code> <a href="https://doi.org/">Read Publication</a></p>
+<section id="conference-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="conference-presentations">Conference presentations</h2>
+<section id="oral-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="oral-presentations">Oral presentations</h3>
+<div id="listing-oral" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
-<section id="impact-of-transitioning-to-newer-utility-on-sex-specific-quality-adjusted-life-expectancy-in-norway" class="level3 card">
-<h3 class="anchored" data-anchor-id="impact-of-transitioning-to-newer-utility-on-sex-specific-quality-adjusted-life-expectancy-in-norway">Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway</h3>
-<p><strong>Authors:</strong> Alam MS. <strong>Journal:</strong> <em>medRxiv</em> (2025) [Preprint] <strong>Tags:</strong> <code>Health Economics</code> <code>QALY</code> <code>Nordic HTA</code> <code>Sole Author</code> <a href="https://medrxiv.org/">Read Preprint</a></p>
-</section>
-<section id="population-screening-of-adults-identifies-novel-genetic-variants-associated-with-celiac-disease" class="level3 card">
-<h3 class="anchored" data-anchor-id="population-screening-of-adults-identifies-novel-genetic-variants-associated-with-celiac-disease">Population screening of adults identifies novel genetic variants associated with celiac disease</h3>
-<p><strong>Authors:</strong> Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. <strong>Journal:</strong> <em>Scientific Reports</em> (2025) <strong>Tags:</strong> <code>GWAS</code> <code>Polygenic Risk Scores</code> <code>First Author</code> <a href="https://doi.org/">Read Publication</a></p>
-</section>
-<hr>
-</section>
-<section id="conference-presentations-talks" class="level2">
-<h2 class="anchored" data-anchor-id="conference-presentations-talks">Conference Presentations &amp; Talks</h2>
-<ul>
-<li><strong>Nordic Joint HTA Meeting</strong> — Presented the QALY-shortfall Shiny tool for Nordic HTA (Prototype demonstration and methodology). <em>Tags:</em> <code>HTA</code> <code>R Shiny</code> <code>Nordic</code></li>
-<li><strong>NTNU / International Genetics Conferences</strong> — Oral and poster presentations on polygenic risk stratification and HUNT cohort GWAS analyses. <em>Tags:</em> <code>Genetics</code> <code>Epidemiology</code></li>
-</ul>
+<section id="posters" class="level3">
+<h3 class="anchored" data-anchor-id="posters">Posters</h3>
+<div id="listing-poster" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
 </section>
 
 </main> <!-- /main -->
