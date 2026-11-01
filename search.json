@@ -25,7 +25,7 @@
     "href": "blogs/evisyn/itc.html#standard-indirect-comparison",
     "title": "Indirect treatment comparisons",
     "section": "Standard Indirect Comparison",
-    "text": "Standard Indirect Comparison\naka Bucher method developed by H.C. Bucher in 1997."
+    "text": "Standard Indirect Comparison\naka Bucher method developed by H.C. Bucher in 1997.\nWe would cycle back to the same example in this article.\nTrial AB : Drug B - Drug A (which is treatment effect) = 20 (let us consider for now) Trial AC : Drug C - Drug A = 15 —————————————– On subtracting the two, should give us a very straight forward treatment effect difference between Drug C and Drug B which comes out to be 5 units.\nHowever such math only hold under a massive assumption that there is absolutely no different in the effect modifying variables in the two populations.\nThis brings us to various important terms we would be using:\n\n\n\n\n\n\n\nEffect modifiers\nPrognostic variables\n\n\n\n\nWe observe from the previous example that drug B works better among 40 years old compared to"
   },
   {
     "objectID": "blogs/he/ee.html",
