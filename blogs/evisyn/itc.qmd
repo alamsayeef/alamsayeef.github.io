@@ -7,4 +7,20 @@ image: /misc/itc.jpg
 draft: false # hidden from the published site until you delete this line
 ---
 
+## Background
+
+You have two trials, each comparing Drug C and Drug B against common comparator Drug A
+
+Such a situation where a common comparator is present helps in anchoring the comparison and hence called Anchored Treatment Comparison.
+
+However, Drug C is your own drug and you yourself have conducted the clinical trial for it and have individual level data for each patient randomized into the two treatment arms. Unfortunately, or ever so often you only find aggregate level data about demographics and treatment effect for the competitor's trial. The competitor never provides detailed info of their trial.
+
+To tackle this issue, we resort to mathematical assumptions. 
+
+Word of caution, wrong assumption might lead to a completely opposite conclusion making the worse drug look good, which would have massive consequence to the society in terms of population health and economics.
+
+Lets us dive into the assumptions and methods
+
+## Standard Indirect Comparison 
+aka Bucher method developed by H.C. Bucher in 1997.
 
