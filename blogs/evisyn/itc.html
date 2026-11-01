@@ -186,6 +186,8 @@ window.Quarto = {
   <li><a href="#the-sandwich-package" id="toc-the-sandwich-package" class="nav-link" data-scroll-target="#the-sandwich-package">The sandwich package</a></li>
   </ul></li>
   <li><a href="#simulated-treatment-comparison" id="toc-simulated-treatment-comparison" class="nav-link" data-scroll-target="#simulated-treatment-comparison">Simulated treatment comparison</a></li>
+  <li><a href="#unanchored-treatment-comparison" id="toc-unanchored-treatment-comparison" class="nav-link" data-scroll-target="#unanchored-treatment-comparison">Unanchored treatment comparison</a></li>
+  <li><a href="#doubly-robust-estimator" id="toc-doubly-robust-estimator" class="nav-link" data-scroll-target="#doubly-robust-estimator">Doubly robust estimator</a></li>
   </ul>
 </nav>
     </div>
@@ -349,6 +351,21 @@ window.Quarto = {
 <p>Since the assumed example is framed in such a way that the distribution of the variables are known and similar in both trials hence the value of STC is closer to the real indirect treatment comparison. However this might not be the case always and it doesn’t mean that STC is universally superior especially when the relationships of the variables and the outcomes are nonlinear.</p>
 <p>All of this happens when we have a common comparator a till now everything was called an anchored treatment effectiveness a being present allows for the randomization in both trials even if there are prognostic variables unmeasured the randomization of trial AC and trial AB ensures that they are equally balanced between treatment and control arms.</p>
 <p>What if we have a trial comparing drug C to drug A and another trial comparing drug B to standard of care and we want to know the treatment effect difference between drug C versus drug B.</p>
+<p>Then we have to resort to</p>
+</section>
+<section id="unanchored-treatment-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="unanchored-treatment-comparison">Unanchored treatment comparison</h2>
+<p>MAIC or STC instead of merely adjusting treatment effects across a bridge now you are assuming you can absolutely predict biological outcomes from the mathematical covariance alone.</p>
+<p>In anchor trials, randomization handles the prognostic variables and you only need to account for the effect modifiers.</p>
+<p>In unanchored trials you need to adjust for both but account for all prognostic variables is very difficult example genetic predisposition gut microbiome etc. The harsh reality is that you cannot. Unanchored estimates suffers inherently from an unknown amount of bias that is where the next method comes in.</p>
+</section>
+<section id="doubly-robust-estimator" class="level2">
+<h2 class="anchored" data-anchor-id="doubly-robust-estimator">Doubly robust estimator</h2>
+<p>This combines both MAIC and STC.</p>
+<p>PSM for weights of patients simultaneously build an outcome regression model to predict the results based on covariance. As long as anyone is consistent the final estimate would be reliable if PSM fails to assign accurate weights but the outcome regression model captures the biological relation correctly or vice versa then you are protected.</p>
+<p>Regression model should reflect the biological distribution and hence the treatment effect and not the additive on natural scale but rather on a transformed scale either log or biologically plausible transformative scale.</p>
+<p>This still leaves us with target population paradox.</p>
+<p>Which states that Drug A is trying to prove that it is better than Drug B. However, it should prove that it is better for the entire UK population.</p>
 
 
 </section>
