@@ -37,5 +37,30 @@ This brings us to various important terms we would be using:
 
 |Effect modifiers|Prognostic variables|
 |----|----|
-|We observe from the previous example that drug B works better among 40 years old compared to||
+|We observe from the previous example that drug B works better among 40 years old, but as one grows older their metabolism might not function the same extent as it did in their youth and hence the 70 year old patient might observe the same effect as the former patient. |A prognostic variable on the other hand are the characteristics of the patient irrespective of what treatment they receive.
+
+For eg new heart disease medication, overall baseline health/severity of atrial blockage is a prognostic variable.
+
+Since they are sicker at baseline they will have worse outcome irrespective of which drug they get. Hence these variables predict their overall prognosis. |
+
+Bucher method falls apart when effect modifiers have different distribution inches two population.
+
+For example: Trial AB tested the effect among 40 year olds whereas Trial AC tested among predominantly 70 year olds.
+
+In such cases you simply cannot subtract the effects, and claim one is better than other.
+
+Even RCT does not balance out the intra-trial effect modifiers and prognostic variables. Within the respective trials we can expect the effect to average out between the intervention and the comparator arms.
+
+Trail AB would balance everything between arm B and arm A and similar would be seen between arm C and arm A in trail AC, but to assume that effects would be balance between the trails would be a mistake.
+
+## Sparse networks
+
+We rarely have dense network of RCT providing the necessary evidence. If we did then perhaps the effect would average out between these trails. However, in reality such occurrences are very rare. In HTA, we have one or two pivotal trials and standard indirect comparison (i.e. Bucher method) introduces serious systematic bias.
+
+Let us take another example: Purely by chance you end up with more men than women compared to the general population. Then we can still assess the effects at population level by crude direct standardisation.
+
+CDS means to get the estimates for men and women separately and then reweight the averages to match the true natural split. 
+
+Unfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup  with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard 
+
 
