@@ -27,8 +27,11 @@ aka Bucher method developed by H.C. Bucher in 1997.
 We would cycle back to the same example in this article.
 
 Trial AB : Drug B - Drug A (which is treatment effect) = 20 (let us consider for now)
+
 Trial AC : Drug C - Drug A = 15
+
 -----------------------------------------
+
 On subtracting the two, should give us a very straight forward treatment effect difference between Drug C and Drug B which comes out to be 5 units.
 
 However such math only hold under a massive assumption that there is absolutely no different in the effect modifying variables in the two populations.
