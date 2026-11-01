@@ -76,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -243,6 +272,42 @@ ul.task-list li input[type="checkbox"] {
 <p>Let us take another example: Purely by chance you end up with more men than women compared to the general population. Then we can still assess the effects at population level by crude direct standardisation.</p>
 <p>CDS means to get the estimates for men and women separately and then reweight the averages to match the true natural split.</p>
 <p>Unfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard</p>
+<p>Paul Rosenbaum introduced propensity score matching in 1983, and the next leap of indirect treatment comparison occurred when the same principle was applied to indirect treatment comparison.</p>
+<pre><code>• It was fundamentally a conditional probability
+• Mathematical likehood that an individual from a broader target population would be assigned to your specific trail sample given his unique characteristics.</code></pre>
+<p>How to achieve this? • Feed the individual level patient data into a logistic model. • Use the fitted model to predict which individuals from the external cohort are more likely to represent the previous cohort. • The <span class="math inline">\(y_{i}\)</span> - probability for each individual in the external cohort acts as the weights. • You weight that individual with inverse of the probability that you just received.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SATE</th>
+<th>PATE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sample average treatment effect</td>
+<td>Population average treatment effect</td>
+</tr>
+<tr class="even">
+<td>Raw unadjusted result of RCT</td>
+<td>Ajdusteed result at population level</td>
+</tr>
+<tr class="odd">
+<td>Effect of the drug limited to the sample of RCT</td>
+<td>Effect of the drug as if administered to the entire population</td>
+</tr>
+</tbody>
+</table>
+<p>PSM acts a bridge from SATE to PATE.</p>
+<p>4 non-negotiable assumptions for this to hold</p>
+<pre><code>1) Homogeneity of the outcome irrespective of the administration in RCT/real world i.e. from contraolled environment as observed in RCT to uncontrolled environment such as the real world.
+2) Outcome of one individual is indidependent or other individual. This automatically apploes to most pf the chronic disease for eg BP med given to one individual does not effect your BP meds. But it falls apart in case of infecticious disease where where if one person is vaccinated another person risk to the disease changes due to change in the herd immunity.
+3) Strongly ignorable treatment assignment  - Assignment of the drug is 100% independent of any other factor. Acheiveable by double blinding.
+4) Strongly ignoreable sample assignment - there are no unmeasured variable related to both how you selected your sample and the outcome of the disease.</code></pre>
 
 
 </section>
