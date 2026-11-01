@@ -93,3 +93,66 @@ PSM acts a bridge from SATE to PATE.
 	3) Strongly ignorable treatment assignment  - Assignment of the drug is 100% independent of any other factor. Acheiveable by double blinding.
 	4) Strongly ignoreable sample assignment - there are no unmeasured variable related to both how you selected your sample and the outcome of the disease.
 
+Conditional consistency of relative effects which is when placebo is unethical because of the life threatening condition treatment off drug B must be tested against drug a however drug a was tested long back against placebo so if you study the effect modifier of something very specific such as a 50 year old female who was a smoker it should be the same irrespective of whether the effect was studied in 2015 or 2025. 
+
+## MAIC matching adjusted indirect comparison
+
+Trial AB: 500 individuals aged 47 to 75 years with 64% of the sample being female
+
+Trial AC: 300 patients aged between 45 to 55 years with 80% of the sample being female
+
+Age here is the effect modifier and sex is considered as the prognostic factor
+
+We want to weigh 500 patients from trial AB to look like the 300 patients from trial AC MAIC bypasses the logistic regression based PSM
+
+MAIC uses method of moments to estimate the patient weights
+
+Where moments refer to the quantitative measure of the shape of the distribution it is a point estimate where 
+
+M1 = mean and M2 = variance
+
+Computer algorithm searches for the unique set of weights to multiply each of the 500 individuals such that the weighted average becomes equal to the AC trial with 300 patients and the weighted standard deviation matches the published standard deviation.
+
+The R package uses BFGH algorithm.
+
+However age range seems to not overlap in trial AB the age ranged between 45 to 75 and in trial AC it ranged between 45 to 55
+
+The algorithm would assign 0 weight to people who are aged 56 to 75 years old
+
+The range of the weights seem to be from zero to 3.44 as assigned by the algorithm
+
+However the median of the weights is 0.07 meaning half of the patients are given a weight close to 0 which implies that they are erased from the final trial but this drastically decreases the sample size and hence the power and increases the confidence interval
+
+Another important terminology hence arises called the effective sample size the effective sample size in the above example drops from 500 to 185.6 which implies that around 60% of the samples have been dropped and hence the margin of error widens
+
+### The sandwich package
+
+Standard variation calculation measures the spread of our raw data but here the weight is applied also carries some uncertainty. Because the algorithm had to estimate them standard error cannot be calculated the normal way because these estimates are not fixed absolute truth. Sandwich estimator accounts for error from both sources a central matrix containing the variance of the data is sandwiched between the variance of the algorithms estimate on both sides. (why both sides?)
+
+## Simulated treatment comparison
+
+Take all 500 individuals put them into a regression the beta coefficient of variables states the relationship of that variable with the outcome
+
+Now you plug the AC aggregate parameters into the regression model built on trial AB
+
+The underlying assumption is that the shape of your statistical model is correct
+
+For example your regression model assumes that the relation between age and outcome is a straight line but the biology says otherwise then the entire model fails and the model is called to be misspecified
+
+$outcome is equal to treatment arm plus age plus sex
+
+Checked residual deviance measures the variance of the data that the model equation fails to explain
+
+When gender was added to the equation the residual deviance did not sink so adding gender did not make the model significantly better. So it is better to drop the gender from the equation.
+
+True log odds ratio of drug C versus drug B is equal to-0.400. Which means that C is more effective than B.
+
+If a farmer naively conducts a busher method ignoring age as a effect modifier then the treatment effect of drug C versus B is equal to 0.35 which implies that drug B is much more effective than drug C however this is contrary to what the reality is which is why nice asks for maic and STC while the MAIC of drug C versus B equals -0.032
+
+STC of drugs C versus B equals -0.247.
+
+Since the assumed example is framed in such a way that the distribution of the variables are known and similar in both trials hence the value of STC is closer to the real indirect treatment comparison. However this might not be the case always and it doesn't mean that STC is universally superior especially when the relationships of the variables and the outcomes are nonlinear.
+
+All of this happens when we have a common comparator a till now everything was called an anchored treatment effectiveness a being present allows for the randomization in both trials even if there are prognostic variables unmeasured the randomization of trial AC and trial AB ensures that they are equally balanced between treatment and control arms.
+
+What if we have a trial comparing drug C to drug A and another trial comparing drug B to standard of care and we want to know the treatment effect difference between drug C versus drug B.
