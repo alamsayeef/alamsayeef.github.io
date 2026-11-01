@@ -66,4 +66,30 @@ CDS means to get the estimates for men and women separately and then reweight th
 
 Unfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup  with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard 
 
+Paul Rosenbaum introduced propensity score matching in 1983, and the next leap of indirect treatment comparison occurred when the same principle was applied to indirect treatment comparison.
+
+	• It was fundamentally a conditional probability
+	• Mathematical likehood that an individual from a broader target population would be assigned to your specific trail sample given his unique characteristics.
+
+How to achieve this?
+	• Feed the individual level patient data into a logistic model.
+	• Use the fitted model to predict which individuals from the external cohort are more likely to represent the previous cohort.
+	• The $y_{i}$ - probability for each individual in the external cohort acts as the weights.
+	• You weight that individual with inverse of the probability that you just received.
+
+
+|SATE|PATE|
+|----|----|
+|Sample average treatment effect|Population average treatment effect|
+|Raw unadjusted result of RCT|Ajdusteed result at population level|
+|Effect of the drug limited to the sample of RCT|Effect of the drug as if administered to the entire population|
+
+PSM acts a bridge from SATE to PATE.
+
+4 non-negotiable assumptions for this to hold
+
+	1) Homogeneity of the outcome irrespective of the administration in RCT/real world i.e. from contraolled environment as observed in RCT to uncontrolled environment such as the real world.
+	2) Outcome of one individual is indidependent or other individual. This automatically apploes to most pf the chronic disease for eg BP med given to one individual does not effect your BP meds. But it falls apart in case of infecticious disease where where if one person is vaccinated another person risk to the disease changes due to change in the herd immunity.
+	3) Strongly ignorable treatment assignment  - Assignment of the drug is 100% independent of any other factor. Acheiveable by double blinding.
+	4) Strongly ignoreable sample assignment - there are no unmeasured variable related to both how you selected your sample and the outcome of the disease.
 
