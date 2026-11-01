@@ -151,6 +151,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
   <li><a href="#standard-indirect-comparison" id="toc-standard-indirect-comparison" class="nav-link" data-scroll-target="#standard-indirect-comparison">Standard Indirect Comparison</a></li>
+  <li><a href="#sparse-networks" id="toc-sparse-networks" class="nav-link" data-scroll-target="#sparse-networks">Sparse networks</a></li>
   </ul>
 </nav>
     </div>
@@ -220,11 +221,25 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>We observe from the previous example that drug B works better among 40 years old compared to</td>
-<td></td>
+<td>We observe from the previous example that drug B works better among 40 years old, but as one grows older their metabolism might not function the same extent as it did in their youth and hence the 70 year old patient might observe the same effect as the former patient.</td>
+<td>A prognostic variable on the other hand are the characteristics of the patient irrespective of what treatment they receive.</td>
 </tr>
 </tbody>
 </table>
+<p>For eg new heart disease medication, overall baseline health/severity of atrial blockage is a prognostic variable.</p>
+<p>Since they are sicker at baseline they will have worse outcome irrespective of which drug they get. Hence these variables predict their overall prognosis. |</p>
+<p>Bucher method falls apart when effect modifiers have different distribution inches two population.</p>
+<p>For example: Trial AB tested the effect among 40 year olds whereas Trial AC tested among predominantly 70 year olds.</p>
+<p>In such cases you simply cannot subtract the effects, and claim one is better than other.</p>
+<p>Even RCT does not balance out the intra-trial effect modifiers and prognostic variables. Within the respective trials we can expect the effect to average out between the intervention and the comparator arms.</p>
+<p>Trail AB would balance everything between arm B and arm A and similar would be seen between arm C and arm A in trail AC, but to assume that effects would be balance between the trails would be a mistake.</p>
+</section>
+<section id="sparse-networks" class="level2">
+<h2 class="anchored" data-anchor-id="sparse-networks">Sparse networks</h2>
+<p>We rarely have dense network of RCT providing the necessary evidence. If we did then perhaps the effect would average out between these trails. However, in reality such occurrences are very rare. In HTA, we have one or two pivotal trials and standard indirect comparison (i.e.&nbsp;Bucher method) introduces serious systematic bias.</p>
+<p>Let us take another example: Purely by chance you end up with more men than women compared to the general population. Then we can still assess the effects at population level by crude direct standardisation.</p>
+<p>CDS means to get the estimates for men and women separately and then reweight the averages to match the true natural split.</p>
+<p>Unfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard</p>
 
 
 </section>
