@@ -95,7 +95,7 @@
     "href": "blogs/index.html#evidence-synthesis",
     "title": "MSA",
     "section": "Evidence Synthesis",
-    "text": "Evidence Synthesis\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons Part-1\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\n\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons : Part 2\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\nDiscussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Evidence Synthesis\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons Part-1\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\nWriting in progress\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons : Part 2\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\nDiscussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html",
@@ -446,6 +446,34 @@
     "title": "Economic evaluation",
     "section": "",
     "text": "Write here."
+  },
+  {
+    "objectID": "blogs/evisyn/itcp1.html",
+    "href": "blogs/evisyn/itcp1.html",
+    "title": "Indirect treatment comparisons Part-1",
+    "section": "",
+    "text": "You have a critical decision making problem. You are supposed to deciding the absolute best medication for life threatening condition where 10 different drugs are available. They all have never been tested againasted each other. Testing occured in various combination of drugs, duration and different periods of time.\nHow do you find the objective truth from all of this?\nWe usually think medical research is clean and controlled. However, this tells a different story of missing, inconsistent data.\nRaw chaotic RCT -&gt; Clean life-saving policy decision\nDoing science for writing literature \\(\\neq\\) not equal to doing science for decision making.\n\n\n\nOverall baseline natural history model\nRelative treatment effects\n\n\n\n\n* Foundational reality of the disease\n\n\n\n\n\nWhat happen to a highly specific subgroup of population when given an intervention or placebo.\nWhat does the disease progress naturally? Relapse? Hospitalization? over a given period you need to establish the baseline first |"
+  },
+  {
+    "objectID": "blogs/evisyn/itcp1.html#background",
+    "href": "blogs/evisyn/itcp1.html#background",
+    "title": "Indirect treatment comparisons Part-1",
+    "section": "",
+    "text": "You have a critical decision making problem. You are supposed to deciding the absolute best medication for life threatening condition where 10 different drugs are available. They all have never been tested againasted each other. Testing occured in various combination of drugs, duration and different periods of time.\nHow do you find the objective truth from all of this?\nWe usually think medical research is clean and controlled. However, this tells a different story of missing, inconsistent data.\nRaw chaotic RCT -&gt; Clean life-saving policy decision\nDoing science for writing literature \\(\\neq\\) not equal to doing science for decision making.\n\n\n\nOverall baseline natural history model\nRelative treatment effects\n\n\n\n\n* Foundational reality of the disease\n\n\n\n\n\nWhat happen to a highly specific subgroup of population when given an intervention or placebo.\nWhat does the disease progress naturally? Relapse? Hospitalization? over a given period you need to establish the baseline first |"
+  },
+  {
+    "objectID": "blogs/evisyn/itcp1.html#evidence-synthesis",
+    "href": "blogs/evisyn/itcp1.html#evidence-synthesis",
+    "title": "Indirect treatment comparisons Part-1",
+    "section": "Evidence Synthesis",
+    "text": "Evidence Synthesis"
+  },
+  {
+    "objectID": "blogs/evisyn/itcp1.html#network-meta-analysis",
+    "href": "blogs/evisyn/itcp1.html#network-meta-analysis",
+    "title": "Indirect treatment comparisons Part-1",
+    "section": "Network Meta-Analysis",
+    "text": "Network Meta-Analysis"
   },
   {
     "objectID": "about.html",
