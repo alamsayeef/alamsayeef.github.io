@@ -1,0 +1,9 @@
+---
+title: "Indirect treatment comparisons Part-1"
+date: 2026-10-31 # TODO: placeholder date, update when submitted/published
+categories: [Evidence Synthesis, Comparative effectiveness]
+description: ""
+image: /misc/itcp1.jpg
+draft: false # hidden from the published site until you delete this line
+---
+

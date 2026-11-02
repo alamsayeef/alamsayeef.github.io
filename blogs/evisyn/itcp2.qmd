@@ -1,9 +1,9 @@
 ---
-title: "Indirect treatment comparisons"
+title: "Indirect treatment comparisons : Part 2"
 date: 2026-10-31 # TODO: placeholder date, update when submitted/published
 categories: [Evidence Synthesis, Comparative effectiveness]
 description: "Discussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods."
-image: /misc/itc.jpg
+image: /misc/itcp2.jpg
 draft: false # hidden from the published site until you delete this line
 ---
 
