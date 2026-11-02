@@ -179,7 +179,19 @@ window.Quarto = {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#evidence-synthesis" id="toc-evidence-synthesis" class="nav-link" data-scroll-target="#evidence-synthesis">Evidence Synthesis</a></li>
+  <li><a href="#evidence-synthesis" id="toc-evidence-synthesis" class="nav-link" data-scroll-target="#evidence-synthesis">Evidence Synthesis</a>
+  <ul class="collapse">
+  <li><a href="#heterogeneity" id="toc-heterogeneity" class="nav-link" data-scroll-target="#heterogeneity">Heterogeneity</a></li>
+  <li><a href="#synthesis-comparator-set" id="toc-synthesis-comparator-set" class="nav-link" data-scroll-target="#synthesis-comparator-set">Synthesis comparator set</a></li>
+  <li><a href="#effect-modifier" id="toc-effect-modifier" class="nav-link" data-scroll-target="#effect-modifier">Effect modifier</a></li>
+  <li><a href="#gaming" id="toc-gaming" class="nav-link" data-scroll-target="#gaming">Gaming</a></li>
+  </ul></li>
+  <li><a href="#genalized-linear-models" id="toc-genalized-linear-models" class="nav-link" data-scroll-target="#genalized-linear-models">Genalized Linear models</a>
+  <ul class="collapse">
+  <li><a href="#fixed-effects-vs-random-effects" id="toc-fixed-effects-vs-random-effects" class="nav-link" data-scroll-target="#fixed-effects-vs-random-effects">Fixed effects vs Random effects</a></li>
+  <li><a href="#exchangibility" id="toc-exchangibility" class="nav-link" data-scroll-target="#exchangibility">Exchangibility</a></li>
+  <li><a href="#link-function" id="toc-link-function" class="nav-link" data-scroll-target="#link-function">Link function</a></li>
+  </ul></li>
   <li><a href="#network-meta-analysis" id="toc-network-meta-analysis" class="nav-link" data-scroll-target="#network-meta-analysis">Network Meta-Analysis</a></li>
   </ul>
 </nav>
@@ -245,12 +257,64 @@ window.Quarto = {
 <ul>
 <li>What happen to a highly specific subgroup of population when given an intervention or placebo.</li>
 <li>What does the disease progress naturally? Relapse? Hospitalization? over a given period you need to establish the baseline first |</li>
-<li></li>
-<li><div class="line-block"></div></li>
+<li>this is the specific data you extract from RCT to see how the drug alters the baseline tracjectory</li>
+<li>Shift cause by the intervention|</li>
 </ul>
+<p>For scientific braoad academic reviews you lump everything together and provide the average effect, but for decision making does not help, because of heterogeneity.</p>
 </section>
 <section id="evidence-synthesis" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-synthesis">Evidence Synthesis</h2>
+<section id="heterogeneity" class="level3">
+<h3 class="anchored" data-anchor-id="heterogeneity">Heterogeneity</h3>
+<p>You can not combine trials of young kids receiving the treatment first time with teenagers who have already failed multiple lines of therapies already. Because there baseline natural history completely different from each other. The average effect hence calculated does not apply to either of the two groups.</p>
+<p>Rheumatoid Arthritis - patients are naive to biologic drugs meaning their immune systems have never been exposed to them and we have patients who have tried biologics but either body have developed resistance or failed to respond.</p>
+<p>Hence the assumption that these two groups to observe the same treatment effect is absurd.</p>
+<p>The mathematical formula might provide you with an average however that estimate is not to be used to explain clinical effect.</p>
+<p>Hence the inclusion criteria is to be defined very strictly.</p>
+<p><em>Rules for building the evidence network</em></p>
+</section>
+<section id="synthesis-comparator-set" class="level3">
+<h3 class="anchored" data-anchor-id="synthesis-comparator-set">Synthesis comparator set</h3>
+<p>To build this we need Decision comparator set - drugs you actually care about - NICE needs to choose between for that specific target population - Drug A, B, C.</p>
+<p>Literature search is able to find only Trail AB, there is <strong>no</strong> Trial BC or Trial AC. Treatment C is ever tested against placebo.</p>
+<p>Expand the DCS to SCS: You find a very old Trail AX and another Trial CX, but Drug X is very very old and not used now. Although it would strengthen the overall inference it would have significant risk, namely of effect modifiers.</p>
+</section>
+<section id="effect-modifier" class="level3">
+<h3 class="anchored" data-anchor-id="effect-modifier">Effect modifier</h3>
+<p>Factors that change how the drug works in the real world. Since 1990 when X was tested the diagnostic criteria, SoC changed, maybe severity of illness. Hence the patients that time might be significantly different from today’s patients. Hence the population should be clinically comparable.</p>
+</section>
+<section id="gaming" class="level3">
+<h3 class="anchored" data-anchor-id="gaming">Gaming</h3>
+<p>Researcher deliberately leave out or include specific trials just to nudge the result in the pharma company/academic favour.</p>
+<p>To prevent this - once target population and synthesis comparator set, you must include all RCT of that target population, comparing 2 of the treatment in your set.</p>
+<p>Philosophy - transperancy over exclusion.</p>
+<p>This holds even during non-inferiority studies, i.e., the drug company now has a newer drugs which is cheaper than its older drug, even in this case it cannot exclude the older drug’s trial. NICE strictly forbids such practice even though here we not interested in superiority over non-inferiority.</p>
+</section>
+</section>
+<section id="genalized-linear-models" class="level2">
+<h2 class="anchored" data-anchor-id="genalized-linear-models">Genalized Linear models</h2>
+<p>Now have perfectly map of connected networks, but how can we solve the network.</p>
+<p>GLM framework uses Bayesian markov monte carlo simulation.</p>
+<p><strong>Fundamental difference between frequentist and bayesian approach</strong></p>
+<p>One fixed true treatment effect and estimate from Trial is to guess that number.</p>
+<p>Data you actually observed as the fixed reality, and underlying parameter, the effect parameter to have a probability distribution. Data is real and true effect is flexible. You start with prior belief of how the world works then look at the trial data and then update your belief to form a posterior distribution, dynamic way of learning from data.</p>
+<p>Less about finding a single number and more about finding the most probable neighborhood where the truth lives based on constantly updating our knowledge.</p>
+<section id="fixed-effects-vs-random-effects" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-effects-vs-random-effects">Fixed effects vs Random effects</h3>
+<p>Lets say you have five different trials comparing Drug 1 and Drug 2.</p>
+<p>Fixed effects model assumes that there is one single universal truth for this drug comparison. It assumes perfect homogeneity, any variation between the trail in London vs trail in NY, is purely due to sampling error.</p>
+<p>In medical science perfect homogeneity is rare. Patient in London are different from NY, dosing schedule, etc can varying between the two places.</p>
+<p>Random effects model acknowledges this clinical reality. The true treatment effect may vary very slightly from trial to trial. The different trials are not estimating the universal truth, but their own specific truth relative to one another.</p>
+</section>
+<section id="exchangibility" class="level3">
+<h3 class="anchored" data-anchor-id="exchangibility">Exchangibility</h3>
+<p>We are assuming that these specific treatment effects from all these different trials come from a common overarching dist visualized a bell curve.</p>
+<p>WinBUGS can do this.</p>
+</section>
+<section id="link-function" class="level3">
+<h3 class="anchored" data-anchor-id="link-function">Link function</h3>
+<p>Proability of someone surving ranges from 0-1. Standard linear regression might predict &lt;0 or &gt;1 values. Link function allows the linear function to provide estimate and then inverse link function to being back to 0-1 range.</p>
+</section>
 </section>
 <section id="network-meta-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="network-meta-analysis">Network Meta-Analysis</h2>
