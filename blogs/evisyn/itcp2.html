@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.20">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-31">
+<meta name="description" content="Discussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.">
+
+<title>Indirect treatment comparisons : Part 2 – MSA</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-166690b9c768161ed89deb9505a7d440.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">MSA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text"> </span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blogs/index.html"> 
+<span class="menu-text">Blogs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/alamsayeef"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/mohasal"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#standard-indirect-comparison" id="toc-standard-indirect-comparison" class="nav-link" data-scroll-target="#standard-indirect-comparison">Standard Indirect Comparison</a></li>
+  <li><a href="#sparse-networks" id="toc-sparse-networks" class="nav-link" data-scroll-target="#sparse-networks">Sparse networks</a></li>
+  <li><a href="#maic-matching-adjusted-indirect-comparison" id="toc-maic-matching-adjusted-indirect-comparison" class="nav-link" data-scroll-target="#maic-matching-adjusted-indirect-comparison">MAIC matching adjusted indirect comparison</a>
+  <ul class="collapse">
+  <li><a href="#the-sandwich-package" id="toc-the-sandwich-package" class="nav-link" data-scroll-target="#the-sandwich-package">The sandwich package</a></li>
+  </ul></li>
+  <li><a href="#simulated-treatment-comparison" id="toc-simulated-treatment-comparison" class="nav-link" data-scroll-target="#simulated-treatment-comparison">Simulated treatment comparison</a></li>
+  <li><a href="#unanchored-treatment-comparison" id="toc-unanchored-treatment-comparison" class="nav-link" data-scroll-target="#unanchored-treatment-comparison">Unanchored treatment comparison</a></li>
+  <li><a href="#doubly-robust-estimator" id="toc-doubly-robust-estimator" class="nav-link" data-scroll-target="#doubly-robust-estimator">Doubly robust estimator</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Indirect treatment comparisons : Part 2</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Evidence Synthesis</div>
+    <div class="quarto-category">Comparative effectiveness</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Discussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 31, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>You have two trials, each comparing Drug C and Drug B against common comparator Drug A</p>
+<p>Such a situation where a common comparator is present helps in anchoring the comparison and hence called Anchored Treatment Comparison.</p>
+<p>However, Drug C is your own drug and you yourself have conducted the clinical trial for it and have individual level data for each patient randomized into the two treatment arms. Unfortunately, or ever so often you only find aggregate level data about demographics and treatment effect for the competitor’s trial. The competitor never provides detailed info of their trial.</p>
+<p>To tackle this issue, we resort to mathematical assumptions.</p>
+<p>Word of caution, wrong assumption might lead to a completely opposite conclusion making the worse drug look good, which would have massive consequence to the society in terms of population health and economics.</p>
+<p>Lets us dive into the assumptions and methods</p>
+</section>
+<section id="standard-indirect-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="standard-indirect-comparison">Standard Indirect Comparison</h2>
+<p>aka Bucher method developed by H.C. Bucher in 1997.</p>
+<p>We would cycle back to the same example in this article.</p>
+<p>Trial AB : Drug B - Drug A (which is treatment effect) = 20 (let us consider for now)</p>
+<p>Trial AC : Drug C - Drug A = 15</p>
+<hr>
+<p>On subtracting the two, should give us a very straight forward treatment effect difference between Drug C and Drug B which comes out to be 5 units.</p>
+<p>However such math only hold under a massive assumption that there is absolutely no different in the effect modifying variables in the two populations.</p>
+<p>This brings us to various important terms we would be using:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Effect modifiers</th>
+<th>Prognostic variables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>We observe from the previous example that drug B works better among 40 years old, but as one grows older their metabolism might not function the same extent as it did in their youth and hence the 70 year old patient might observe the same effect as the former patient.</td>
+<td>A prognostic variable on the other hand are the characteristics of the patient irrespective of what treatment they receive. For eg new heart disease medication, overall baseline health/severity of atrial blockage is a prognostic variable. Since they are sicker at baseline they will have worse outcome irrespective of which drug they get. Hence these variables predict their overall prognosis.</td>
+</tr>
+</tbody>
+</table>
+<p>Bucher method falls apart when effect modifiers have different distribution inches two population.</p>
+<p>For example: Trial AB tested the effect among 40 year olds whereas Trial AC tested among predominantly 70 year olds.</p>
+<p>In such cases you simply cannot subtract the effects, and claim one is better than other.</p>
+<p>Even RCT does not balance out the intra-trial effect modifiers and prognostic variables. Within the respective trials we can expect the effect to average out between the intervention and the comparator arms.</p>
+<p>Trail AB would balance everything between arm B and arm A and similar would be seen between arm C and arm A in trail AC, but to assume that effects would be balance between the trails would be a mistake.</p>
+</section>
+<section id="sparse-networks" class="level2">
+<h2 class="anchored" data-anchor-id="sparse-networks">Sparse networks</h2>
+<p>We rarely have dense network of RCT providing the necessary evidence. If we did then perhaps the effect would average out between these trails. However, in reality such occurrences are very rare. In HTA, we have one or two pivotal trials and standard indirect comparison (i.e.&nbsp;Bucher method) introduces serious systematic bias.</p>
+<p>Let us take another example: Purely by chance you end up with more men than women compared to the general population. Then we can still assess the effects at population level by crude direct standardisation.</p>
+<p>CDS means to get the estimates for men and women separately and then reweight the averages to match the true natural split.</p>
+<p>Unfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard</p>
+<p>Paul Rosenbaum introduced propensity score matching in 1983, and the next leap of indirect treatment comparison occurred when the same principle was applied to indirect treatment comparison.</p>
+<pre><code>• It was fundamentally a conditional probability
+• Mathematical likehood that an individual from a broader target population would be assigned to your specific trail sample given his unique characteristics.</code></pre>
+<p>How to achieve this? • Feed the individual level patient data into a logistic model. • Use the fitted model to predict which individuals from the external cohort are more likely to represent the previous cohort. • The <span class="math inline">\(y_{i}\)</span> - probability for each individual in the external cohort acts as the weights. • You weight that individual with inverse of the probability that you just received.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SATE</th>
+<th>PATE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sample average treatment effect</td>
+<td>Population average treatment effect</td>
+</tr>
+<tr class="even">
+<td>Raw unadjusted result of RCT</td>
+<td>Ajdusteed result at population level</td>
+</tr>
+<tr class="odd">
+<td>Effect of the drug limited to the sample of RCT</td>
+<td>Effect of the drug as if administered to the entire population</td>
+</tr>
+</tbody>
+</table>
+<p>PSM acts a bridge from SATE to PATE.</p>
+<p>4 non-negotiable assumptions for this to hold</p>
+<pre><code>1) Homogeneity of the outcome irrespective of the administration in RCT/real world i.e. from contraolled environment as observed in RCT to uncontrolled environment such as the real world.
+2) Outcome of one individual is indidependent or other individual. This automatically apploes to most pf the chronic disease for eg BP med given to one individual does not effect your BP meds. But it falls apart in case of infecticious disease where where if one person is vaccinated another person risk to the disease changes due to change in the herd immunity.
+3) Strongly ignorable treatment assignment  - Assignment of the drug is 100% independent of any other factor. Acheiveable by double blinding.
+4) Strongly ignoreable sample assignment - there are no unmeasured variable related to both how you selected your sample and the outcome of the disease.</code></pre>
+<p>Conditional consistency of relative effects which is when placebo is unethical because of the life threatening condition treatment off drug B must be tested against drug a however drug a was tested long back against placebo so if you study the effect modifier of something very specific such as a 50 year old female who was a smoker it should be the same irrespective of whether the effect was studied in 2015 or 2025.</p>
+</section>
+<section id="maic-matching-adjusted-indirect-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="maic-matching-adjusted-indirect-comparison">MAIC matching adjusted indirect comparison</h2>
+<p>Trial AB: 500 individuals aged 47 to 75 years with 64% of the sample being female</p>
+<p>Trial AC: 300 patients aged between 45 to 55 years with 80% of the sample being female</p>
+<p>Age here is the effect modifier and sex is considered as the prognostic factor</p>
+<p>We want to weigh 500 patients from trial AB to look like the 300 patients from trial AC MAIC bypasses the logistic regression based PSM</p>
+<p>MAIC uses method of moments to estimate the patient weights</p>
+<p>Where moments refer to the quantitative measure of the shape of the distribution it is a point estimate where</p>
+<p>M1 = mean and M2 = variance</p>
+<p>Computer algorithm searches for the unique set of weights to multiply each of the 500 individuals such that the weighted average becomes equal to the AC trial with 300 patients and the weighted standard deviation matches the published standard deviation.</p>
+<p>The R package uses BFGH algorithm.</p>
+<p>However age range seems to not overlap in trial AB the age ranged between 45 to 75 and in trial AC it ranged between 45 to 55</p>
+<p>The algorithm would assign 0 weight to people who are aged 56 to 75 years old</p>
+<p>The range of the weights seem to be from zero to 3.44 as assigned by the algorithm</p>
+<p>However the median of the weights is 0.07 meaning half of the patients are given a weight close to 0 which implies that they are erased from the final trial but this drastically decreases the sample size and hence the power and increases the confidence interval</p>
+<p>Another important terminology hence arises called the effective sample size the effective sample size in the above example drops from 500 to 185.6 which implies that around 60% of the samples have been dropped and hence the margin of error widens</p>
+<section id="the-sandwich-package" class="level3">
+<h3 class="anchored" data-anchor-id="the-sandwich-package">The sandwich package</h3>
+<p>Standard variation calculation measures the spread of our raw data but here the weight is applied also carries some uncertainty. Because the algorithm had to estimate them standard error cannot be calculated the normal way because these estimates are not fixed absolute truth. Sandwich estimator accounts for error from both sources a central matrix containing the variance of the data is sandwiched between the variance of the algorithms estimate on both sides. (why both sides?)</p>
+</section>
+</section>
+<section id="simulated-treatment-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="simulated-treatment-comparison">Simulated treatment comparison</h2>
+<p>Take all 500 individuals put them into a regression the beta coefficient of variables states the relationship of that variable with the outcome</p>
+<p>Now you plug the AC aggregate parameters into the regression model built on trial AB</p>
+<p>The underlying assumption is that the shape of your statistical model is correct</p>
+<p>For example your regression model assumes that the relation between age and outcome is a straight line but the biology says otherwise then the entire model fails and the model is called to be misspecified</p>
+<p>$outcome is equal to treatment arm plus age plus sex</p>
+<p>Checked residual deviance measures the variance of the data that the model equation fails to explain</p>
+<p>When gender was added to the equation the residual deviance did not sink so adding gender did not make the model significantly better. So it is better to drop the gender from the equation.</p>
+<p>True log odds ratio of drug C versus drug B is equal to-0.400. Which means that C is more effective than B.</p>
+<p>If a farmer naively conducts a busher method ignoring age as a effect modifier then the treatment effect of drug C versus B is equal to 0.35 which implies that drug B is much more effective than drug C however this is contrary to what the reality is which is why nice asks for maic and STC while the MAIC of drug C versus B equals -0.032</p>
+<p>STC of drugs C versus B equals -0.247.</p>
+<p>Since the assumed example is framed in such a way that the distribution of the variables are known and similar in both trials hence the value of STC is closer to the real indirect treatment comparison. However this might not be the case always and it doesn’t mean that STC is universally superior especially when the relationships of the variables and the outcomes are nonlinear.</p>
+<p>All of this happens when we have a common comparator a till now everything was called an anchored treatment effectiveness a being present allows for the randomization in both trials even if there are prognostic variables unmeasured the randomization of trial AC and trial AB ensures that they are equally balanced between treatment and control arms.</p>
+<p>What if we have a trial comparing drug C to drug A and another trial comparing drug B to standard of care and we want to know the treatment effect difference between drug C versus drug B.</p>
+<p>Then we have to resort to</p>
+</section>
+<section id="unanchored-treatment-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="unanchored-treatment-comparison">Unanchored treatment comparison</h2>
+<p>MAIC or STC instead of merely adjusting treatment effects across a bridge now you are assuming you can absolutely predict biological outcomes from the mathematical covariance alone.</p>
+<p>In anchor trials, randomization handles the prognostic variables and you only need to account for the effect modifiers.</p>
+<p>In unanchored trials you need to adjust for both but account for all prognostic variables is very difficult example genetic predisposition gut microbiome etc. The harsh reality is that you cannot. Unanchored estimates suffers inherently from an unknown amount of bias that is where the next method comes in.</p>
+</section>
+<section id="doubly-robust-estimator" class="level2">
+<h2 class="anchored" data-anchor-id="doubly-robust-estimator">Doubly robust estimator</h2>
+<p>This combines both MAIC and STC.</p>
+<p>PSM for weights of patients simultaneously build an outcome regression model to predict the results based on covariance. As long as anyone is consistent the final estimate would be reliable if PSM fails to assign accurate weights but the outcome regression model captures the biological relation correctly or vice versa then you are protected.</p>
+<p>Regression model should reflect the biological distribution and hence the treatment effect and not the additive on natural scale but rather on a transformed scale either log or biologically plausible transformative scale.</p>
+<p>This still leaves us with target population paradox.</p>
+<p>Which states that Drug A is trying to prove that it is better than Drug B. However, it should prove that it is better for the entire UK population.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/alamsayeef\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.20">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-10-31">
-<meta name="description" content="Discussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.">
+<meta name="description" content="In preparation. Ongoing analysis and manuscript preparation.">
 
 <title>Indirect treatment comparisons – MSA</title>
 <style>
@@ -44,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-166690b9c768161ed89deb9505a7d440.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -173,23 +144,8 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#standard-indirect-comparison" id="toc-standard-indirect-comparison" class="nav-link" data-scroll-target="#standard-indirect-comparison">Standard Indirect Comparison</a></li>
-  <li><a href="#sparse-networks" id="toc-sparse-networks" class="nav-link" data-scroll-target="#sparse-networks">Sparse networks</a></li>
-  <li><a href="#maic-matching-adjusted-indirect-comparison" id="toc-maic-matching-adjusted-indirect-comparison" class="nav-link" data-scroll-target="#maic-matching-adjusted-indirect-comparison">MAIC matching adjusted indirect comparison</a>
-  <ul class="collapse">
-  <li><a href="#the-sandwich-package" id="toc-the-sandwich-package" class="nav-link" data-scroll-target="#the-sandwich-package">The sandwich package</a></li>
-  </ul></li>
-  <li><a href="#simulated-treatment-comparison" id="toc-simulated-treatment-comparison" class="nav-link" data-scroll-target="#simulated-treatment-comparison">Simulated treatment comparison</a></li>
-  <li><a href="#unanchored-treatment-comparison" id="toc-unanchored-treatment-comparison" class="nav-link" data-scroll-target="#unanchored-treatment-comparison">Unanchored treatment comparison</a></li>
-  <li><a href="#doubly-robust-estimator" id="toc-doubly-robust-estimator" class="nav-link" data-scroll-target="#doubly-robust-estimator">Doubly robust estimator</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -205,7 +161,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    Discussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.
+    In preparation. Ongoing analysis and manuscript preparation.
   </div>
 </div>
 
@@ -228,147 +184,9 @@ window.Quarto = {
 </header>
 
 
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>You have two trials, each comparing Drug C and Drug B against common comparator Drug A</p>
-<p>Such a situation where a common comparator is present helps in anchoring the comparison and hence called Anchored Treatment Comparison.</p>
-<p>However, Drug C is your own drug and you yourself have conducted the clinical trial for it and have individual level data for each patient randomized into the two treatment arms. Unfortunately, or ever so often you only find aggregate level data about demographics and treatment effect for the competitor’s trial. The competitor never provides detailed info of their trial.</p>
-<p>To tackle this issue, we resort to mathematical assumptions.</p>
-<p>Word of caution, wrong assumption might lead to a completely opposite conclusion making the worse drug look good, which would have massive consequence to the society in terms of population health and economics.</p>
-<p>Lets us dive into the assumptions and methods</p>
-</section>
-<section id="standard-indirect-comparison" class="level2">
-<h2 class="anchored" data-anchor-id="standard-indirect-comparison">Standard Indirect Comparison</h2>
-<p>aka Bucher method developed by H.C. Bucher in 1997.</p>
-<p>We would cycle back to the same example in this article.</p>
-<p>Trial AB : Drug B - Drug A (which is treatment effect) = 20 (let us consider for now)</p>
-<p>Trial AC : Drug C - Drug A = 15</p>
-<hr>
-<p>On subtracting the two, should give us a very straight forward treatment effect difference between Drug C and Drug B which comes out to be 5 units.</p>
-<p>However such math only hold under a massive assumption that there is absolutely no different in the effect modifying variables in the two populations.</p>
-<p>This brings us to various important terms we would be using:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Effect modifiers</th>
-<th>Prognostic variables</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>We observe from the previous example that drug B works better among 40 years old, but as one grows older their metabolism might not function the same extent as it did in their youth and hence the 70 year old patient might observe the same effect as the former patient.</td>
-<td>A prognostic variable on the other hand are the characteristics of the patient irrespective of what treatment they receive. For eg new heart disease medication, overall baseline health/severity of atrial blockage is a prognostic variable. Since they are sicker at baseline they will have worse outcome irrespective of which drug they get. Hence these variables predict their overall prognosis.</td>
-</tr>
-</tbody>
-</table>
-<p>Bucher method falls apart when effect modifiers have different distribution inches two population.</p>
-<p>For example: Trial AB tested the effect among 40 year olds whereas Trial AC tested among predominantly 70 year olds.</p>
-<p>In such cases you simply cannot subtract the effects, and claim one is better than other.</p>
-<p>Even RCT does not balance out the intra-trial effect modifiers and prognostic variables. Within the respective trials we can expect the effect to average out between the intervention and the comparator arms.</p>
-<p>Trail AB would balance everything between arm B and arm A and similar would be seen between arm C and arm A in trail AC, but to assume that effects would be balance between the trails would be a mistake.</p>
-</section>
-<section id="sparse-networks" class="level2">
-<h2 class="anchored" data-anchor-id="sparse-networks">Sparse networks</h2>
-<p>We rarely have dense network of RCT providing the necessary evidence. If we did then perhaps the effect would average out between these trails. However, in reality such occurrences are very rare. In HTA, we have one or two pivotal trials and standard indirect comparison (i.e.&nbsp;Bucher method) introduces serious systematic bias.</p>
-<p>Let us take another example: Purely by chance you end up with more men than women compared to the general population. Then we can still assess the effects at population level by crude direct standardisation.</p>
-<p>CDS means to get the estimates for men and women separately and then reweight the averages to match the true natural split.</p>
-<p>Unfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard</p>
-<p>Paul Rosenbaum introduced propensity score matching in 1983, and the next leap of indirect treatment comparison occurred when the same principle was applied to indirect treatment comparison.</p>
-<pre><code>• It was fundamentally a conditional probability
-• Mathematical likehood that an individual from a broader target population would be assigned to your specific trail sample given his unique characteristics.</code></pre>
-<p>How to achieve this? • Feed the individual level patient data into a logistic model. • Use the fitted model to predict which individuals from the external cohort are more likely to represent the previous cohort. • The <span class="math inline">\(y_{i}\)</span> - probability for each individual in the external cohort acts as the weights. • You weight that individual with inverse of the probability that you just received.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>SATE</th>
-<th>PATE</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sample average treatment effect</td>
-<td>Population average treatment effect</td>
-</tr>
-<tr class="even">
-<td>Raw unadjusted result of RCT</td>
-<td>Ajdusteed result at population level</td>
-</tr>
-<tr class="odd">
-<td>Effect of the drug limited to the sample of RCT</td>
-<td>Effect of the drug as if administered to the entire population</td>
-</tr>
-</tbody>
-</table>
-<p>PSM acts a bridge from SATE to PATE.</p>
-<p>4 non-negotiable assumptions for this to hold</p>
-<pre><code>1) Homogeneity of the outcome irrespective of the administration in RCT/real world i.e. from contraolled environment as observed in RCT to uncontrolled environment such as the real world.
-2) Outcome of one individual is indidependent or other individual. This automatically apploes to most pf the chronic disease for eg BP med given to one individual does not effect your BP meds. But it falls apart in case of infecticious disease where where if one person is vaccinated another person risk to the disease changes due to change in the herd immunity.
-3) Strongly ignorable treatment assignment  - Assignment of the drug is 100% independent of any other factor. Acheiveable by double blinding.
-4) Strongly ignoreable sample assignment - there are no unmeasured variable related to both how you selected your sample and the outcome of the disease.</code></pre>
-<p>Conditional consistency of relative effects which is when placebo is unethical because of the life threatening condition treatment off drug B must be tested against drug a however drug a was tested long back against placebo so if you study the effect modifier of something very specific such as a 50 year old female who was a smoker it should be the same irrespective of whether the effect was studied in 2015 or 2025.</p>
-</section>
-<section id="maic-matching-adjusted-indirect-comparison" class="level2">
-<h2 class="anchored" data-anchor-id="maic-matching-adjusted-indirect-comparison">MAIC matching adjusted indirect comparison</h2>
-<p>Trial AB: 500 individuals aged 47 to 75 years with 64% of the sample being female</p>
-<p>Trial AC: 300 patients aged between 45 to 55 years with 80% of the sample being female</p>
-<p>Age here is the effect modifier and sex is considered as the prognostic factor</p>
-<p>We want to weigh 500 patients from trial AB to look like the 300 patients from trial AC MAIC bypasses the logistic regression based PSM</p>
-<p>MAIC uses method of moments to estimate the patient weights</p>
-<p>Where moments refer to the quantitative measure of the shape of the distribution it is a point estimate where</p>
-<p>M1 = mean and M2 = variance</p>
-<p>Computer algorithm searches for the unique set of weights to multiply each of the 500 individuals such that the weighted average becomes equal to the AC trial with 300 patients and the weighted standard deviation matches the published standard deviation.</p>
-<p>The R package uses BFGH algorithm.</p>
-<p>However age range seems to not overlap in trial AB the age ranged between 45 to 75 and in trial AC it ranged between 45 to 55</p>
-<p>The algorithm would assign 0 weight to people who are aged 56 to 75 years old</p>
-<p>The range of the weights seem to be from zero to 3.44 as assigned by the algorithm</p>
-<p>However the median of the weights is 0.07 meaning half of the patients are given a weight close to 0 which implies that they are erased from the final trial but this drastically decreases the sample size and hence the power and increases the confidence interval</p>
-<p>Another important terminology hence arises called the effective sample size the effective sample size in the above example drops from 500 to 185.6 which implies that around 60% of the samples have been dropped and hence the margin of error widens</p>
-<section id="the-sandwich-package" class="level3">
-<h3 class="anchored" data-anchor-id="the-sandwich-package">The sandwich package</h3>
-<p>Standard variation calculation measures the spread of our raw data but here the weight is applied also carries some uncertainty. Because the algorithm had to estimate them standard error cannot be calculated the normal way because these estimates are not fixed absolute truth. Sandwich estimator accounts for error from both sources a central matrix containing the variance of the data is sandwiched between the variance of the algorithms estimate on both sides. (why both sides?)</p>
-</section>
-</section>
-<section id="simulated-treatment-comparison" class="level2">
-<h2 class="anchored" data-anchor-id="simulated-treatment-comparison">Simulated treatment comparison</h2>
-<p>Take all 500 individuals put them into a regression the beta coefficient of variables states the relationship of that variable with the outcome</p>
-<p>Now you plug the AC aggregate parameters into the regression model built on trial AB</p>
-<p>The underlying assumption is that the shape of your statistical model is correct</p>
-<p>For example your regression model assumes that the relation between age and outcome is a straight line but the biology says otherwise then the entire model fails and the model is called to be misspecified</p>
-<p>$outcome is equal to treatment arm plus age plus sex</p>
-<p>Checked residual deviance measures the variance of the data that the model equation fails to explain</p>
-<p>When gender was added to the equation the residual deviance did not sink so adding gender did not make the model significantly better. So it is better to drop the gender from the equation.</p>
-<p>True log odds ratio of drug C versus drug B is equal to-0.400. Which means that C is more effective than B.</p>
-<p>If a farmer naively conducts a busher method ignoring age as a effect modifier then the treatment effect of drug C versus B is equal to 0.35 which implies that drug B is much more effective than drug C however this is contrary to what the reality is which is why nice asks for maic and STC while the MAIC of drug C versus B equals -0.032</p>
-<p>STC of drugs C versus B equals -0.247.</p>
-<p>Since the assumed example is framed in such a way that the distribution of the variables are known and similar in both trials hence the value of STC is closer to the real indirect treatment comparison. However this might not be the case always and it doesn’t mean that STC is universally superior especially when the relationships of the variables and the outcomes are nonlinear.</p>
-<p>All of this happens when we have a common comparator a till now everything was called an anchored treatment effectiveness a being present allows for the randomization in both trials even if there are prognostic variables unmeasured the randomization of trial AC and trial AB ensures that they are equally balanced between treatment and control arms.</p>
-<p>What if we have a trial comparing drug C to drug A and another trial comparing drug B to standard of care and we want to know the treatment effect difference between drug C versus drug B.</p>
-<p>Then we have to resort to</p>
-</section>
-<section id="unanchored-treatment-comparison" class="level2">
-<h2 class="anchored" data-anchor-id="unanchored-treatment-comparison">Unanchored treatment comparison</h2>
-<p>MAIC or STC instead of merely adjusting treatment effects across a bridge now you are assuming you can absolutely predict biological outcomes from the mathematical covariance alone.</p>
-<p>In anchor trials, randomization handles the prognostic variables and you only need to account for the effect modifiers.</p>
-<p>In unanchored trials you need to adjust for both but account for all prognostic variables is very difficult example genetic predisposition gut microbiome etc. The harsh reality is that you cannot. Unanchored estimates suffers inherently from an unknown amount of bias that is where the next method comes in.</p>
-</section>
-<section id="doubly-robust-estimator" class="level2">
-<h2 class="anchored" data-anchor-id="doubly-robust-estimator">Doubly robust estimator</h2>
-<p>This combines both MAIC and STC.</p>
-<p>PSM for weights of patients simultaneously build an outcome regression model to predict the results based on covariance. As long as anyone is consistent the final estimate would be reliable if PSM fails to assign accurate weights but the outcome regression model captures the biological relation correctly or vice versa then you are protected.</p>
-<p>Regression model should reflect the biological distribution and hence the treatment effect and not the additive on natural scale but rather on a transformed scale either log or biologically plausible transformative scale.</p>
-<p>This still leaves us with target population paradox.</p>
-<p>Which states that Drug A is trying to prove that it is better than Drug B. However, it should prove that it is better for the entire UK population.</p>
+<p>Write here.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -444,7 +262,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/alamsayeef\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

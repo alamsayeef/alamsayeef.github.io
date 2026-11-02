@@ -1,5 +1,20 @@
 [
   {
+    "listing": "/blogs/index.html",
+    "items": [
+      "/blogs/evisyn/itcp1.html",
+      "/blogs/evisyn/itcp2.html",
+      "/blogs/he/ee.html",
+      "/blogs/rwe/tte.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/nqsc/index.html"
+    ]
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/publications/pub1.html",
@@ -11,20 +26,6 @@
       "/research/publications/pub7.html",
       "/research/conferences/oral/o1.html",
       "/research/conferences/poster/p1.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/nqsc/index.html"
-    ]
-  },
-  {
-    "listing": "/blogs/index.html",
-    "items": [
-      "/blogs/evisyn/itc.html",
-      "/blogs/he/ee.html",
-      "/blogs/rwe/tte.html"
     ]
   }
 ]

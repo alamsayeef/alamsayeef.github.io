@@ -7,368 +7,102 @@
     "text": "Professional Experience\nResearch Assistant in HTA,March 2026 – Present  PenTAG, University of Exeter Exeter, United Kingdom\n\nAppraise industry-submitted Single Technology Appraisal (STA) decision models to inform NICE reimbursement decisions, evaluating the full continuum from economic literature reviews and evidence synthesis to structural modeling, scenario testing, and sensitivity analyses.\nDevelop de novo HTA decision models and adapt existing NICE models using R and Excel VBA to support Multiple Technology Appraisal (MTA) projects.\nCollaborate within multidisciplinary teams including clinicians, epidemiologists, and statisticians to co-author comprehensive evidence assessment reports that directly advise NICE recommendation committees.\nSupport appraising and conducting Indirect Treatment Comparisons (ITC), conducting ad-hoc analyses, writing manuscripts, and drafting reports used in policy decision-making.\nExecute advanced statistical analyses spanning survival analysis, evidence generation, uncertainty quantification, and Delphi studies to deliver tailored solutions for external consultancy clients.\n\nAssociate (Advanced Analytics),July 2021 – February 2022  Parexel Remote, India\n\nDeveloped dynamic R Shiny applications and interactive dashboards for economic evaluations to support HTA submissions and strategic payer decision-making.\nConducted feasibility assessments, indirect treatment comparisons (ITCs), and complete economic analyses for direct integration into HTA dossiers and regulatory/payer submissions.\nDesigned dashboards to visualize key clinical endpoints, including survival outcomes, treatment sequences, and demographic summaries tailored for regional stakeholder reporting.\nDelivered actionable insights to internal and external stakeholders, iteratively incorporating cross-functional feedback to refine deliverables.\n\n\n\n\nResearch Experience\nPhD Researcher, April 2022 – March 2026  Norwegian University of Science and Technology (NTNU) Trondheim, Norway\n\nIdentified 11 celiac disease risk loci by running SAIGE mixed-model GWAS on 17 million variants in ~55,000 participants (~1,100 cases) from the HUNT biobank, correcting for case-control imbalance and relatedness.\nStrengthened data quality by applying sample and variant QC to 25 million imputed variants (22 million retained), using KING relatedness estimates and principal components to control population stratification.\nPrioritised candidate causal signals by fine-mapping and colocalising the 11 loci, highlighting a non-coding RNA locus near IRX1 suggesting shared immune-mediated genetics with rheumatoid arthritis.\nStratified celiac disease risk by building a Bayesian PRS-CS polygenic risk score (benchmarked against PRSice and LDpred), achieving an AUC of 0.83 in a held-out test set.\nCharacterised genetic heterogeneity within celiac disease by comparing diagnosed and undiagnosed cases, utilizing LDSC to assess genetic heterogeneity between groups.\nDeveloped and validated predictive machine learning models for undiagnosed celiac disease in HUNT4, comparing elastic net logistic regression, random forest, SVM, neural networks, and Super Learner ensembles (elastic net selected).\nIntegrated and harmonised real-world data across unique IDs from HUNT surveys, HUNT Biobank, the Norwegian Patient Registry, and clinical journal records to derive ICD-based celiac phenotypes, clinical histories, and causal estimates.\nAutomated end-to-end GWAS workflows with Snakemake on HUNT Cloud for reproducible analysis, and built an open-source R package migrating legacy health-analytics models into version-controlled, Dockerised pipelines.\nPiloted HLA-region imputation with CookHLA and a containerised Michigan Imputation Server to extend HLA coverage in the cohort.\nPrototyped a modular R/Shiny tool for Nordic HTA QALY-shortfall analysis across five Nordic countries, reducing ad-hoc requests from external partners.\nMentored two master’s students informally, collaborated with molecular biologists and clinical researchers, and secured competitive funding.\n\n\n\n\nEducation\nPh.D. ResearcherApril 2022 – March 2026  Norwegian University of Science and Technology (NTNU) Trondheim, Norway\nM.Phil. in Biostatistics and DemographyJuly 2020 – May 2021  International Institute for Population Sciences (IIPS), Mumbai, IndiaMumbai, India\nM.Sc. in Biostatistics and DemographyJuly 2018 – June 2020  International Institute for Population Sciences (IIPS), Mumbai, IndiaMumbai, India\nB.Sc. in StatisticsApril 2014 – May 2018  University of CalcuttaKolkata, India\n\n\n\nCourses & Certifications\n\n\n\n\n\n\n\n\nCourse Name\nOrganization\nCertificate Link\n\n\n\n\nDecision Modelling for Health Economic Evaluations\nLondon School of Hygiene & Tropical Medicine (LSHTM) & University of York\nLink\n\n\nEconomic Evaluation Modelling using R\nUniversity of Bristol\nLink\n\n\n\n\n\nGrants & Awards\n\n\n\n\n\n\n\n\nGrant / Award Name\nFunding Agency\nAmount\n\n\n\n\nErasmus Mobility Grant\nErasmus+ Program\n16,000 NOK\n\n\nISSCD M-in-M Grant\nInternational Study Group for Celiac Disease\n6000 USD\n\n\nSamarbeidsorganet International Research Stay Grant\nHelse Midt-Norge / NTNU\n150,000 NOK\n\n\n\n\n\n\nTechnical Skills\n\n\n\n\n\n\n\nSkill Domain\nCore Competencies & Tools\n\n\n\n\nHealth Economics & HTA\nDe Novo Cost-Effectiveness & Decision Modelling, Deterministic & Probabilistic Sensitivity Analyses (DSA/PSA), Scenario Analyses, NICE STA/MTA Appraisals, QALY Shortfall Analysis\n\n\nEvidence Synthesis & NMA\nFeasibility Assessment, Network Meta-Analysis (NMA), Matching-Adjusted Treatment Comparisons (MAIC), Simulated Treatment Comparisons (STC), Multilevel Network Meta-Regression (MLNMR)\n\n\nRWE & Causal Inference\nComparative Effectiveness, Synthetic Control Arms, Causal Inference, Target Trial Emulation, Surrogate Outcomes, Confounding Control, Longitudinal & Survival Analysis\n\n\nGenomics & Statistics\nMixed-Model GWAS (SAIGE, PLINK, REGENIE), Fine-Mapping, Colocalisation, Polygenic Risk Scores (PRS-CS, LDpred, PRSice), Genetic Heterogeneity (LDSC), Genotype/HLA Imputation, Variant & Sample QC\n\n\nMachine Learning\nElastic Net Logistic Regression, Random Forest, Support Vector Machines (SVM), Neural Networks, Super Learner (Ensemble), Supervised Classification, High-Dimensional Variable Selection\n\n\nData Sources\nNorwegian Population & Patient Registers (NPR), HUNT Biobank & Surveys, Clinical Journal Records, UK Biobank, Longitudinal and Cross-Sectional Demographic/Health Datasets\n\n\nProgramming & Software\nR, Python, Bash, SQL, R/Shiny, R Package Development, Stata, SAS, Excel (VBA), WinBUGs, Git, GitLab, Docker, Snakemake, HPC, Cloud Computing (HUNT Cloud)\n\n\nLanguages\nEnglish (Professional Fluency), Norwegian (B1–B2 / Intermediate)"
   },
   {
-    "objectID": "blogs/evisyn/itc.html",
-    "href": "blogs/evisyn/itc.html",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html",
+    "href": "blogs/evisyn/itcp2.html",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "",
     "text": "You have two trials, each comparing Drug C and Drug B against common comparator Drug A\nSuch a situation where a common comparator is present helps in anchoring the comparison and hence called Anchored Treatment Comparison.\nHowever, Drug C is your own drug and you yourself have conducted the clinical trial for it and have individual level data for each patient randomized into the two treatment arms. Unfortunately, or ever so often you only find aggregate level data about demographics and treatment effect for the competitor’s trial. The competitor never provides detailed info of their trial.\nTo tackle this issue, we resort to mathematical assumptions.\nWord of caution, wrong assumption might lead to a completely opposite conclusion making the worse drug look good, which would have massive consequence to the society in terms of population health and economics.\nLets us dive into the assumptions and methods"
   },
   {
-    "objectID": "blogs/evisyn/itc.html#background",
-    "href": "blogs/evisyn/itc.html#background",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#background",
+    "href": "blogs/evisyn/itcp2.html#background",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "",
     "text": "You have two trials, each comparing Drug C and Drug B against common comparator Drug A\nSuch a situation where a common comparator is present helps in anchoring the comparison and hence called Anchored Treatment Comparison.\nHowever, Drug C is your own drug and you yourself have conducted the clinical trial for it and have individual level data for each patient randomized into the two treatment arms. Unfortunately, or ever so often you only find aggregate level data about demographics and treatment effect for the competitor’s trial. The competitor never provides detailed info of their trial.\nTo tackle this issue, we resort to mathematical assumptions.\nWord of caution, wrong assumption might lead to a completely opposite conclusion making the worse drug look good, which would have massive consequence to the society in terms of population health and economics.\nLets us dive into the assumptions and methods"
   },
   {
-    "objectID": "blogs/evisyn/itc.html#standard-indirect-comparison",
-    "href": "blogs/evisyn/itc.html#standard-indirect-comparison",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#standard-indirect-comparison",
+    "href": "blogs/evisyn/itcp2.html#standard-indirect-comparison",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "Standard Indirect Comparison",
     "text": "Standard Indirect Comparison\naka Bucher method developed by H.C. Bucher in 1997.\nWe would cycle back to the same example in this article.\nTrial AB : Drug B - Drug A (which is treatment effect) = 20 (let us consider for now)\nTrial AC : Drug C - Drug A = 15\n\nOn subtracting the two, should give us a very straight forward treatment effect difference between Drug C and Drug B which comes out to be 5 units.\nHowever such math only hold under a massive assumption that there is absolutely no different in the effect modifying variables in the two populations.\nThis brings us to various important terms we would be using:\n\n\n\n\n\n\n\nEffect modifiers\nPrognostic variables\n\n\n\n\nWe observe from the previous example that drug B works better among 40 years old, but as one grows older their metabolism might not function the same extent as it did in their youth and hence the 70 year old patient might observe the same effect as the former patient.\nA prognostic variable on the other hand are the characteristics of the patient irrespective of what treatment they receive. For eg new heart disease medication, overall baseline health/severity of atrial blockage is a prognostic variable. Since they are sicker at baseline they will have worse outcome irrespective of which drug they get. Hence these variables predict their overall prognosis.\n\n\n\nBucher method falls apart when effect modifiers have different distribution inches two population.\nFor example: Trial AB tested the effect among 40 year olds whereas Trial AC tested among predominantly 70 year olds.\nIn such cases you simply cannot subtract the effects, and claim one is better than other.\nEven RCT does not balance out the intra-trial effect modifiers and prognostic variables. Within the respective trials we can expect the effect to average out between the intervention and the comparator arms.\nTrail AB would balance everything between arm B and arm A and similar would be seen between arm C and arm A in trail AC, but to assume that effects would be balance between the trails would be a mistake."
   },
   {
-    "objectID": "blogs/evisyn/itc.html#sparse-networks",
-    "href": "blogs/evisyn/itc.html#sparse-networks",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#sparse-networks",
+    "href": "blogs/evisyn/itcp2.html#sparse-networks",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "Sparse networks",
     "text": "Sparse networks\nWe rarely have dense network of RCT providing the necessary evidence. If we did then perhaps the effect would average out between these trails. However, in reality such occurrences are very rare. In HTA, we have one or two pivotal trials and standard indirect comparison (i.e. Bucher method) introduces serious systematic bias.\nLet us take another example: Purely by chance you end up with more men than women compared to the general population. Then we can still assess the effects at population level by crude direct standardisation.\nCDS means to get the estimates for men and women separately and then reweight the averages to match the true natural split.\nUnfortunately this method does not hold in modern medical trial because human biology is multi-dimensional. So you probably need to end with adjusting for many more variables, which leads to too many buckets of very specific subgroup with very few to no patients in that stratification which then might lead to that subgroup have no patients essentially making their weight x n (=0) = 0. For example a female smoker at the age 70 might not be observered in the population and hence the crude direct standard\nPaul Rosenbaum introduced propensity score matching in 1983, and the next leap of indirect treatment comparison occurred when the same principle was applied to indirect treatment comparison.\n• It was fundamentally a conditional probability\n• Mathematical likehood that an individual from a broader target population would be assigned to your specific trail sample given his unique characteristics.\nHow to achieve this? • Feed the individual level patient data into a logistic model. • Use the fitted model to predict which individuals from the external cohort are more likely to represent the previous cohort. • The \\(y_{i}\\) - probability for each individual in the external cohort acts as the weights. • You weight that individual with inverse of the probability that you just received.\n\n\n\n\n\n\n\nSATE\nPATE\n\n\n\n\nSample average treatment effect\nPopulation average treatment effect\n\n\nRaw unadjusted result of RCT\nAjdusteed result at population level\n\n\nEffect of the drug limited to the sample of RCT\nEffect of the drug as if administered to the entire population\n\n\n\nPSM acts a bridge from SATE to PATE.\n4 non-negotiable assumptions for this to hold\n1) Homogeneity of the outcome irrespective of the administration in RCT/real world i.e. from contraolled environment as observed in RCT to uncontrolled environment such as the real world.\n2) Outcome of one individual is indidependent or other individual. This automatically apploes to most pf the chronic disease for eg BP med given to one individual does not effect your BP meds. But it falls apart in case of infecticious disease where where if one person is vaccinated another person risk to the disease changes due to change in the herd immunity.\n3) Strongly ignorable treatment assignment  - Assignment of the drug is 100% independent of any other factor. Acheiveable by double blinding.\n4) Strongly ignoreable sample assignment - there are no unmeasured variable related to both how you selected your sample and the outcome of the disease.\nConditional consistency of relative effects which is when placebo is unethical because of the life threatening condition treatment off drug B must be tested against drug a however drug a was tested long back against placebo so if you study the effect modifier of something very specific such as a 50 year old female who was a smoker it should be the same irrespective of whether the effect was studied in 2015 or 2025."
   },
   {
-    "objectID": "blogs/evisyn/itc.html#maic-matching-adjusted-indirect-comparison",
-    "href": "blogs/evisyn/itc.html#maic-matching-adjusted-indirect-comparison",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#maic-matching-adjusted-indirect-comparison",
+    "href": "blogs/evisyn/itcp2.html#maic-matching-adjusted-indirect-comparison",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "MAIC matching adjusted indirect comparison",
     "text": "MAIC matching adjusted indirect comparison\nTrial AB: 500 individuals aged 47 to 75 years with 64% of the sample being female\nTrial AC: 300 patients aged between 45 to 55 years with 80% of the sample being female\nAge here is the effect modifier and sex is considered as the prognostic factor\nWe want to weigh 500 patients from trial AB to look like the 300 patients from trial AC MAIC bypasses the logistic regression based PSM\nMAIC uses method of moments to estimate the patient weights\nWhere moments refer to the quantitative measure of the shape of the distribution it is a point estimate where\nM1 = mean and M2 = variance\nComputer algorithm searches for the unique set of weights to multiply each of the 500 individuals such that the weighted average becomes equal to the AC trial with 300 patients and the weighted standard deviation matches the published standard deviation.\nThe R package uses BFGH algorithm.\nHowever age range seems to not overlap in trial AB the age ranged between 45 to 75 and in trial AC it ranged between 45 to 55\nThe algorithm would assign 0 weight to people who are aged 56 to 75 years old\nThe range of the weights seem to be from zero to 3.44 as assigned by the algorithm\nHowever the median of the weights is 0.07 meaning half of the patients are given a weight close to 0 which implies that they are erased from the final trial but this drastically decreases the sample size and hence the power and increases the confidence interval\nAnother important terminology hence arises called the effective sample size the effective sample size in the above example drops from 500 to 185.6 which implies that around 60% of the samples have been dropped and hence the margin of error widens\n\nThe sandwich package\nStandard variation calculation measures the spread of our raw data but here the weight is applied also carries some uncertainty. Because the algorithm had to estimate them standard error cannot be calculated the normal way because these estimates are not fixed absolute truth. Sandwich estimator accounts for error from both sources a central matrix containing the variance of the data is sandwiched between the variance of the algorithms estimate on both sides. (why both sides?)"
   },
   {
-    "objectID": "blogs/evisyn/itc.html#simulated-treatment-comparison",
-    "href": "blogs/evisyn/itc.html#simulated-treatment-comparison",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#simulated-treatment-comparison",
+    "href": "blogs/evisyn/itcp2.html#simulated-treatment-comparison",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "Simulated treatment comparison",
     "text": "Simulated treatment comparison\nTake all 500 individuals put them into a regression the beta coefficient of variables states the relationship of that variable with the outcome\nNow you plug the AC aggregate parameters into the regression model built on trial AB\nThe underlying assumption is that the shape of your statistical model is correct\nFor example your regression model assumes that the relation between age and outcome is a straight line but the biology says otherwise then the entire model fails and the model is called to be misspecified\n$outcome is equal to treatment arm plus age plus sex\nChecked residual deviance measures the variance of the data that the model equation fails to explain\nWhen gender was added to the equation the residual deviance did not sink so adding gender did not make the model significantly better. So it is better to drop the gender from the equation.\nTrue log odds ratio of drug C versus drug B is equal to-0.400. Which means that C is more effective than B.\nIf a farmer naively conducts a busher method ignoring age as a effect modifier then the treatment effect of drug C versus B is equal to 0.35 which implies that drug B is much more effective than drug C however this is contrary to what the reality is which is why nice asks for maic and STC while the MAIC of drug C versus B equals -0.032\nSTC of drugs C versus B equals -0.247.\nSince the assumed example is framed in such a way that the distribution of the variables are known and similar in both trials hence the value of STC is closer to the real indirect treatment comparison. However this might not be the case always and it doesn’t mean that STC is universally superior especially when the relationships of the variables and the outcomes are nonlinear.\nAll of this happens when we have a common comparator a till now everything was called an anchored treatment effectiveness a being present allows for the randomization in both trials even if there are prognostic variables unmeasured the randomization of trial AC and trial AB ensures that they are equally balanced between treatment and control arms.\nWhat if we have a trial comparing drug C to drug A and another trial comparing drug B to standard of care and we want to know the treatment effect difference between drug C versus drug B.\nThen we have to resort to"
   },
   {
-    "objectID": "blogs/evisyn/itc.html#unanchored-treatment-comparison",
-    "href": "blogs/evisyn/itc.html#unanchored-treatment-comparison",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#unanchored-treatment-comparison",
+    "href": "blogs/evisyn/itcp2.html#unanchored-treatment-comparison",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "Unanchored treatment comparison",
     "text": "Unanchored treatment comparison\nMAIC or STC instead of merely adjusting treatment effects across a bridge now you are assuming you can absolutely predict biological outcomes from the mathematical covariance alone.\nIn anchor trials, randomization handles the prognostic variables and you only need to account for the effect modifiers.\nIn unanchored trials you need to adjust for both but account for all prognostic variables is very difficult example genetic predisposition gut microbiome etc. The harsh reality is that you cannot. Unanchored estimates suffers inherently from an unknown amount of bias that is where the next method comes in."
   },
   {
-    "objectID": "blogs/evisyn/itc.html#doubly-robust-estimator",
-    "href": "blogs/evisyn/itc.html#doubly-robust-estimator",
-    "title": "Indirect treatment comparisons",
+    "objectID": "blogs/evisyn/itcp2.html#doubly-robust-estimator",
+    "href": "blogs/evisyn/itcp2.html#doubly-robust-estimator",
+    "title": "Indirect treatment comparisons : Part 2",
     "section": "Doubly robust estimator",
     "text": "Doubly robust estimator\nThis combines both MAIC and STC.\nPSM for weights of patients simultaneously build an outcome regression model to predict the results based on covariance. As long as anyone is consistent the final estimate would be reliable if PSM fails to assign accurate weights but the outcome regression model captures the biological relation correctly or vice versa then you are protected.\nRegression model should reflect the biological distribution and hence the treatment effect and not the additive on natural scale but rather on a transformed scale either log or biologically plausible transformative scale.\nThis still leaves us with target population paradox.\nWhich states that Drug A is trying to prove that it is better than Drug B. However, it should prove that it is better for the entire UK population."
   },
   {
-    "objectID": "blogs/he/ee.html",
-    "href": "blogs/he/ee.html",
-    "title": "Economic evaluation",
+    "objectID": "blogs/rwe/tte.html",
+    "href": "blogs/rwe/tte.html",
+    "title": "Target Trial Emulation",
     "section": "",
     "text": "Write here."
   },
   {
-    "objectID": "projects/nqsc/index.html",
-    "href": "projects/nqsc/index.html",
-    "title": "Nordic QALY Shortfall Calculator",
-    "section": "",
-    "text": "Detailed explanation of the project goes here…\nLink to app"
-  },
-  {
-    "objectID": "research/publications/pub4.html",
-    "href": "research/publications/pub4.html",
-    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
-    "section": "",
-    "text": "Alam MS. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. medRxiv. 2025 Sep 15:2025-09."
-  },
-  {
-    "objectID": "research/publications/pub4.html#citation",
-    "href": "research/publications/pub4.html#citation",
-    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
-    "section": "",
-    "text": "Alam MS. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. medRxiv. 2025 Sep 15:2025-09."
-  },
-  {
-    "objectID": "research/publications/pub4.html#my-contribution",
-    "href": "research/publications/pub4.html#my-contribution",
-    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
-    "section": "My contribution",
-    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
-  },
-  {
-    "objectID": "research/publications/pub4.html#abstract",
-    "href": "research/publications/pub4.html#abstract",
-    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
-    "section": "Abstract",
-    "text": "Abstract\nNorway has mandated the adoption of the new Norwegian EQ-5D-5L value set from September 1, 2025. This transition change was long overdue, as the former value set was based on decades old assessment of health-related quality of life.\nCurrent study disseminates the updated quality-adjusted life expectancies (QALE) for the Norwegian population based on age and sex, and quantify how the new norm alters the absolute and proportional shortfall in QALY.\nThe population norm derived from the general population survey by Garratt et al., 2021 has been linked to the most recent Norwegian Lifetable (2023-2024) to estimate the QALE using the Sullivan method. It is compared to the van Hout et al.’s crosswalk QALE norms on the same lifetable. Variable discount rates were applied at 4%, 3% and 2% as per guidelines.\nBased on the newer population norms the QALE of average population has decreased by 4%. The QALE at birth was previous 69.62 years for men and 69.67 years for women which came down to 64.93 years and 68.77 years respectively.\nThe current study quantifies the diminishing QALEs based on the updated QALE estimates at the same time allowing the estimation of absolute and proportional shortfall."
-  },
-  {
-    "objectID": "research/publications/pub4.html#links",
-    "href": "research/publications/pub4.html#links",
-    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
-    "section": "Links",
-    "text": "Links\n\nPreprint: medRxiv"
-  },
-  {
-    "objectID": "research/publications/pub5.html",
-    "href": "research/publications/pub5.html",
-    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
-    "section": "",
-    "text": "Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. Scientific Reports. 2025 Jun 5;15(1):19764."
-  },
-  {
-    "objectID": "research/publications/pub5.html#citation",
-    "href": "research/publications/pub5.html#citation",
-    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
-    "section": "",
-    "text": "Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. Scientific Reports. 2025 Jun 5;15(1):19764."
-  },
-  {
-    "objectID": "research/publications/pub5.html#my-contribution",
-    "href": "research/publications/pub5.html#my-contribution",
-    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
-    "section": "My contribution",
-    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
-  },
-  {
-    "objectID": "research/publications/pub5.html#abstract",
-    "href": "research/publications/pub5.html#abstract",
-    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
-    "section": "Abstract",
-    "text": "Abstract\nCeliac disease (CeD) is an autoimmune disease driven by a complex genetic interplay within and beyond the human leukocyte antigen (HLA) region. Despite this, half of its heritability remains unexplained, with most of the unidentified variants located in non-protein coding regions. Here we performed a genome-wide association study among 52,342 adults screened for CeD, including 465 previously undiagnosed and 361 already diagnosed cases, which mitigated the likely disease misclassification present in previous studies. Genotyping and imputation yielded approximately 24.9 million variants for analysis. The study identified 15 novel associations (P &lt; 5E-08) in 12 loci in addition to all the previously associated loci at lower significance thresholds (P &lt; 5E-03). The 5p15.33 locus in the long non-coding RNA gene (LINC01019) showed the highest potential for a true association with CeD. Notably, variants in 5p15.33 has also been associated with rheumatoid arthritis, suggesting a new shared autoimmune locus."
-  },
-  {
-    "objectID": "research/publications/pub5.html#links",
-    "href": "research/publications/pub5.html#links",
-    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
-    "section": "Links",
-    "text": "Links\n\nJournal: Scientific Reports"
-  },
-  {
-    "objectID": "research/publications/pub2.html",
-    "href": "research/publications/pub2.html",
-    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
-    "section": "",
-    "text": "Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. BMC Gastroenterology. 2026 Apr 16."
-  },
-  {
-    "objectID": "research/publications/pub2.html#citation",
-    "href": "research/publications/pub2.html#citation",
-    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
-    "section": "",
-    "text": "Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. BMC Gastroenterology. 2026 Apr 16."
-  },
-  {
-    "objectID": "research/publications/pub2.html#my-contribution",
-    "href": "research/publications/pub2.html#my-contribution",
-    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
-    "section": "My contribution",
-    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
-  },
-  {
-    "objectID": "research/publications/pub2.html#abstract",
-    "href": "research/publications/pub2.html#abstract",
-    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
-    "section": "Abstract",
-    "text": "Abstract\nCeliac disease (CeD) is an immune mediated disorder with substantial underdiagnosis, particularly in adults with non-specific symptoms. Universal population screening remains under debate due to cost-effectiveness and potential quality-of-life implications. Clinical prediction tools aid clinicians in identifying individuals who might benefit from targeted screening.\nUsing data from 52,000 adults in the fourth population-based Trøndelag Health Study (HUNT4) in Norway, we developed and internally validated a non-diagnostic prediction model for previously undiagnosed CeD. The model incorporated predictors spanning genetics, lifestyle, symptoms, comorbidity, and biomarkers. Elastic-net logistic regression with nested cross-validation was chosen due to the low disease prevalence and imbalanced case-control distribution. Model performance was assessed by the area under the receiver operating characteristic curve, area under precision-recall curve, and calibration plots. Clinical utility was evaluated at different risk thresholds.\nAmong 465 newly diagnosed cases and 51,515 controls, polygenic risk score emerged as the strongest predictor for CeD, alongside diabetic history, kidney function, chronic discomfort, and perceived health status. The model achieved high discrimination (84%) and good calibration (0.009). The model outperformed universal population screening by detecting more cases, especially when the predicted risk was less than 2%. Increasing sample prevalence for sensitivity analysis, revealed that the model was better in population scenarios compared to high-risk/high-prevalence scenarios.\nThe multifactorial model demonstrated strong potential for guiding targeted screening for CeD, especially in low-prevalence, true population-based settings. While not a diagnostic tool, it may support clinical decision-making by identifying individuals at elevated risk. External validation and cost-effectiveness studies are needed before it can be implemented in primary care."
-  },
-  {
-    "objectID": "research/publications/pub2.html#links",
-    "href": "research/publications/pub2.html#links",
-    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
-    "section": "Links",
-    "text": "Links\n\nJournal: BMC Gastroenterology"
-  },
-  {
-    "objectID": "research/publications/pub7.html",
-    "href": "research/publications/pub7.html",
-    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
-    "section": "",
-    "text": "Sen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. Indian Journal of Endocrinology and Metabolism. 2020 Nov 1;24(6):532-6."
-  },
-  {
-    "objectID": "research/publications/pub7.html#citation",
-    "href": "research/publications/pub7.html#citation",
-    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
-    "section": "",
-    "text": "Sen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. Indian Journal of Endocrinology and Metabolism. 2020 Nov 1;24(6):532-6."
-  },
-  {
-    "objectID": "research/publications/pub7.html#my-contribution",
-    "href": "research/publications/pub7.html#my-contribution",
-    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
-    "section": "My contribution",
-    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, and editing the methods and results sections of the manuscript draft."
-  },
-  {
-    "objectID": "research/publications/pub7.html#abstract",
-    "href": "research/publications/pub7.html#abstract",
-    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
-    "section": "Abstract",
-    "text": "Abstract\nContext: There is scarcity of data on thyroid function abnormality in COVID-19 patients in world literature.\nAims: The objective of this study was to assess thyroid function tests in hospitalized patients of COVID-19.\nSettings and Design: Sixty (60) patients with COVID-19 detected by RT-PCR admitted in General Medicine isolation ward and COVID block of a tertiary care teaching hospital were selected by semi-purposive sampling.\nMaterials and Methods: These patients were assessed for thyroid function tests, including total T3, free T3, total T4, free T4, TSH and anti-TPO antibody along with other baseline investigations. Patients with pre-existing thyroid–related ailments, those on levothyroxine or anti-thyroid drugs or other drugs known to interfere with the results were excluded.\nResults: There were 43.3% patients in mild, 26.7% in moderate, and 30% in severe category, according to local COVID-19 severity classification protocol. 35% patients had one or more abnormality in the thyroid function, low TSH being the most common (18.33%). 9.1% patients had characteristic pattern of thyroiditis. In most of the others thyroid function did not match any typical pattern. There was no significant difference in any of the parameters of the thyroid function test between mild, moderate, and severe groups.\nConclusion: Thyroid function may be abnormal in all categories of patients during COVID-19 infection, even in absence of pre-existing thyroid ailments. Although low TSH is the commonest abnormality and typical pattern of thyroiditis can be seen in a subsection of patients, in majority of the patients, thyroid function abnormality does not follow any characteristic pattern and likely represents a combination of thyroiditis and sick euthyroid syndrome in different points of its spectrum."
-  },
-  {
-    "objectID": "research/publications/pub7.html#links",
-    "href": "research/publications/pub7.html#links",
-    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
-    "section": "Links",
-    "text": "Links\n\nJournal: Indian Journal of Endocrinology and Metabolism"
-  },
-  {
-    "objectID": "research/conferences/poster/p1.html",
-    "href": "research/conferences/poster/p1.html",
-    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
-    "section": "",
-    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Brook Wolford, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
-  },
-  {
-    "objectID": "research/conferences/poster/p1.html#details",
-    "href": "research/conferences/poster/p1.html#details",
-    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
-    "section": "",
-    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Brook Wolford, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
-  },
-  {
-    "objectID": "research/conferences/poster/p1.html#abstract",
-    "href": "research/conferences/poster/p1.html#abstract",
-    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
-    "section": "Abstract",
-    "text": "Abstract\nTBW"
-  },
-  {
-    "objectID": "research/conferences/poster/p1.html#certification",
-    "href": "research/conferences/poster/p1.html#certification",
-    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
-    "section": "Certification",
-    "text": "Certification"
-  },
-  {
-    "objectID": "research/conferences/oral/o1.html",
-    "href": "research/conferences/oral/o1.html",
-    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
-    "section": "",
-    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
-  },
-  {
-    "objectID": "research/conferences/oral/o1.html#details",
-    "href": "research/conferences/oral/o1.html#details",
-    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
-    "section": "",
-    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
-  },
-  {
-    "objectID": "research/conferences/oral/o1.html#abstract",
-    "href": "research/conferences/oral/o1.html#abstract",
-    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
-    "section": "Abstract",
-    "text": "Abstract\nPrevious studies have uncovered genetic loci associated with celiac disease (CeD) within both the human leukocyte antigen (HLA) and non-HLA regions. However, half of the heritability remains unexplained. This study aimed to identify novel loci associated with CeD in a general adult population screened for the disease, mitigating the likely selection bias observed in previous case-control studies. The study utilized data from the fourth Trøndelag Health Study (HUNT4) in Norway, where 52,358 adults were screened for CeD using serology, identifying 465 previously undiagnosed biopsy- confirmed cases. Additionally, 377 previously diagnosed cases were identified through hospital journal searches and registry data. Genotyping of 373,185 single nucleotide polymorphisms was performed on all participant using four Illumina HumanCoreExome arrays. Imputation, using the Haplotype Reference Consortium panel, resulted in approximately 24.9 million variants, post quality control. A genome-wide association study was performed using SAIGE, and functional mapping and pathway enrichment analysis was conducted using FUMA. All except one of the 42 known autosomal loci were present in the data, of which seven reached the suggestive significance threshold (P≤ 5 x 10-6). Thirteen independent novel associations were observed (P ≤ 5x 10-8), with the 5p15.33 locus showing the highest potential for a true association with CeD, warranting further studies to validate the findings. Notably, the IRX1 gene, located close to the 5p15.33 locus has also been associated with rheumatoid arthritis, suggesting a new shared autoimmune locus."
-  },
-  {
-    "objectID": "research/conferences/oral/o1.html#certification",
-    "href": "research/conferences/oral/o1.html#certification",
-    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
-    "section": "Certification",
-    "text": "Certification"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
     "title": "MSA",
     "section": "",
-    "text": "I am a Research Assistant at PenTAG.\nI appraise health economic evidence and model submitted by clients as part of health technology assessment (HTA) submissions to the National Institute for Health and Care Excellence (NICE) in the UK. Additionally, I am also involved in research on health economic modelling methods and applications.\nTo chat or for collaboration 👇"
+    "text": "Health economics\n\nModelling\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
+    "objectID": "blogs/index.html#health-economics",
+    "href": "blogs/index.html#health-economics",
+    "title": "MSA",
     "section": "",
-    "text": "Mental health\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nHUNT Study\n\n\n\nA model for predicting celiac disease among undiagnosed subjects established with demographic, clinical, symptomatic, and genetic data from the HUNT4 study\n\n\n\n\n\nApr 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nAssessing the differences among diagnosed and undiagnosed celiac disease cases at genetic level using a population-based cohort in Norway.\n\n\n\n\n\nSep 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprint\n\nHealth economics\n\nQuality-adjusted life expectancy\n\n\n\nAssessing the impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway.\n\n\n\n\n\nSep 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nGWAS of screened adult population in Nord Trondelag county, Norway identifies novel genetic variants associated with celiac disease.\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nNutrition\n\nIndia\n\nPath analysis\n\n\n\nStructural equation modeling to find the direct, indirect, and total effect of various determinants on stunting, wasting, and underweight among children aged 0-2 years in India.\n\n\n\n\n\nJul 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCOVID-19\n\nEndocrinology\n\n\n\nStudy of thyroid function tests in hospitalized COVID-19 patients in a tertiary care hospital in Kolkata, India.\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\nNo matching items"
+    "text": "Health economics\n\nModelling\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research/index.html#publications",
-    "href": "research/index.html#publications",
-    "title": "Research",
+    "objectID": "blogs/index.html#real-world-evidence",
+    "href": "blogs/index.html#real-world-evidence",
+    "title": "MSA",
+    "section": "Real-World Evidence",
+    "text": "Real-World Evidence\n\n\n\n\n\n\n\n\n\n\nTarget Trial Emulation\n\n\n\nEpidemiology\n\nCausal inference\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/index.html#evidence-synthesis",
+    "href": "blogs/index.html#evidence-synthesis",
+    "title": "MSA",
+    "section": "Evidence Synthesis",
+    "text": "Evidence Synthesis\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons Part-1\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\n\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons : Part 2\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\nDiscussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Mental health\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nHUNT Study\n\n\n\nA model for predicting celiac disease among undiagnosed subjects established with demographic, clinical, symptomatic, and genetic data from the HUNT4 study\n\n\n\n\n\nApr 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nAssessing the differences among diagnosed and undiagnosed celiac disease cases at genetic level using a population-based cohort in Norway.\n\n\n\n\n\nSep 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprint\n\nHealth economics\n\nQuality-adjusted life expectancy\n\n\n\nAssessing the impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway.\n\n\n\n\n\nSep 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nGWAS of screened adult population in Nord Trondelag county, Norway identifies novel genetic variants associated with celiac disease.\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nNutrition\n\nIndia\n\nPath analysis\n\n\n\nStructural equation modeling to find the direct, indirect, and total effect of various determinants on stunting, wasting, and underweight among children aged 0-2 years in India.\n\n\n\n\n\nJul 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCOVID-19\n\nEndocrinology\n\n\n\nStudy of thyroid function tests in hospitalized COVID-19 patients in a tertiary care hospital in Kolkata, India.\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#conference-presentations",
-    "href": "research/index.html#conference-presentations",
-    "title": "Research",
-    "section": "Conference presentations",
-    "text": "Conference presentations\n\nOral presentations\n\n\n\n\n\n\n\n\n\n\nThe IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.\n\n\n\nOral presentation\n\nConference\n\nCeliac disease\n\nGWAS\n\n\n\nGenome-wide association study of celiac disease in a screened population-based cohort (HUNT4) in Norway identifies the IRX1 locus as a novel association.\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\nNo matching items\n\n\n\nPosters\n\n\n\n\n\n\n\n\n\n\nAssessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.\n\n\n\nPoster presentation\n\nConference\n\nCeliac disease\n\nGWAS\n\n\n\nRisk based stratification of celiac disease in a screened population-based cohort (HUNT4) in Norway using polygenic risk scores.\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/publications/pub3.html",
-    "href": "research/publications/pub3.html",
-    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
-    "section": "",
-    "text": "Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. Human Genetics. 2025 Dec;144(11):1071-8."
-  },
-  {
-    "objectID": "research/publications/pub3.html#citation",
-    "href": "research/publications/pub3.html#citation",
-    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
-    "section": "",
-    "text": "Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. Human Genetics. 2025 Dec;144(11):1071-8."
-  },
-  {
-    "objectID": "research/publications/pub3.html#my-contribution",
-    "href": "research/publications/pub3.html#my-contribution",
-    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
-    "section": "My contribution",
-    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
-  },
-  {
-    "objectID": "research/publications/pub3.html#abstract",
-    "href": "research/publications/pub3.html#abstract",
-    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
-    "section": "Abstract",
-    "text": "Abstract\nA large proportion of individuals with celiac disease (CeD) remain undiagnosed, often presenting at an older age of onset or with non-classical symptoms compared to diagnosed cases. Such heterogeneity might be related to genetic factors. The aim was to utilize a CeD-screened adult population to compare the genetic variants in known and newly diagnosed cases. In the fourth wave of the population-based Trøndelag Health Study (HUNT4) 826 CeD and 51,516 non-CeD individuals were included. Medical registries identified 361 previously diagnosed cases, while screening identified 465 new cases. A validated polygenic risk score (PRS) was used to assess the genetic risk of CeD among the two case groups versus non-CeD individuals. Additional genetic variants not included in the PRS were also analyzed. The PRS distinguished cases from non-cases with high accuracy (AUROC: 85% for known cases, 83% for new cases). The genetic variation explained by the PRS was similar for known and new cases (17.1% versus 14.5%). The odds ratio for being in the highest genetic risk group (top 10%) was 22.7 (95% CI 14.1–36.4) for known cases and 18.6 (95% CI 12.4–27.9) for new cases versus the median group (40%-60%). Differences in effect size among specific genome-wide variants were observed but were not significantly associated with CeD. A validated PRS showed significant genetic difference between CeD cases and the general population, with similar association in both known and newly diagnosed cases. This suggests that genetic architectures of the two groups are comparable, implying that other non-genetic factors may drive CeD in adults."
-  },
-  {
-    "objectID": "research/publications/pub3.html#links",
-    "href": "research/publications/pub3.html#links",
-    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
-    "section": "Links",
-    "text": "Links\n\nJournal: Human Genetics"
-  },
-  {
-    "objectID": "research/publications/pub1.html",
-    "href": "research/publications/pub1.html",
-    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
-    "section": "",
-    "text": "Alam MS, Schepers R, Edwards CH, Bjorngaard JH, Holman PA, Asheim A, (additional authors to be included). Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway. Ongoing analysis and manuscript preparation."
-  },
-  {
-    "objectID": "research/publications/pub1.html#citation",
-    "href": "research/publications/pub1.html#citation",
-    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
-    "section": "",
-    "text": "Alam MS, Schepers R, Edwards CH, Bjorngaard JH, Holman PA, Asheim A, (additional authors to be included). Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway. Ongoing analysis and manuscript preparation."
-  },
-  {
-    "objectID": "research/publications/pub1.html#my-contribution",
-    "href": "research/publications/pub1.html#my-contribution",
-    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
-    "section": "My contribution",
-    "text": "My contribution\nAssisting in the statistical analysis plan draft, co-conducting the analysis, co-writing and editing the manuscript draft."
-  },
-  {
-    "objectID": "research/publications/pub1.html#abstract",
-    "href": "research/publications/pub1.html#abstract",
-    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
-    "section": "Abstract",
-    "text": "Abstract\nTBW"
-  },
-  {
-    "objectID": "research/publications/pub1.html#links",
-    "href": "research/publications/pub1.html#links",
-    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
-    "section": "Links",
-    "text": "Links\nTBW"
+    "text": "Nordic QALY Shortfall Calculator\n\n\n\nHealth Economics\n\nOpen Source\n\nQALY Shortfall\n\nR/Shiny\n\nNordic Countries\n\n\n\nAn open-source QALYmodeling tool for health economics.\n\n\n\nMay 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/publications/pub6.html",
@@ -406,44 +140,310 @@
     "text": "Links\n\nJournal: Frontiers in Public Health"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "research/publications/pub1.html",
+    "href": "research/publications/pub1.html",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
     "section": "",
-    "text": "Nordic QALY Shortfall Calculator\n\n\n\nHealth Economics\n\nOpen Source\n\nQALY Shortfall\n\nR/Shiny\n\nNordic Countries\n\n\n\nAn open-source QALYmodeling tool for health economics.\n\n\n\nMay 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Alam MS, Schepers R, Edwards CH, Bjorngaard JH, Holman PA, Asheim A, (additional authors to be included). Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway. Ongoing analysis and manuscript preparation."
   },
   {
-    "objectID": "blogs/index.html",
-    "href": "blogs/index.html",
+    "objectID": "research/publications/pub1.html#citation",
+    "href": "research/publications/pub1.html#citation",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "",
+    "text": "Alam MS, Schepers R, Edwards CH, Bjorngaard JH, Holman PA, Asheim A, (additional authors to be included). Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway. Ongoing analysis and manuscript preparation."
+  },
+  {
+    "objectID": "research/publications/pub1.html#my-contribution",
+    "href": "research/publications/pub1.html#my-contribution",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "My contribution",
+    "text": "My contribution\nAssisting in the statistical analysis plan draft, co-conducting the analysis, co-writing and editing the manuscript draft."
+  },
+  {
+    "objectID": "research/publications/pub1.html#abstract",
+    "href": "research/publications/pub1.html#abstract",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "Abstract",
+    "text": "Abstract\nTBW"
+  },
+  {
+    "objectID": "research/publications/pub1.html#links",
+    "href": "research/publications/pub1.html#links",
+    "title": "Healthcare trajectories after referral to specialist mental healthcare: A descriptive registry-based study of accepted and rejected referrals in Norway",
+    "section": "Links",
+    "text": "Links\nTBW"
+  },
+  {
+    "objectID": "research/publications/pub3.html",
+    "href": "research/publications/pub3.html",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "",
+    "text": "Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. Human Genetics. 2025 Dec;144(11):1071-8."
+  },
+  {
+    "objectID": "research/publications/pub3.html#citation",
+    "href": "research/publications/pub3.html#citation",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "",
+    "text": "Alam MS, Wolford BN, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study. Human Genetics. 2025 Dec;144(11):1071-8."
+  },
+  {
+    "objectID": "research/publications/pub3.html#my-contribution",
+    "href": "research/publications/pub3.html#my-contribution",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub3.html#abstract",
+    "href": "research/publications/pub3.html#abstract",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "Abstract",
+    "text": "Abstract\nA large proportion of individuals with celiac disease (CeD) remain undiagnosed, often presenting at an older age of onset or with non-classical symptoms compared to diagnosed cases. Such heterogeneity might be related to genetic factors. The aim was to utilize a CeD-screened adult population to compare the genetic variants in known and newly diagnosed cases. In the fourth wave of the population-based Trøndelag Health Study (HUNT4) 826 CeD and 51,516 non-CeD individuals were included. Medical registries identified 361 previously diagnosed cases, while screening identified 465 new cases. A validated polygenic risk score (PRS) was used to assess the genetic risk of CeD among the two case groups versus non-CeD individuals. Additional genetic variants not included in the PRS were also analyzed. The PRS distinguished cases from non-cases with high accuracy (AUROC: 85% for known cases, 83% for new cases). The genetic variation explained by the PRS was similar for known and new cases (17.1% versus 14.5%). The odds ratio for being in the highest genetic risk group (top 10%) was 22.7 (95% CI 14.1–36.4) for known cases and 18.6 (95% CI 12.4–27.9) for new cases versus the median group (40%-60%). Differences in effect size among specific genome-wide variants were observed but were not significantly associated with CeD. A validated PRS showed significant genetic difference between CeD cases and the general population, with similar association in both known and newly diagnosed cases. This suggests that genetic architectures of the two groups are comparable, implying that other non-genetic factors may drive CeD in adults."
+  },
+  {
+    "objectID": "research/publications/pub3.html#links",
+    "href": "research/publications/pub3.html#links",
+    "title": "Genetic differences between diagnosed and undiagnosed Celiac disease: a population-based study",
+    "section": "Links",
+    "text": "Links\n\nJournal: Human Genetics"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Mental health\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nHUNT Study\n\n\n\nA model for predicting celiac disease among undiagnosed subjects established with demographic, clinical, symptomatic, and genetic data from the HUNT4 study\n\n\n\n\n\nApr 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nAssessing the differences among diagnosed and undiagnosed celiac disease cases at genetic level using a population-based cohort in Norway.\n\n\n\n\n\nSep 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprint\n\nHealth economics\n\nQuality-adjusted life expectancy\n\n\n\nAssessing the impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway.\n\n\n\n\n\nSep 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nGWAS of screened adult population in Nord Trondelag county, Norway identifies novel genetic variants associated with celiac disease.\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nNutrition\n\nIndia\n\nPath analysis\n\n\n\nStructural equation modeling to find the direct, indirect, and total effect of various determinants on stunting, wasting, and underweight among children aged 0-2 years in India.\n\n\n\n\n\nJul 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCOVID-19\n\nEndocrinology\n\n\n\nStudy of thyroid function tests in hospitalized COVID-19 patients in a tertiary care hospital in Kolkata, India.\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Mental health\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nHUNT Study\n\n\n\nA model for predicting celiac disease among undiagnosed subjects established with demographic, clinical, symptomatic, and genetic data from the HUNT4 study\n\n\n\n\n\nApr 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nAssessing the differences among diagnosed and undiagnosed celiac disease cases at genetic level using a population-based cohort in Norway.\n\n\n\n\n\nSep 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprint\n\nHealth economics\n\nQuality-adjusted life expectancy\n\n\n\nAssessing the impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway.\n\n\n\n\n\nSep 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCeliac disease\n\nGenetics\n\nHUNT Study\n\n\n\nGWAS of screened adult population in Nord Trondelag county, Norway identifies novel genetic variants associated with celiac disease.\n\n\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nNutrition\n\nIndia\n\nPath analysis\n\n\n\nStructural equation modeling to find the direct, indirect, and total effect of various determinants on stunting, wasting, and underweight among children aged 0-2 years in India.\n\n\n\n\n\nJul 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication\n\nCOVID-19\n\nEndocrinology\n\n\n\nStudy of thyroid function tests in hospitalized COVID-19 patients in a tertiary care hospital in Kolkata, India.\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#conference-presentations",
+    "href": "research/index.html#conference-presentations",
+    "title": "Research",
+    "section": "Conference presentations",
+    "text": "Conference presentations\n\nOral presentations\n\n\n\n\n\n\n\n\n\n\nThe IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.\n\n\n\nOral presentation\n\nConference\n\nCeliac disease\n\nGWAS\n\n\n\nGenome-wide association study of celiac disease in a screened population-based cohort (HUNT4) in Norway identifies the IRX1 locus as a novel association.\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\nNo matching items\n\n\n\nPosters\n\n\n\n\n\n\n\n\n\n\nAssessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.\n\n\n\nPoster presentation\n\nConference\n\nCeliac disease\n\nGWAS\n\n\n\nRisk based stratification of celiac disease in a screened population-based cohort (HUNT4) in Norway using polygenic risk scores.\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "MSA",
     "section": "",
-    "text": "Health economics\n\nModelling\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+    "text": "I am a Research Assistant at PenTAG.\nI appraise health economic evidence and model submitted by clients as part of health technology assessment (HTA) submissions to the National Institute for Health and Care Excellence (NICE) in the UK. Additionally, I am also involved in research on health economic modelling methods and applications.\nTo chat or for collaboration 👇"
   },
   {
-    "objectID": "blogs/index.html#health-economics",
-    "href": "blogs/index.html#health-economics",
-    "title": "MSA",
+    "objectID": "research/conferences/oral/o1.html",
+    "href": "research/conferences/oral/o1.html",
+    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
     "section": "",
-    "text": "Health economics\n\nModelling\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
   },
   {
-    "objectID": "blogs/index.html#real-world-evidence",
-    "href": "blogs/index.html#real-world-evidence",
-    "title": "MSA",
-    "section": "Real-World Evidence",
-    "text": "Real-World Evidence\n\n\n\n\n\n\n\n\n\n\nTarget Trial Emulation\n\n\n\nEpidemiology\n\nCausal inference\n\nRegistry data\n\n\n\nIn preparation. Ongoing analysis and manuscript preparation.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+    "objectID": "research/conferences/oral/o1.html#details",
+    "href": "research/conferences/oral/o1.html#details",
+    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
+    "section": "",
+    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Laurent F. Thomas, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
   },
   {
-    "objectID": "blogs/index.html#evidence-synthesis",
-    "href": "blogs/index.html#evidence-synthesis",
-    "title": "MSA",
-    "section": "Evidence Synthesis",
-    "text": "Evidence Synthesis\n\n\n\n\n\n\n\n\n\n\nIndirect treatment comparisons\n\n\n\nEvidence Synthesis\n\nComparative effectiveness\n\n\n\nDiscussion and notes on indirect treatment comparisons, including the Bucher method and population adjusted treatment comparison methods.\n\n\n\n\n\nOct 31, 2026\n\n\n\n\n\nNo matching items"
+    "objectID": "research/conferences/oral/o1.html#abstract",
+    "href": "research/conferences/oral/o1.html#abstract",
+    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
+    "section": "Abstract",
+    "text": "Abstract\nPrevious studies have uncovered genetic loci associated with celiac disease (CeD) within both the human leukocyte antigen (HLA) and non-HLA regions. However, half of the heritability remains unexplained. This study aimed to identify novel loci associated with CeD in a general adult population screened for the disease, mitigating the likely selection bias observed in previous case-control studies. The study utilized data from the fourth Trøndelag Health Study (HUNT4) in Norway, where 52,358 adults were screened for CeD using serology, identifying 465 previously undiagnosed biopsy- confirmed cases. Additionally, 377 previously diagnosed cases were identified through hospital journal searches and registry data. Genotyping of 373,185 single nucleotide polymorphisms was performed on all participant using four Illumina HumanCoreExome arrays. Imputation, using the Haplotype Reference Consortium panel, resulted in approximately 24.9 million variants, post quality control. A genome-wide association study was performed using SAIGE, and functional mapping and pathway enrichment analysis was conducted using FUMA. All except one of the 42 known autosomal loci were present in the data, of which seven reached the suggestive significance threshold (P≤ 5 x 10-6). Thirteen independent novel associations were observed (P ≤ 5x 10-8), with the 5p15.33 locus showing the highest potential for a true association with CeD, warranting further studies to validate the findings. Notably, the IRX1 gene, located close to the 5p15.33 locus has also been associated with rheumatoid arthritis, suggesting a new shared autoimmune locus."
   },
   {
-    "objectID": "blogs/rwe/tte.html",
-    "href": "blogs/rwe/tte.html",
-    "title": "Target Trial Emulation",
+    "objectID": "research/conferences/oral/o1.html#certification",
+    "href": "research/conferences/oral/o1.html#certification",
+    "title": "The IRX1 locus is associated with celiac disease: results from a screened population-based cohort, the HUNT study.",
+    "section": "Certification",
+    "text": "Certification"
+  },
+  {
+    "objectID": "research/conferences/poster/p1.html",
+    "href": "research/conferences/poster/p1.html",
+    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
+    "section": "",
+    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Brook Wolford, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
+  },
+  {
+    "objectID": "research/conferences/poster/p1.html#details",
+    "href": "research/conferences/poster/p1.html#details",
+    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
+    "section": "",
+    "text": "Conference: International Coeliac Disease Symposium\nDate: 05-07 September 2024\nLocation: Sheffield, UK\nCo-authors: Brook Wolford, Ben Brumpton, Kristian Hveem, Knut E. A. Lundin, Sebo Withoff, Iris H. Jonkers, Ludvig M. Sollid, Rebecka Hjort, Eivind Ness-Jensen\nMy role: Presenting author"
+  },
+  {
+    "objectID": "research/conferences/poster/p1.html#abstract",
+    "href": "research/conferences/poster/p1.html#abstract",
+    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
+    "section": "Abstract",
+    "text": "Abstract\nTBW"
+  },
+  {
+    "objectID": "research/conferences/poster/p1.html#certification",
+    "href": "research/conferences/poster/p1.html#certification",
+    "title": "Assessing the susceptibility of celiac disease by polygenic risk scores: analysis of a population-based cohort, the HUNT study.",
+    "section": "Certification",
+    "text": "Certification"
+  },
+  {
+    "objectID": "research/publications/pub7.html",
+    "href": "research/publications/pub7.html",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "",
+    "text": "Sen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. Indian Journal of Endocrinology and Metabolism. 2020 Nov 1;24(6):532-6."
+  },
+  {
+    "objectID": "research/publications/pub7.html#citation",
+    "href": "research/publications/pub7.html#citation",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "",
+    "text": "Sen K, Sinha A, Sen S, Chakraborty S, Alam MS. Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital. Indian Journal of Endocrinology and Metabolism. 2020 Nov 1;24(6):532-6."
+  },
+  {
+    "objectID": "research/publications/pub7.html#my-contribution",
+    "href": "research/publications/pub7.html#my-contribution",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, and editing the methods and results sections of the manuscript draft."
+  },
+  {
+    "objectID": "research/publications/pub7.html#abstract",
+    "href": "research/publications/pub7.html#abstract",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "Abstract",
+    "text": "Abstract\nContext: There is scarcity of data on thyroid function abnormality in COVID-19 patients in world literature.\nAims: The objective of this study was to assess thyroid function tests in hospitalized patients of COVID-19.\nSettings and Design: Sixty (60) patients with COVID-19 detected by RT-PCR admitted in General Medicine isolation ward and COVID block of a tertiary care teaching hospital were selected by semi-purposive sampling.\nMaterials and Methods: These patients were assessed for thyroid function tests, including total T3, free T3, total T4, free T4, TSH and anti-TPO antibody along with other baseline investigations. Patients with pre-existing thyroid–related ailments, those on levothyroxine or anti-thyroid drugs or other drugs known to interfere with the results were excluded.\nResults: There were 43.3% patients in mild, 26.7% in moderate, and 30% in severe category, according to local COVID-19 severity classification protocol. 35% patients had one or more abnormality in the thyroid function, low TSH being the most common (18.33%). 9.1% patients had characteristic pattern of thyroiditis. In most of the others thyroid function did not match any typical pattern. There was no significant difference in any of the parameters of the thyroid function test between mild, moderate, and severe groups.\nConclusion: Thyroid function may be abnormal in all categories of patients during COVID-19 infection, even in absence of pre-existing thyroid ailments. Although low TSH is the commonest abnormality and typical pattern of thyroiditis can be seen in a subsection of patients, in majority of the patients, thyroid function abnormality does not follow any characteristic pattern and likely represents a combination of thyroiditis and sick euthyroid syndrome in different points of its spectrum."
+  },
+  {
+    "objectID": "research/publications/pub7.html#links",
+    "href": "research/publications/pub7.html#links",
+    "title": "Thyroid function test in COVID-19 patients: a cross-sectional study in a tertiary care hospital",
+    "section": "Links",
+    "text": "Links\n\nJournal: Indian Journal of Endocrinology and Metabolism"
+  },
+  {
+    "objectID": "research/publications/pub2.html",
+    "href": "research/publications/pub2.html",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "",
+    "text": "Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. BMC Gastroenterology. 2026 Apr 16."
+  },
+  {
+    "objectID": "research/publications/pub2.html#citation",
+    "href": "research/publications/pub2.html#citation",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "",
+    "text": "Alam MS, Hjort R, Jonkers IH, Withoff S, Hveem K, Lundin KE, Sollid LM, Ness-Jensen E. A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study. BMC Gastroenterology. 2026 Apr 16."
+  },
+  {
+    "objectID": "research/publications/pub2.html#my-contribution",
+    "href": "research/publications/pub2.html#my-contribution",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub2.html#abstract",
+    "href": "research/publications/pub2.html#abstract",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "Abstract",
+    "text": "Abstract\nCeliac disease (CeD) is an immune mediated disorder with substantial underdiagnosis, particularly in adults with non-specific symptoms. Universal population screening remains under debate due to cost-effectiveness and potential quality-of-life implications. Clinical prediction tools aid clinicians in identifying individuals who might benefit from targeted screening.\nUsing data from 52,000 adults in the fourth population-based Trøndelag Health Study (HUNT4) in Norway, we developed and internally validated a non-diagnostic prediction model for previously undiagnosed CeD. The model incorporated predictors spanning genetics, lifestyle, symptoms, comorbidity, and biomarkers. Elastic-net logistic regression with nested cross-validation was chosen due to the low disease prevalence and imbalanced case-control distribution. Model performance was assessed by the area under the receiver operating characteristic curve, area under precision-recall curve, and calibration plots. Clinical utility was evaluated at different risk thresholds.\nAmong 465 newly diagnosed cases and 51,515 controls, polygenic risk score emerged as the strongest predictor for CeD, alongside diabetic history, kidney function, chronic discomfort, and perceived health status. The model achieved high discrimination (84%) and good calibration (0.009). The model outperformed universal population screening by detecting more cases, especially when the predicted risk was less than 2%. Increasing sample prevalence for sensitivity analysis, revealed that the model was better in population scenarios compared to high-risk/high-prevalence scenarios.\nThe multifactorial model demonstrated strong potential for guiding targeted screening for CeD, especially in low-prevalence, true population-based settings. While not a diagnostic tool, it may support clinical decision-making by identifying individuals at elevated risk. External validation and cost-effectiveness studies are needed before it can be implemented in primary care."
+  },
+  {
+    "objectID": "research/publications/pub2.html#links",
+    "href": "research/publications/pub2.html#links",
+    "title": "A model for predicting celiac disease among undiagnosed subjects established with data from the HUNT4 study",
+    "section": "Links",
+    "text": "Links\n\nJournal: BMC Gastroenterology"
+  },
+  {
+    "objectID": "research/publications/pub5.html",
+    "href": "research/publications/pub5.html",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "",
+    "text": "Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. Scientific Reports. 2025 Jun 5;15(1):19764."
+  },
+  {
+    "objectID": "research/publications/pub5.html#citation",
+    "href": "research/publications/pub5.html#citation",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "",
+    "text": "Alam MS, Thomas L, Brumpton B, Hveem K, Lundin KE, Withoff S, Jonkers IH, Sollid LM, Hjort R, Ness-Jensen E. Population screening of adults identifies novel genetic variants associated with celiac disease. Scientific Reports. 2025 Jun 5;15(1):19764."
+  },
+  {
+    "objectID": "research/publications/pub5.html#my-contribution",
+    "href": "research/publications/pub5.html#my-contribution",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub5.html#abstract",
+    "href": "research/publications/pub5.html#abstract",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "Abstract",
+    "text": "Abstract\nCeliac disease (CeD) is an autoimmune disease driven by a complex genetic interplay within and beyond the human leukocyte antigen (HLA) region. Despite this, half of its heritability remains unexplained, with most of the unidentified variants located in non-protein coding regions. Here we performed a genome-wide association study among 52,342 adults screened for CeD, including 465 previously undiagnosed and 361 already diagnosed cases, which mitigated the likely disease misclassification present in previous studies. Genotyping and imputation yielded approximately 24.9 million variants for analysis. The study identified 15 novel associations (P &lt; 5E-08) in 12 loci in addition to all the previously associated loci at lower significance thresholds (P &lt; 5E-03). The 5p15.33 locus in the long non-coding RNA gene (LINC01019) showed the highest potential for a true association with CeD. Notably, variants in 5p15.33 has also been associated with rheumatoid arthritis, suggesting a new shared autoimmune locus."
+  },
+  {
+    "objectID": "research/publications/pub5.html#links",
+    "href": "research/publications/pub5.html#links",
+    "title": "Population screening of adults identifies novel genetic variants associated with celiac disease",
+    "section": "Links",
+    "text": "Links\n\nJournal: Scientific Reports"
+  },
+  {
+    "objectID": "research/publications/pub4.html",
+    "href": "research/publications/pub4.html",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "",
+    "text": "Alam MS. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. medRxiv. 2025 Sep 15:2025-09."
+  },
+  {
+    "objectID": "research/publications/pub4.html#citation",
+    "href": "research/publications/pub4.html#citation",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "",
+    "text": "Alam MS. Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway. medRxiv. 2025 Sep 15:2025-09."
+  },
+  {
+    "objectID": "research/publications/pub4.html#my-contribution",
+    "href": "research/publications/pub4.html#my-contribution",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "My contribution",
+    "text": "My contribution\nResponsible for drafting the statistical analysis plan, conducting the analysis, writing and editing the manuscript draft, its submission and correspondence."
+  },
+  {
+    "objectID": "research/publications/pub4.html#abstract",
+    "href": "research/publications/pub4.html#abstract",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "Abstract",
+    "text": "Abstract\nNorway has mandated the adoption of the new Norwegian EQ-5D-5L value set from September 1, 2025. This transition change was long overdue, as the former value set was based on decades old assessment of health-related quality of life.\nCurrent study disseminates the updated quality-adjusted life expectancies (QALE) for the Norwegian population based on age and sex, and quantify how the new norm alters the absolute and proportional shortfall in QALY.\nThe population norm derived from the general population survey by Garratt et al., 2021 has been linked to the most recent Norwegian Lifetable (2023-2024) to estimate the QALE using the Sullivan method. It is compared to the van Hout et al.’s crosswalk QALE norms on the same lifetable. Variable discount rates were applied at 4%, 3% and 2% as per guidelines.\nBased on the newer population norms the QALE of average population has decreased by 4%. The QALE at birth was previous 69.62 years for men and 69.67 years for women which came down to 64.93 years and 68.77 years respectively.\nThe current study quantifies the diminishing QALEs based on the updated QALE estimates at the same time allowing the estimation of absolute and proportional shortfall."
+  },
+  {
+    "objectID": "research/publications/pub4.html#links",
+    "href": "research/publications/pub4.html#links",
+    "title": "Impact of transitioning to newer utility on sex-specific quality-adjusted life expectancy in Norway",
+    "section": "Links",
+    "text": "Links\n\nPreprint: medRxiv"
+  },
+  {
+    "objectID": "projects/nqsc/index.html",
+    "href": "projects/nqsc/index.html",
+    "title": "Nordic QALY Shortfall Calculator",
+    "section": "",
+    "text": "Detailed explanation of the project goes here…\nLink to app"
+  },
+  {
+    "objectID": "blogs/he/ee.html",
+    "href": "blogs/he/ee.html",
+    "title": "Economic evaluation",
     "section": "",
     "text": "Write here."
   },
