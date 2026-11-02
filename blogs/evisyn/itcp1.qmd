@@ -2,8 +2,32 @@
 title: "Indirect treatment comparisons Part-1"
 date: 2026-10-31 # TODO: placeholder date, update when submitted/published
 categories: [Evidence Synthesis, Comparative effectiveness]
-description: ""
+description: "Writing in progress"
 image: /misc/itcp1.jpg
 draft: false # hidden from the published site until you delete this line
 ---
 
+## Background
+
+You have a critical decision making problem. You are supposed to deciding the absolute best medication for life threatening condition where 10 different drugs are available. They all have never been tested againasted each other. Testing occured in various combination of drugs, duration and different periods of time.
+
+**How do you find the objective truth from all of this?**
+
+We usually think medical research is clean and controlled. However, this tells a different story of missing, inconsistent data.
+
+Raw chaotic RCT -> Clean life-saving policy decision
+
+Doing science for writing literature $\neq$ not equal to doing science for decision making.
+
+|Overall baseline natural history model|Relative treatment effects|
+|----|----|
+|* Foundational reality of the disease
+* What happen to a highly specific subgroup of population when given an intervention or placebo.
+* What does the disease progress naturally? Relapse? Hospitalization? over a given period you need to establish the baseline first |
+* 
+* |
+
+## Evidence Synthesis
+
+
+## Network Meta-Analysis
