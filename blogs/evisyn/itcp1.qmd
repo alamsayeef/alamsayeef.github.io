@@ -24,10 +24,83 @@ Doing science for writing literature $\neq$ not equal to doing science for decis
 |* Foundational reality of the disease
 * What happen to a highly specific subgroup of population when given an intervention or placebo.
 * What does the disease progress naturally? Relapse? Hospitalization? over a given period you need to establish the baseline first |
-* 
-* |
+* this is the specific data you extract from RCT to see how the drug alters the baseline tracjectory
+* Shift cause by the intervention|
+
+For scientific braoad academic reviews you lump everything together and provide the average effect, but for decision making does not help, because of heterogeneity.
+
 
 ## Evidence Synthesis
 
+### Heterogeneity
+
+You can not combine trials of young kids receiving the treatment first time with teenagers who have already failed multiple lines of therapies already. Because there baseline natural history completely different from each other. The average effect hence calculated does not apply to either of the two groups.
+
+Rheumatoid Arthritis - patients are naive to biologic drugs meaning their immune systems have never been exposed to them and we have patients who have tried biologics but either body have developed resistance or failed to respond.
+
+Hence the assumption that these two groups to observe the same treatment effect is absurd.
+
+The mathematical formula might provide you with an average however that estimate is not to be used to explain clinical effect.
+
+Hence the inclusion criteria is to be defined very strictly. 
+
+*Rules for building the evidence network*
+
+### Synthesis comparator set
+
+To build this we need Decision comparator set - drugs you actually care about - NICE needs to choose
+between for that specific target population - Drug A, B, C.
+
+Literature search is able to find only Trail AB, there is **no** Trial BC or Trial AC. Treatment C is ever tested against placebo.
+
+Expand the DCS to SCS: You find a very old Trail AX and another Trial CX, but Drug X is very very old and not used now. Although it would strengthen the overall inference it would have significant risk, namely of effect modifiers.
+
+### Effect modifier
+
+Factors that change how the drug works in the real world. Since 1990 when X was tested the diagnostic criteria, SoC changed, maybe severity of illness. Hence the patients that time might be significantly different from today's patients. Hence the population should be clinically comparable.
+
+### Gaming
+
+Researcher deliberately leave out or include specific trials just to nudge the result in the pharma company/academic favour.
+
+To prevent this - once target population and synthesis comparator set, you must include all RCT of that target population, comparing 2 of the treatment in your set.
+
+Philosophy - transperancy over exclusion.
+
+This holds even during non-inferiority studies, i.e., the drug company now has a newer drugs which is cheaper than its older drug, even in this case it cannot exclude the older drug's trial. NICE strictly forbids such practice even though here we not interested in superiority over non-inferiority.
+
+## Genalized Linear models
+
+Now have perfectly map of connected networks, but how can we solve the network.
+
+GLM framework uses Bayesian markov monte carlo simulation.
+
+**Fundamental difference between frequentist and bayesian approach**
+
+One fixed true treatment effect and estimate from Trial is to guess that number.
+
+Data you actually observed as the fixed reality, and underlying parameter, the effect parameter to have a probability distribution. Data is real and true effect is flexible. You start with prior belief of how the world works then look at the trial data and then update your belief to form a posterior distribution, dynamic way of learning from data.
+
+Less about finding a single number and more about finding the most probable neighborhood where the truth lives based on constantly updating our knowledge. 
+
+### Fixed effects vs Random effects
+
+Lets say you have five different trials comparing Drug 1 and Drug 2.
+
+Fixed effects model assumes that there is one single universal truth for this drug comparison. It assumes perfect homogeneity, any variation between the trail in London vs trail in NY, is purely due to sampling error.
+
+In medical science perfect homogeneity is rare. Patient in London are different from NY, dosing schedule, etc can varying between the two places.
+
+Random effects model acknowledges this clinical reality. The true treatment effect may vary very slightly from trial to trial. The different trials are not estimating the universal truth, but their own specific truth relative to one another.
+
+### Exchangibility
+
+We are assuming that these specific treatment effects from all these different trials come from a common overarching dist visualized a bell curve.
+
+WinBUGS can do this.
+
+### Link function
+
+Proability of someone surving ranges from 0-1. Standard linear regression might predict <0 or >1 values. Link function allows the linear function to provide estimate and then inverse link function to being back to 0-1 range.
 
 ## Network Meta-Analysis
